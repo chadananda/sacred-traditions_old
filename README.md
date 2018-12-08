@@ -1,22 +1,21 @@
-# astrif
+# Sacred Traditions Interfaith Website
 
-> Bootstrap Nuxt App
+A Nuxt/Vue.js based static website for the Sacred Traditions organization (http://sacred-traditions.org)
 
-## Build Setup
+This website is intended to operate as a PWA on all devices and platforms. If you experience problems with any particular functionality, please create a Github support ticket and specify the page, your OS and device type.
+
+
+
+## Developer Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ npm run dev
 
 # build for production and launch server
-$ yarn run build
-$ yarn start
+$ npm run deploy
 
-# generate static project
-$ yarn run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
