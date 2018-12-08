@@ -1,4 +1,4 @@
-<template>
+<template><div>
     <!-- content -->
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
@@ -9,7 +9,7 @@
                 <!-- article -->
                 <div class="col-md-8">
                   <div class="site-entry">
-              
+
                     <article class="post format-standard hentry">
                       <div class="entry-header">
                         <h1 class="entry-title">How to Make Mak-Nyuss Baked Potatoes Stick Recipes From Deanda</h1>
@@ -30,7 +30,7 @@
                       <div class="entry-featured-image">
                         <img src="~/assets/img/astrif-post-entry-01.jpg" alt="How to Make Mak-Nyuss Baked Potatoes Stick Recipes From Deanda">
                       </div><!-- .entry-featured-image -->
-                      
+
                       <div class="entry-content">
                         <p>Far far away, behind the word mountains, far from the countries <a href="#" class="text-link">Vokalia and Consonantia</a>, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                         <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -110,7 +110,7 @@
                       <div class="author-bio-description">
                         <h4>astri fajria</h4>
                         <p>Young girl who love meet people to talk each other. Nerd. Has ability to make people fascinated. My passion in fashion and making a good personality bring happiness to a lot of people.</p>
-                        
+
                         <ul class="social-icon">
                           <li><a href="#" class="icon-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
                           <li><a href="#" class="icon-twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -172,7 +172,7 @@
                           </div>
                         </div><!-- .nav-links -->
                       </nav><!-- #comment-nav-above -->
-                        
+
                       <ol class="comment-list">
                         <li class="comment even parent">
                           <article class="comment-body">
@@ -195,7 +195,7 @@
 
                             <div class="reply">
                               <a rel="nofollow" class="comment-reply-link" href="#respond">Reply</a>
-                            </div>      
+                            </div>
                           </article><!-- .comment-body -->
 
                           <ol class="children">
@@ -220,7 +220,7 @@
 
                                 <div class="reply">
                                   <a rel="nofollow" class="comment-reply-link" href="#respond">Reply</a>
-                                </div>      
+                                </div>
                               </article><!-- .comment-body -->
 
                               <ol class="children">
@@ -245,7 +245,7 @@
 
                                     <div class="reply">
                                       <a rel="nofollow" class="comment-reply-link" href="#respond">Reply</a>
-                                    </div>      
+                                    </div>
                                   </article><!-- .comment-body -->
 
                                   <ol class="children">
@@ -270,7 +270,7 @@
 
                                         <div class="reply">
                                           <a rel="nofollow" class="comment-reply-link" href="#respond">Reply</a>
-                                        </div>      
+                                        </div>
                                       </article><!-- .comment-body -->
                                     </li>
                                   </ol>
@@ -424,7 +424,7 @@
                       </div>
                     </section><!-- .astrif_widget_text -->
 
-                    <section class="widget widget_recent_entries">    
+                    <section class="widget widget_recent_entries">
                       <h2 class="widget-title"><span>Recent Posts</span></h2>
                       <ul>
                         <li>
@@ -478,10 +478,19 @@
           </main><!-- #main -->
         </div><!-- #primary -->
     </div><!-- #content -->
-</template>
+</div></template>
 
 <script>
     export default {
-        layout: 'other'
+        // layout: 'other'
     }
 </script>
+
+
+<style scoped>
+
+</style>
+
+
+
+

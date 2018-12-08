@@ -1,11 +1,28 @@
 <template>
+<div>
   <div id="page" class="site">
-    <SkipContent />
+    <!-- <SkipContent /> -->
     <Header />
     <nuxt/>
     <Footer />
-  </div>
+  </div></div>
 </template>
+
+
+
+<script>
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
+
+
 
 <style>
 html {
@@ -56,15 +73,3 @@ html {
   background-color: #35495e;
 }
 </style>
-
-<script>
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
-
-export default {
-  components: {
-    Header,
-    Footer
-  }
-}
-</script>

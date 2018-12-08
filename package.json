@@ -5,7 +5,7 @@
   "author": "Chad",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --hostname sacred-traditions --port 1844",
     "build": "nuxt build",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
@@ -14,19 +14,19 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
-    "ajv": "^6.5.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "ajv": "^6.6.1",
     "bootstrap": "3",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
     "jquery": "^3.3.1",
-    "less": "^3.8.1",
+    "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.3.4",
     "vue-loader": "^15.4.2"
   },
   "devDependencies": {
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.10.0",
     "nodemon": "^1.18.7",
     "prettier": "1.14.3",
     "push-dir": "^0.4.1",
