@@ -6,7 +6,7 @@ This website is intended to operate as a PWA on all devices and platforms. If yo
 
 
 
-## Developer Build Setup
+## Developer Website Build Setup
 
 ``` bash
 # install dependencies
