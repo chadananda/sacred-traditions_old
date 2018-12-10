@@ -5,7 +5,7 @@
   "author": "Chad",
   "private": true,
   "scripts": {
-    "dev": "nuxt --hostname sacred-traditions --port 1844",
+    "dev": "nuxt --port 1844",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",

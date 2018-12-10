@@ -2,11 +2,12 @@
     <div class = "slider">
         <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
+
         <!-- topbar featured slider -->
         <div class="topbar-slider">
         <div id="slider-thumbnail" class="owl-carousel owl-theme slider-thumbnail">
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-01.jpg" alt="featured slider 01">
+            <img src="~/assets/img/astrif-featured-slider-01.png" alt="featured slider 01">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">Cook</a>
@@ -18,7 +19,7 @@
             </div><!-- .item-caption -->
             </div><!-- .item -->
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-02.jpg" alt="featured slider 02">
+            <img src="~/assets/img/astrif-featured-slider-02.png" alt="featured slider 02">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">appetizer</a>
@@ -30,7 +31,7 @@
             </div><!-- .item-caption -->
             </div><!-- .item -->
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-03.jpg" alt="featured slider 03">
+            <img src="~/assets/img/astrif-featured-slider-03.png" alt="featured slider 03">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">Fruit</a>
@@ -42,7 +43,7 @@
             </div><!-- .item-caption -->
             </div><!-- .item -->
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-04.jpg" alt="featured slider 04">
+            <img src="~/assets/img/astrif-featured-slider-04.png" alt="featured slider 04">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">Food</a>
@@ -54,7 +55,7 @@
             </div><!-- .item-caption -->
             </div><!-- .item -->
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-05.jpg" alt="featured slider 05">
+            <img src="~/assets/img/astrif-featured-slider-05.png" alt="featured slider 05">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">Dessert</a>
@@ -66,7 +67,7 @@
             </div><!-- .item-caption -->
             </div><!-- .item -->
             <div class="item">
-            <img src="~/assets/img/astrif-featured-slider-06.jpg" alt="featured slider 06">
+            <img src="~/assets/img/astrif-featured-slider-06.png" alt="featured slider 06">
             <div class="item-caption">
                 <div class="caption-description">
                 <a href="category.html" class="caption-cat-links">Dessert</a>

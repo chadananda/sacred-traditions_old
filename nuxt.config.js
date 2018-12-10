@@ -1,18 +1,11 @@
 const pkg = require('./package')
 
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/sacred-traditions/'
-  }
-} : {}
+
 
 
 
 module.exports = {
   mode: 'spa',
-
-  // ...routerBase,
 
   /*
   ** Headers of the page
@@ -22,7 +15,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid:  'description', name: 'description', content: pkg.description },
+      { name: 'theme-color', content: '#ffffff' },
+      { name: 'msapplication-TileColor', content: '#2d89ef' },
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js', type: 'text/javascript' },
@@ -34,9 +29,24 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700'}
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700'},
+
+      { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-touch-icon.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: "#2d89ef" },
     ]
   },
+
+  // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  // <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  // <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  // <link rel="manifest" href="/site.webmanifest">
+  // <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2d89ef">
+
+
 
   /*
   ** Customize the progress-bar color

@@ -1,23 +1,24 @@
-<template>
-    <nuxt-header>
+<template><div>
+    <!-- <nuxt-header> -->
         <!-- site branding -->
         <div class="site-branding">
             <div class="container">
             <div class="row">
-                <div class="col-md-3">
+              <div class="col-md-3">
                 <ul class="social-icon">
-                    <li><a href="" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="" class="icon-facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="" class="icon-instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="" class="icon-pinterest"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a href="" class="icon-youtube"><i class="fa fa-youtube-play"></i></a></li>
+                  <li v-for="(ic, key) in social_icons" :key="key">
+                    <a :href="ic.href" :class="`icon-${ic.social}`"><i :class="`fa fa-${ic.social}`"></i></a>
+                  </li>
                 </ul>
-                </div><!-- .col-md-3 -->
+              </div><!-- .col-md-3 -->
 
                 <div class="col-md-6">
                 <!-- <h1 class="site-title"><a href="index.html" rel="home">Astrif.</a></h1> -->
-                <h1 class="site-title title-image"><a href="index.html" rel="home"><img src="~/assets/img/astrif-logo.png" alt="astrif."></a></h1>
-                <p class="site-description">- Good Food Lovers -</p>
+                <!-- <h1 class="site-title title-image"> -->
+                  <a href="index.html" rel="home"><img src="/logo2.svg" alt="home"
+                  class="title-image" /></a>
+                <!-- </h1> -->
+                <!-- <p class="site-description">- Sacred Traditions Interfaith -</p> -->
                 </div><!-- .col-md-6 -->
 
                 <div class="col-md-3">
@@ -34,8 +35,7 @@
         </div><!-- .site-branding -->
 
 
-        <!-- main navigation -->
-        <div class="site-navigation-sticky-wrapper">
+     <div class="site-navigation-sticky-wrapper">
             <header id="masthead" class="site-header" role="banner">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
                     <div class="container">
@@ -44,21 +44,22 @@
                         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i><span class="sr-only">Primary Menu</span></button>
                         <div class="menu-container">
                             <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
-                            <li class="menu-item"><nuxt-link to="/">Home page</nuxt-link></li>
-                            <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
-                                <ul class="sub-menu">
-                                <li class="menu-item"><nuxt-link to="/single">Single Post</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/single-sidebar">Single Post With Sidebar</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/page-fullwidth">Page Full Width</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/page-sidebar">Page With Sidebar</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/shortcodes">Shortcodes</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/typography">Typography</nuxt-link></li>
-                                <li class="menu-item"><nuxt-link to="/404">Not Found</nuxt-link></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><nuxt-link to="/category">Food</nuxt-link></li>
-                            <li class="menu-item"><nuxt-link to="/cook">Cook</nuxt-link></li>
-                            <li class="menu-item"><nuxt-link to="/about">About Me</nuxt-link></li>
+                            <li class="menu-item"><nuxt-link to="/">Home</nuxt-link></li>
+                            <!-- <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
+                              <ul class="sub-menu">
+                              <li class="menu-item"><nuxt-link to="/single">Single Post</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/single-sidebar">Single Post With Sidebar</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/page-fullwidth">Page Full Width</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/page-sidebar">Page With Sidebar</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/shortcodes">Shortcodes</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/typography">Typography</nuxt-link></li>
+                              <li class="menu-item"><nuxt-link to="/404">Not Found</nuxt-link></li>
+                              </ul>
+                            </li> -->
+                            <li class="menu-item"><nuxt-link to="/category">Interfaith Concept</nuxt-link></li>
+                            <li class="menu-item"><nuxt-link to="/cook">Projects</nuxt-link></li>
+                            <li class="menu-item"><nuxt-link to="/about">Big Ideas</nuxt-link></li>
+                            <li class="menu-item"><nuxt-link to="/about">About Us</nuxt-link></li>
                             <li class="menu-item"><nuxt-link to="/contact">Contact</nuxt-link></li>
                             </ul>
                         </div><!-- .menu-container -->
@@ -68,5 +69,36 @@
                 </nav><!-- #site-navigation -->
             </header><!-- #masthead -->
         </div><!-- .site-header-affix-wrapper -->
-    </nuxt-header>
-</template>
+
+<!-- </nuxt-header> -->
+</div></template>
+
+<script>
+  import MainNavigation from '~/components/MainNavigation'
+
+  export default {
+    name: 'slider',
+    components: { MainNavigation },
+    data() {
+    return {
+        social_icons: [
+          {href: "", social: "twitter"},
+          {href: "", social: "facebook"},
+          {href: "", social: "instagram"},
+          {href: "", social: "pinterest"},
+          {href: "", social: "youtube"},
+        ]
+      }
+    }
+  }
+</script>
+
+
+<style scoped>
+   .title-image {
+       padding-bottom: 2em;
+       max-width: 200px;
+   }
+</style>
+
+

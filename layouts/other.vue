@@ -1,7 +1,7 @@
 <template>
 <div>
   <div id="page" class="site">
-    <!-- <SkipContent /> -->
+    <SkipContent />
     <Header />
     <nuxt/>
     <Footer />

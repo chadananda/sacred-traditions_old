@@ -3,7 +3,7 @@
     <SkipContent />
     <Slider />
     <Header />
-    <nuxt/>
+    <nuxt />
     <Footer />
   </div>
 </template>

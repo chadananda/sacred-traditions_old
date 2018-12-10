@@ -12,7 +12,7 @@ This website is intended to operate as a PWA on all devices and platforms. If yo
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:1844
 $ npm run dev
 
 # build for production and launch server
