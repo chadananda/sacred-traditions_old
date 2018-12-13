@@ -16,7 +16,7 @@
                       </div><!-- .entry-header -->
 
                       <div class="entry-content">
-                        <img class="img-responsive aligncenter" src="~/assets/img/astrif-about-me.jpg">
+                        <!-- <img class="img-responsive aligncenter" src="~/assets/img/astrif-about-me.jpg"> -->
                         <p class="text-center">
 
 Ocean Landing Page goes here
