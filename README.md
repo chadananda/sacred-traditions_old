@@ -15,7 +15,7 @@ $ npm install
 # serve with hot reload at localhost:1844
 $ npm run dev
 
-# build for production and launch server
+# build for production and push to "ghpages" branch on Github (hosted at https://sacred-traditions.org)
 $ npm run deploy
 
 ```
