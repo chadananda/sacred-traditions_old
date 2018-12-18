@@ -44,7 +44,7 @@
                         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i><span class="sr-only">Primary Menu</span></button>
                         <div class="menu-container">
                             <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
-                            <li class="menu-item"><nuxt-link to="/">Home</nuxt-link></li>
+                            <li class="menu-item"><nuxt-link to="/"><img src="/favicon.svg" class="ico"/> Home</nuxt-link></li>
                             <!-- <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
                               <ul class="sub-menu">
                               <li class="menu-item"><nuxt-link to="/single">Single Post</nuxt-link></li>
@@ -98,6 +98,9 @@
    .title-image {
        padding-bottom: 2em;
        max-width: 200px;
+   }
+   .ico {
+     width: 16px;   margin-top: -5px;
    }
 </style>
 

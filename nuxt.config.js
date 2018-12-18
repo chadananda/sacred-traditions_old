@@ -61,8 +61,8 @@ module.exports = {
     '@/assets/css/font-awesome.css',
     '@/assets/css/owl.carousel.css',
     '@/assets/css/owl.theme.css',
-    '@/assets/css/skin.css',
-    '@/assets/css/style.css',
+    '@/assets/css/skin.less',
+    '@/assets/css/style.less',
     '@/assets/css/variables.less'
   ],
 
