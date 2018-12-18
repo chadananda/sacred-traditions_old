@@ -12,7 +12,7 @@
 
 
 
-
+<!--
 <article v-for="(article, key) in articles" class="post format-standard hentry" :key="key">
   <div class="entry-featured-image"><img :src="require(`@/assets/img/${article.img2}`)" :alt="article.title"></div>
   <div class="entry-area">
@@ -33,6 +33,7 @@
     </div>
   </div>
 </article>
+-->
 
 
 
