@@ -12,7 +12,7 @@
     "deploy": "nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^4.5.2",
     "ajv": "^6.6.2",
     "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
