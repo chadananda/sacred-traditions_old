@@ -13,19 +13,20 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
-    "ajv": "^6.6.1",
-    "bootstrap": "3",
+    "ajv": "^6.6.2",
+    "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
     "jquery": "^3.3.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "nuxt": "^2.3.4",
+    "nuxtent": "^1.4.1",
     "vue-loader": "^15.4.2"
   },
   "devDependencies": {
-    "node-sass": "^4.10.0",
-    "nodemon": "^1.18.7",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
     "prettier": "1.14.3",
     "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0"
