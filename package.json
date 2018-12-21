@@ -14,6 +14,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^4.5.2",
     "ajv": "^6.6.2",
+    "base62": "^2.0.0",
     "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
@@ -21,6 +22,7 @@
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "nuxt": "^2.3.4",
+    "nuxtdown": "^2.0.3",
     "nuxtent": "^1.4.1",
     "vue-loader": "^15.4.2"
   },

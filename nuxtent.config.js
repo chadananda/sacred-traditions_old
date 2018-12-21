@@ -1,36 +1,41 @@
 module.exports = {
  content: [
    ["articles", {
-     page: '/articles/_slug',
-     permalink: ':slug',
+     page: '/_article',
+     permalink: 'articles/:slug',
      isPost: false,
      generate: [ 'get', 'getAll' ]
    }],
-   // ["narration", {
-   //  page: '/narration/_slug',
-   //  permalink: '/narration/:slug_:lang',
-   //  isPost: false
-   // }],
-   // ["translations", {
-   //  page: '/translations/_slug',
-   //  permalink: '/translations/:slug_:lang',
-   //  isPost: false
-   // }],
-   // ["projects", {
-   //   page: '/projects/_slug',
-   //   permalink: ":slug",
-   //   isPost: false
-   // }],
-   // ["courses", {
-   //  page: '/courses/_slug',
-   //  permalink: '/courses/:slug_:lang',
-   //  isPost: false
-   // }],
-   // ["events", {
-   //  page: '/events/_slug',
-   //  permalink: '/events/:slug_:lang',
-   //  isPost: false
-   // }],
+   ["narration", {
+    page: '/_narration',
+    permalink: 'narration/:slug',
+    isPost: false,
+    generate: [ 'get', 'getAll' ]
+   }],
+   ["translations", {
+    page: '/_translations',
+    permalink: 'translations/:slug',
+    isPost: false,
+    generate: [ 'get', 'getAll' ]
+   }],
+   ["projects", {
+     page: '/_projects',
+     permalink: "projects/:slug",
+     isPost: false,
+     generate: [ 'get', 'getAll' ]
+   }],
+   ["courses", {
+    page: '/_courses',
+    permalink: '/courses/:slug',
+    isPost: false,
+    generate: [ 'get', 'getAll' ]
+   }],
+   ["events", {
+    page: '/_events',
+    permalink: '/events/:slug',
+    isPost: false,
+    generate: [ 'get', 'getAll' ]
+   }],
  ],
  api: isStatic => {
   return {
