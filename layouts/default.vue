@@ -1,17 +1,17 @@
 <template>
   <div id="page" class="site">
-    <SkipContent />
-    <Slider />
-    <Header />
-    <nuxt />
-    <Footer />
+    <SkipContent/>
+    <Slider/>
+    <Header/>
+    <nuxt/>
+    <Footer/>
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -59,10 +59,10 @@ html {
 </style>
 
 <script>
-import Header from '~/components/Header.vue'
-import Slider from '~/components/Slider.vue'
-import SkipContent from '~/components/SkipContent.vue'
-import Footer from '~/components/Footer.vue'
+import Header from "~/components/header/Header.vue";
+import Slider from "~/components/slider/Slider.vue";
+import SkipContent from "~/components/SkipContent.vue";
+import Footer from "~/components/footer/Footer.vue";
 
 export default {
   components: {
@@ -71,5 +71,5 @@ export default {
     SkipContent,
     Footer
   }
-}
+};
 </script>
