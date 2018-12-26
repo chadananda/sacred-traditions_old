@@ -1,13 +1,17 @@
 ---
-title: "And another article, consectetur."
+title: "Just eat healthy food, for your better life."
 author: "Dr. Porro Quisquam"
 pubdate: 2018-11-18
 language: en
 tags: sit amet, consectetur
-img:
-category:
-snip:
+img: astrif-post-entry-03.jpg
+category: breakfast
+snip: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows."
 ---
+
+
+
+
 
 # Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
 ## by Dr. Porro Quisquam

@@ -4,7 +4,7 @@
       <main id="main" class="site-main" role="main">
         <div class="container">
           <div class="">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-12 col-md-offset-0">
               <div class="site-entry">
                 <nuxt/>
               </div>

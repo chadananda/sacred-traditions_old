@@ -1,17 +1,13 @@
 ---
-title: "Neque est qui dolorem ipsum quia dolor sit amet, consectetur."
+title: "Best beef burger in this city, I had met."
 author: "Dr. Porro Quisquam"
-pubdate: 2018-11-18
+pubdate: 2016-08-14
 language: en
 tags: sit amet, consectetur
-img:
-category:
-snip:
+img: astrif-post-entry-04.jpg
+category: breakfast
+snip: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly."
 ---
-
-
-
-
 
 # Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
 ## by Dr. Porro Quisquam

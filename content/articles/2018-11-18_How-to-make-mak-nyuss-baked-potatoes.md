@@ -1,12 +1,12 @@
 ---
-title: "And yet another article, consectetur."
+title: "How to make mak-nyuss baked potatoes stick recipes from Deanda."
 author: "Dr. Porro Quisquam"
 pubdate: 2018-11-18
 language: en
 tags: sit amet, consectetur
-img:
-category:
-snip:
+img: astrif-post-entry-01.jpg
+category: breakfast
+snip: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
 ---
 
 # Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
