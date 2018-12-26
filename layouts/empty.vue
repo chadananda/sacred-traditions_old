@@ -6,12 +6,7 @@
           <div class="">
             <div class="col-md-8 col-md-offset-2">
               <div class="site-entry">
-                <!-- <Article/> -->
                 <nuxt/>
-                <Navigation/>
-                <Authbio/>
-                <Posts/>
-                <Comments/>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 module.exports = {
  content: [
    ["articles", {
-     page: '/_article',
+     page: '/articles/_article',
      permalink: 'articles/:slug',
      isPost: false,
      generate: [ 'get', 'getAll' ]
