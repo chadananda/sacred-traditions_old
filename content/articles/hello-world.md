@@ -1,10 +1,17 @@
 ---
 title: "Neque est qui dolorem ipsum quia dolor sit amet, consectetur."
 author: "Dr. Porro Quisquam"
-date: 2018-11-18
+pubdate: 2018-11-18
 language: en
 tags: sit amet, consectetur
+img:
+category:
+snip:
 ---
+
+
+
+
 
 # Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
 ## by Dr. Porro Quisquam

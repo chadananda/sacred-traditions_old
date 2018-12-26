@@ -3,6 +3,9 @@ title: Course Title
 author: Dr. Porro Quisquam
 language: en
 tags: sit amet, consectetur
+img:
+category:
+snip:
 ---
 
 # Course Title
