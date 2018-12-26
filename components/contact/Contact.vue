@@ -7,9 +7,9 @@
       <!-- .entry-header -->
       <div class="entry-content">
         <ul class="social-icon text-center">
-          <li v-for="icon in social_icons" :key="icon.name">
-            <a href="#" :class="`icon-social icon-${icon.name}`">
-              <i :class="`fa fa-${icon.name}`"></i>
+          <li v-for="icon in social_icons" :key="icon.icon_name">
+            <a href="#" :class="`icon-social icon-${icon.icon_name}`">
+              <i :class="`fa fa-${icon.icon_name}`"></i>
             </a>
           </li>
         </ul>
