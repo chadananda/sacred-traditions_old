@@ -22,8 +22,7 @@ export default {
           path:
             "How-to-make-mak-nyuss-baked-potatoes-stick-recipes-from-Deanda",
           img: "astrif-post-entry-01.jpg",
-          title:
-            "How to make mak-nyuss baked potatoes stick recipes from Deanda",
+          title: "How to make mak-nyuss baked potatoes stick recipes from Deanda",
           pubdate: "2016-08-14",
           category: "breakfast",
           likes: 172,
