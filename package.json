@@ -21,9 +21,12 @@
     "jquery": "^3.3.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-link-attributes": "^2.1.0",
     "nuxt": "^2.3.4",
     "nuxtdown": "^2.0.3",
     "nuxtent": "^1.4.1",
+    "prismjs": "^1.15.0",
     "vue-loader": "^15.4.2"
   },
   "devDependencies": {

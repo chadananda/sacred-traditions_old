@@ -1,7 +1,7 @@
 ---
 title: "How to make mak-nyuss baked potatoes stick recipes from Deanda."
 author: "William Faulkner"
-pubdate: 2018-11-18
+pubdate: 2016-08-14
 language: en
 tags: sit amet, consectetur
 img: astrif-post-entry-01.jpg
@@ -11,7 +11,7 @@ snip: "A wonderful serenity has taken possession of my entire soul, like these s
 
 # How to make mak-nyuss baked potatoes stick recipes from Deanda.
 ## by William Faulkner
-### 2018-11-18
+### 2016-08-14
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 
