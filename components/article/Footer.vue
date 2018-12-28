@@ -1,13 +1,13 @@
 <template>
-    <footer class="entry-footer">
+  <footer class="entry-footer">
     <span class="tags-links">
       <a href="#">recipes</a>
       <a href="#">cook</a>
       <a href="#">food</a>
       <a href="#">appetizer</a>
     </span>
-        <!-- .tags-links -->
-        <span class="share-links">
+    <!-- .tags-links -->
+    <span class="share-links">
       <span>Share this</span>
       <a href class="icon-facebook">
         <i class="fa fa-facebook"></i> Facebook
@@ -25,16 +25,15 @@
         <i class="fa fa-linkedin"></i> LinkedIn
       </a>
     </span>
-        <!-- .share-links -->
-    </footer>
+    <!-- .share-links -->
+  </footer>
 </template>
 
 <script>
-  export default {
-    name: "Footer"
-  };
+export default {
+  name: "Footer"
+};
 </script>
 
 <style scoped>
-
 </style>
