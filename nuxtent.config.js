@@ -1,3 +1,6 @@
+const Prism = require('prismjs');
+const externalLinks = require('markdown-it-link-attributes');
+
 module.exports = {
  content: [
    ["articles", {
@@ -38,9 +41,29 @@ module.exports = {
    }],
  ],
  api: isStatic => {
-  return {
-    browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
-  }
-},
-
-}
+   return {
+     browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
+   }
+ },
+ parsers: {
+   md: {
+     extend(config) {
+       config.highlight = (code, lang) => {
+         return Prism.highlight(
+           code,
+           Prism.languages[lang] || Prism.languages.markup
+         )
+       }
+     },
+     plugins: [
+       [
+         externalLinks,
+         {
+           target: '_blank',
+           rel: 'noopener'
+         }
+       ]
+     ]
+   }
+ }
+};
