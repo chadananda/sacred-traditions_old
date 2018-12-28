@@ -9,11 +9,8 @@ category: breakfast
 snip: "Balancing a composition involves arranging both positive elements and negative space in such a way that no one area of the design overpowers other areas. Everything works together and fits together in a seamless whole."
 ---
 
-
-
-
-
 # Healthy Breakfast For Cute Girl.
+
 ## by Jane Austin
 ### 2016-10-26
 

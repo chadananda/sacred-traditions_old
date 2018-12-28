@@ -14,7 +14,6 @@
   </Wrapper>
 </template>
 
-
 <script>
 import Wrapper from "~/components/wrapper/Wrapper";
 import RecentArticles from "~/components/articles/RecentArticles";
