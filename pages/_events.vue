@@ -9,6 +9,6 @@
 // This file handles any MD content in the /content/events folder.
 
  export default {
-   layout: 'article', // update this later
+   layout: 'empty', // update this later
  }
 </script>

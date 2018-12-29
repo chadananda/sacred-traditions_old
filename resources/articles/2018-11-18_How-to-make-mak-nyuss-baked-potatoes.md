@@ -1,14 +1,17 @@
 ---
-title: Some document needing translated
-author: Dr. Porro Quisquam
-date: 11-18-2018
+title: "How to make mak-nyuss baked potatoes stick recipes from Deanda."
+author: "William Faulkner"
+pubdate: 2018-11-18
 language: en
 tags: sit amet, consectetur
+img: astrif-post-entry-01.jpg
+category: breakfast
+snip: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
 ---
 
-# Some document needing translated
-## by Dr. Porro Quisquam
-### 11-18-2018
+# How to make mak-nyuss baked potatoes stick recipes from Deanda.
+## by William Faulkner
+### 2018-11-18
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 

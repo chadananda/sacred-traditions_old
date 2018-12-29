@@ -1,14 +1,18 @@
 ---
-title: Some document needing translated
-author: Dr. Porro Quisquam
-date: 11-18-2018
+title: "Just eat healthy food, for your better life."
+author: "Virginia Woolf"
+pubdate: 2018-11-18
 language: en
 tags: sit amet, consectetur
+img: astrif-post-entry-03.jpg
+category: breakfast
+snip: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows."
 ---
 
-# Some document needing translated
-## by Dr. Porro Quisquam
-### 11-18-2018
+
+# Just eat healthy food, for your better life.
+## by Virginia Woolf
+### 2018-11-18
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 

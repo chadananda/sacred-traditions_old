@@ -1,14 +1,17 @@
 ---
-title: Some document needing translated
-author: Dr. Porro Quisquam
-date: 11-18-2018
+title: "King donut never had a queen. Love it!"
+author: "Mark Twain"
+pubdate: 2016-03-11
 language: en
 tags: sit amet, consectetur
+img: astrif-post-entry-06.jpg
+category: breakfast
+snip: "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment."
 ---
 
-# Some document needing translated
-## by Dr. Porro Quisquam
-### 11-18-2018
+# King donut never had a queen. Love it!
+## by Mark Twain
+### 2016-03-11
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 

@@ -1,14 +1,17 @@
 ---
-title: Some document needing translated
-author: Dr. Porro Quisquam
-date: 11-18-2018
+title: "All I need is puff pastry and choco ball."
+author: "Stephen King"
+pubdate: 2016-08-02
 language: en
 tags: sit amet, consectetur
+img: astrif-post-entry-05.jpg
+category: breakfast
+snip: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder."
 ---
 
-# Some document needing translated
-## by Dr. Porro Quisquam
-### 11-18-2018
+# All I need is puff pastry and choco ball.
+## by Stephen King
+### 2016-08-02
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 

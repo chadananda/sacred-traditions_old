@@ -9,6 +9,6 @@
 // This file handles any MD content in the /content/narration folder.
 
  export default {
-   layout: 'article', // update this when appropriate
+   layout: 'empty', // update this when appropriate
  }
 </script>
