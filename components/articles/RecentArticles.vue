@@ -20,7 +20,7 @@ export default {
       articles: [
         {
           path:
-            "How-to-make-mak-nyuss-baked-potatoes-stick-recipes-from-Deanda",
+            "2016-08-14-how-to-make-mak-nyuss-baked-potatoes",
           img: "astrif-post-entry-01.jpg",
           title:
             "How to make mak-nyuss baked potatoes stick recipes from Deanda",
@@ -31,7 +31,7 @@ export default {
             "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
         },
         {
-          path: "Healthy-Breakfast-For-Cute-Girl",
+          path: "2016-10-26-healthy-breakfast-for-cute-girl",
           img: "astrif-post-entry-02.jpg",
           title: "Healthy Breakfast For Cute Girl",
           pubdate: "2016-10-26",
@@ -41,7 +41,7 @@ export default {
             "Balancing a composition involves arranging both positive elements and negative space in such a way that no one area of the design overpowers other areas. Everything works together and fits together in a seamless whole."
         },
         {
-          path: "Just-eat-healthy-food-for-your-better-life",
+          path: "2016-09-07-just-eat-healthy-food",
           img: "astrif-post-entry-03.jpg",
           title: "Just eat healthy food, for your better life",
           pubdate: "2016-09-07",
@@ -51,7 +51,7 @@ export default {
             "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows."
         },
         {
-          path: "Best-beef-burger-in-this-city-I-had-met",
+          path: "2016-08-14-best-beef-burger-in-this-city",
           img: "astrif-post-entry-04.jpg",
           title: "Best beef burger in this city, I had met",
           pubdate: "2016-08-14",
@@ -61,7 +61,7 @@ export default {
             "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly."
         },
         {
-          path: "All-I-need-is-puff-pastry-and-choco-ball",
+          path: "2016-08-02-all-i-need-is-puff-pastry",
           img: "astrif-post-entry-05.jpg",
           title: "All I need is puff pastry and choco ball",
           pubdate: "2016-08-02",
@@ -71,7 +71,7 @@ export default {
             "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder."
         },
         {
-          path: "King-donut-never-had-a-queen-Love-it",
+          path: "2016-03-11-king-donut-never-had-a-queen",
           img: "astrif-post-entry-06.jpg",
           title: "King donut never had a queen. Love it!",
           pubdate: "2016-03-11",
@@ -81,7 +81,7 @@ export default {
             "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment."
         },
         {
-          path: "Gelato-in-omah-gelato-will-punch-you-hard",
+          path: "2016-03-11-gelato-in-omah",
           img: "astrif-post-entry-07.jpg",
           title: "Gelato in 'omah gelato' will punch you hard!",
           pubdate: "2016-03-11",
