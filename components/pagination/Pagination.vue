@@ -3,10 +3,10 @@
     <h2 class="screen-reader-text">{{ name }}</h2>
     <div class="nav-links">
       <div class="nav-previous">
-        <a href="#">{{ nextText }}</a>
+        <a href="#">{{ prevText }}</a>
       </div>
       <div class="nav-next">
-        <a href="#">{{ prevText }}</a>
+        <a href="#">{{ nextText }}</a>
       </div>
     </div>
   </nav>
