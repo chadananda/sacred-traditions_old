@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import MainNavigation from "~/components/header/MainNavigation.vue";
+import  MainNavigation from "~/components/header/MainNavigation.vue";
 import IconsWrapper from "~/components/icons/IconsWrapper.vue";
 export default {
   name: "slider",
@@ -113,8 +113,8 @@ export default {
       header_links: [
         { url: "/", name: "Home" },
         { url: "/category", name: "Interfaith Concept" },
-        { url: "/cook", name: "Projects" },
-        { url: "/about", name: "Big Ideas" },
+        { url: "/project", name: "Projects" },
+        { url: "/idea", name: "Big Ideas" },
         { url: "/about", name: "About Us" },
         { url: "/contact", name: "Contact" }
       ],
