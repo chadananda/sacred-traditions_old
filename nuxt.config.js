@@ -56,7 +56,12 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+      '~/plugins/fireauth.js'
   ],
+
+  router: {
+    middleware: 'router-auth'
+  },
 
   /*
   ** Nuxt.js modules
