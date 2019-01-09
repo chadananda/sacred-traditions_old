@@ -33,38 +33,7 @@
           <span class="instagram-subtitle">Follow our Projects</span>
         </div>
         <div class="instagram-widget">
-          <ul>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-02.jpg" alt>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-03.jpg" alt>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-04.jpg" alt>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-05.jpg" alt>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-06.jpg" alt>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <img src="~/assets/img/astrif-post-entry-07.jpg" alt>
-              </a>
-            </li>
-          </ul>
+          <FooterImages :footer_images="images"/>
           <p class="instagram-follow">
             <a
               href="http://instagram.com/sacredtraditions"
@@ -91,3 +60,21 @@
     <!-- #copyright -->
   </div>
 </template>
+<script>
+  import FooterImages from "~/components/footer/FooterImages.vue";
+  export default {
+      components: { FooterImages },
+      data() {
+          return {
+              images: [
+                  {id: 1, url: require('~/assets/img/astrif-post-entry-02.jpg'), alt: 'Not found'},
+                  {id: 2, url: require('~/assets/img/astrif-post-entry-03.jpg'), alt: 'Not found'},
+                  {id: 3, url: require('~/assets/img/astrif-post-entry-04.jpg'), alt: 'Not found'},
+                  {id: 4, url: require('~/assets/img/astrif-post-entry-05.jpg'), alt: 'Not found'},
+                  {id: 5, url: require('~/assets/img/astrif-post-entry-06.jpg'), alt: 'Not found'},
+                  {id: 6, url: require('~/assets/img/astrif-post-entry-07.jpg'), alt: 'Not found'},
+              ]
+          }
+      }
+  }
+</script>

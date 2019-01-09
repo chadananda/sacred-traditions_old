@@ -1,6 +1,5 @@
 <template>
   <div class="slider">
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
     <!-- topbar featured slider -->
     <div class="topbar-slider">
       <div id="slider-thumbnail" class="owl-carousel owl-theme slider-thumbnail">

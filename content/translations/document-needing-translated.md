@@ -4,9 +4,6 @@ author: Dr. Porro Quisquam
 date: 11-18-2018
 language: en
 tags: sit amet, consectetur
-img:
-category:
-snip:
 ---
 
 # Some document needing translated

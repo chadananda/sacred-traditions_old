@@ -1,18 +1,17 @@
 ---
-title: "Healthy Breakfast For Cute Girl."
-author: "Jane Austin"
-pubdate: 2016-10-26
+title: "King donut never had a queen. Love it!"
+author: "Mark Twain"
+pubdate: 2016-03-11
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-02.jpg
+img: astrif-post-entry-06.jpg
 category: breakfast
-snip: "Balancing a composition involves arranging both positive elements and negative space in such a way that no one area of the design overpowers other areas. Everything works together and fits together in a seamless whole."
+snip: "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment."
 ---
 
-# Healthy Breakfast For Cute Girl.
-
-## by Jane Austin
-### 2016-10-26
+# King donut never had a queen. Love it!
+## by Mark Twain
+### 2016-03-11
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 
