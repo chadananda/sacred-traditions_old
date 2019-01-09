@@ -10,6 +10,7 @@
           </template>
           <Pagination name="Post Navigation" prevText="Older Post" nextText="Newer Post"/>
         </div>
+        <p>This paragraph need to be ignored, will delete very soon.</p>
       </div>
       <ArticleSidebar/>
     </div>
