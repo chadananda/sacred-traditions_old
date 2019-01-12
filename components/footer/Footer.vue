@@ -7,6 +7,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+              <div v-if="!$store.state.user">
+                <button class="btn btn-default" @click="googleSignUp">Google Sign In</button>
+              </div>
+              <div v-else>
+                <h2>Firebase Auth Success</h2>
+              </div>
               <h3 class="subscribe-title">Subscribe</h3>
               <p>Subscribe to get periodic email notifications of events and projects.</p>
               <form class="form-inline">
@@ -75,6 +81,15 @@
                   {id: 6, url: require('~/assets/img/astrif-post-entry-07.jpg'), alt: 'Not found'},
               ]
           }
-      }
+      },
+    methods: {
+        googleSignUp() {
+          this.$store.dispatch('signInWithGoogle').then(() => {
+            console.log('Google Sign In');
+          }).catch((e) => {
+            console.log(e.message);
+          })
+        }
+    }
   }
 </script>
