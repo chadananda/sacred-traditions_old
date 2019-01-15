@@ -28,6 +28,7 @@
     "nuxtdown": "^2.0.3",
     "nuxtent": "^1.4.1",
     "prismjs": "^1.15.0",
+    "vue-i18n": "^8.7.0",
     "vue-loader": "^15.4.2"
   },
   "devDependencies": {

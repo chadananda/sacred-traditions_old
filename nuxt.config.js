@@ -56,7 +56,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-      '~/plugins/fireauth.js'
+      '~/plugins/fireauth.js',
+      '~/plugins/i18n.js'
   ],
 
   router: {
@@ -88,6 +89,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['vue-i18n']
     /*
     ** You can extend webpack config here
     */
