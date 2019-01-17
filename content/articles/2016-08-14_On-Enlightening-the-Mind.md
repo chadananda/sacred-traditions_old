@@ -6,7 +6,7 @@ language: en
 tags: sit amet, consectetur
 img: astrif-post-entry-04.jpg
 category: breakfast
-snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language. "
+snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
 ---
 
 

@@ -19,11 +19,9 @@ export default {
     return {
       articles: [
         {
-          path:
-            "2016-08-14-how-to-make-mak-nyuss-baked-potatoes",
+          path: "2016-08-14-an-indian-folk-religion",
           img: "astrif-post-entry-01.jpg",
-          title:
-            "How to make mak-nyuss baked potatoes stick recipes from Deanda",
+          title: "An Indian Folk Religion",
           pubdate: "2016-08-14",
           category: "breakfast",
           likes: 172,
@@ -31,19 +29,19 @@ export default {
             "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
         },
         {
-          path: "2016-10-26-healthy-breakfast-for-cute-girl",
+          path: "2016-10-26-thomas-merton-memoirs-about-interfaith",
           img: "astrif-post-entry-02.jpg",
-          title: "Healthy Breakfast For Cute Girl",
-          pubdate: "2016-10-26",
-          category: "breakfast",
+          title: "Thomas Merton Memoirs about Interfaith",
+          pubdate: "2016-10-27",
+          category: "Interfaith",
           likes: 320,
           snip:
-            "Balancing a composition involves arranging both positive elements and negative space in such a way that no one area of the design overpowers other areas. Everything works together and fits together in a seamless whole."
+            "I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
         },
         {
           path: "2016-09-07-just-eat-healthy-food",
           img: "astrif-post-entry-03.jpg",
-          title: "Just eat healthy food, for your better life",
+          title: "Just eat healthy food, for your better life.",
           pubdate: "2016-09-07",
           category: "breakfast",
           likes: 42,
@@ -51,44 +49,44 @@ export default {
             "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows."
         },
         {
-          path: "2016-08-14-best-beef-burger-in-this-city",
+          path: "2016-08-14-on-enlightening-the-mind",
           img: "astrif-post-entry-04.jpg",
-          title: "Best beef burger in this city, I had met",
+          title: "On Enlightening the Mind",
           pubdate: "2016-08-14",
           category: "breakfast",
           likes: 5,
           snip:
-            "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly."
+            "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
         },
         {
-          path: "2016-08-02-all-i-need-is-puff-pastry",
+          path: "2016-08-02-be-like-adams-son",
           img: "astrif-post-entry-05.jpg",
-          title: "All I need is puff pastry and choco ball",
+          title: "Be Like Adam’s Son",
           pubdate: "2016-08-02",
           category: "breakfast",
           likes: 36,
           snip:
-            "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder."
+            "I take up here an approach to the main dilemma of human life on this planet; I tackle this issue in the light of the story of Adam's two sons, as related by God in His Scripture, the Qur'an (5:27-31)."
         },
         {
-          path: "2016-03-11-king-donut-never-had-a-queen",
+          path: "2016-03-11-essay-on-the-trinity",
           img: "astrif-post-entry-06.jpg",
-          title: "King donut never had a queen. Love it!",
+          title: "Essay on the Trinity",
           pubdate: "2016-03-11",
           category: "breakfast",
           likes: 99,
           snip:
-            "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment."
+            "IT IS COMMON when speaking of the Divine happiness to say that God is infinitely happy in the enjoyment of Himself, in perfectly beholding and infinitely loving, and rejoicing in, His own essence and perfection."
         },
         {
-          path: "2016-03-11-gelato-in-omah",
+          path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
           img: "astrif-post-entry-07.jpg",
-          title: "Gelato in 'omah gelato' will punch you hard!",
-          pubdate: "2016-03-11",
+          title: "Developing a Good Heart",
+          pubdate: "2018-11-18",
           category: "breakfast",
           likes: 87,
           snip:
-            "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls."
+            "I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion."
         }
       ]
     };
