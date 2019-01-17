@@ -4,10 +4,11 @@ Vue.use(VueI18n);
 export default ({ app, store }) => {
     app.i18n = new VueI18n({
         locale: store.state.locale,
-        fallbackLocale: 'en',
+        fallbackLocale: 'ru',
         messages: {
+            'de': require('~/locales/de.json'),
             'en': require('~/locales/en.json'),
-            'fr': require('~/locales/fr.json')
+            'ru': require('~/locales/ru.json')
         }
     });
     app.i18n.path = (link) => {
