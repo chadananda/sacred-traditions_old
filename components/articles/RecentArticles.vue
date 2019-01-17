@@ -39,14 +39,14 @@ export default {
             "I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
         },
         {
-          path: "2016-09-07-just-eat-healthy-food",
+          path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
           img: "astrif-post-entry-03.jpg",
-          title: "Just eat healthy food, for your better life.",
+          title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           pubdate: "2016-09-07",
           category: "breakfast",
           likes: 42,
           snip:
-            "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ligula est. Duis nec tellus tellus. Nulla dignissim dui ac ante iaculis, ut pellentesque enim consectetur. Pellentesque convallis sollicitudin ipsum, eu ultrices justo aliquam quis."
         },
         {
           path: "2016-08-14-on-enlightening-the-mind",
