@@ -7,10 +7,10 @@
           <img :src="slide.image" :alt="slide.alt">
           <div class="item-caption">
             <div class="caption-description">
-              <a href="category.html" class="caption-cat-links">{{ slide.description }}</a>
+              <a :href="`/articles/${slide.path}`" class="caption-cat-links">{{ slide.description }}</a>
               <span class="caption-title">
-                <a href="single.html" class="caption-title-link">{{ slide.description}}</a>
-                <a href="single.html" class="button caption-more-link">Read More</a>
+                <a :href="`/articles/${slide.path}`" class="caption-title-link">{{ slide.description}}</a>
+                <a :href="`/articles/${slide.path}`" class="button caption-more-link">Read More</a>
               </span>
               <!-- .caption-title -->
             </div>
@@ -32,40 +32,46 @@ export default {
     return {
       slides: [
         {
-          title: "Cook",
+          title: "article1",
+          path: "2016-10-26-thomas-merton-memoirs-about-interfaith",
           image: require("~/assets/img/astrif-featured-slider-01.png"),
           alt: "featured slider 01",
-          description: "Learn how to make nasi goreng seafood pedas"
+          description: "Thomas Merton Memoirs about Interfaith"
         },
         {
-          title: "appetizer",
+          title: "article2",
+          path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
           image: require("~/assets/img/astrif-featured-slider-02.png"),
           alt: "featured slider 02",
-          description: "fruit salad made from Black Autumn Royal grapes"
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          title: "Fruit",
+          title: "article3",
+          path: "2016-08-14-on-enlightening-the-mind",
           image: require("~/assets/img/astrif-featured-slider-03.png"),
           alt: "featured slider 03",
-          description: "Red cherry is the raw material for making cake"
+          description: "On Enlightening the Mind"
         },
         {
-          title: "Food",
+          title: "article4",
+          path: "2016-08-02-be-like-adams-son",
           image: require("~/assets/img/astrif-featured-slider-04.png"),
           alt: "featured slider 04",
-          description: "Yummy dragon beef with delicious sauce"
+          description: "Be Like Adam’s Son"
         },
         {
-          title: "Dessert",
+          title: "article5",
+          path: "2016-03-11-essay-on-the-trinity",
           image: require("~/assets/img/astrif-featured-slider-05.png"),
           alt: "featured slider 05",
-          description: "All you need is gelato, Yeey!"
+          description: "Essay on the Trinity"
         },
         {
-          title: "Dessert",
+          title: "article6",
+          path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
           image: require("~/assets/img/astrif-featured-slider-06.png"),
           alt: "featured slider 06",
-          description: "Sweet pancake fruity cream, favorite!"
+          description: "Developing a Good Heart"
         }
       ]
     };
