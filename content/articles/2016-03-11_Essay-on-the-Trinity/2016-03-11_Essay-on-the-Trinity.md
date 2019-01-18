@@ -4,7 +4,7 @@ author: "Jonathan Edwards"
 pubdate: 2016-03-11
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-06.jpg
+img: article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png
 category: trinity
 snip: "IT IS COMMON when speaking of the Divine happiness to say that God is infinitely happy in the enjoyment of Himself, in perfectly beholding and infinitely loving, and rejoicing in, His own essence and perfection."
 ---

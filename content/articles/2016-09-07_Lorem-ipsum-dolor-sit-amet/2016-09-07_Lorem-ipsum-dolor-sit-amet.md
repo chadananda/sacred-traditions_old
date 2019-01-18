@@ -4,7 +4,7 @@ author: "Virginia Woolf"
 pubdate: 2016-09-07
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-03.jpg
+img: article_assets/spirituality-4.jpg
 category: adipiscing
 snip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ligula est. Duis nec tellus tellus. Nulla dignissim dui ac ante iaculis, ut pellentesque enim consectetur. Pellentesque convallis sollicitudin ipsum, eu ultrices justo aliquam quis."
 ---

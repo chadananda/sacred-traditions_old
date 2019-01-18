@@ -4,7 +4,7 @@ author: "Jawdat Sa’eed"
 pubdate: 2016-08-02
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-05.jpg
+img: article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg
 category: disputes
 snip: "I take up here an approach to the main dilemma of human life on this planet; I tackle this issue in the light of the story of Adam's two sons, as related by God in His Scripture, the Qur'an (5:27-31)."
 ---

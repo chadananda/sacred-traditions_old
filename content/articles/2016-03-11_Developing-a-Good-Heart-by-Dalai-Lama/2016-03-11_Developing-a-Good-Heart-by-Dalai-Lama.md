@@ -2,9 +2,9 @@
 title: "Developing a Good Heart"
 author: "Dalai Lama"
 pubdate: 2018-11-18
-language: en
+language: it
 tags: sit amet, consectetur
-img: astrif-post-entry-07.jpg
+img: article_assets/Dalailama1_20121014_4639.jpg
 category: heart
 snip: "I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion."
 ---

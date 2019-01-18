@@ -4,42 +4,42 @@ author: "Jawdat Sa’eed"
 pubdate: 2016-08-02
 language: it
 tags: sit amet, consectetur
-img: astrif-post-entry-05.jpg
+img: article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg
 category: disputes
-snip: "I take up here an approach to the main dilemma of human life on this planet; I tackle this issue in the light of the story of Adam's two sons, as related by God in His Scripture, the Qur'an (5:27-31)."
+snip: "Lode a Dio; che la pace sia sui suoi profeti eletti e su quelli che invocano la giustizia e la misericordia."
 ---
 
-# Be Like Adam’s Son
+# Sii come il figlio di Adamo
 
-## Foreword
+## Prefazione
 
-Praise be to God; may peace be upon His chosen prophets, and upon those who call to justice and mercy.
+Lode a Dio; che la pace sia sui suoi profeti eletti e su quelli che invocano la giustizia e la misericordia.
 
-I take up here an approach to the main dilemma of human life on this planet; I tackle this issue in the light of the story of Adam's two sons, as related by God in His Scripture, the Qur'an (5:27-31). In that parable, we have two distinct methods of dealing with life's problems, since one of Adam's sons tried to get over the problem by killing the other, like a doctor trying to get over the disease by killing the patient; and the other held back his hand, and affirmed that killing could not be the right solution.
+Prendo qui un approccio al principale dilemma della vita umana su questo pianeta; Affronto questo problema alla luce della storia dei due figli di Adamo, come riferito da Dio nella sua Scrittura, il Corano (5: 27-31). In quella parabola, abbiamo due metodi distinti per affrontare i problemi della vita, poiché uno dei figli di Adamo ha cercato di superare il problema uccidendo l'altro, come un medico che cerca di superare la malattia uccidendo il paziente; e l'altro trattenne la mano e affermò che uccidere non poteva essere la soluzione giusta.
 
-I may mention here that it is fortunate that I propound my idea at this juncture in time, when mankind happens to be primed for comprehending the method of Adam's son. Humankind has almost understood, through lots and lots of suicidal trials, that violence is just not the way. For my part, I have devoted all my humble effort to bringing this fact to the notice of humankind. I have no doubt that later studies will greatly overshadow my effort. My only accomplishment would be then that I have shaken the sleepers to open their eyes and see things from a vantage point that they had never suspected to exist.
+Potrei menzionare qui che è una fortuna che io proponga la mia idea in questo frangente nel tempo, quando l'umanità sembra essere pronta per comprendere il metodo del figlio di Adamo. L'umanità ha quasi capito, attraverso un sacco di prove suicide, che la violenza non è la via giusta. Da parte mia, ho dedicato tutto il mio umile sforzo per portare questo fatto all'attenzione dell'umanità. Non ho dubbi sul fatto che studi successivi offuscheranno enormemente i miei sforzi. Il mio unico risultato sarebbe allora che ho scosso i dormienti per aprire gli occhi e vedere le cose da un punto di vista che non avevano mai sospettato di esistere.
 
-So let us start with this point. One big hurdle that prevents Arabs and Muslims from probing their dilemmas is Israel. But they seem to forget in this respect that our real problem is not Israel, nor the imperial powers. A more basic problem that lurks behind our tragic conditions is that we suffer from certain mental drawbacks for which neither Israel, nor any imperial power, are responsible. Long ago the Qur'an warned us to look for our troubles in the right place: "Say: 'It is from yourselves.'" (3:165) If any still have doubts that our basic ills lie within our souls, let them remember the Second Gulf War, when we forgot about Israel, and were sure that more important than Israel were the disputes among us – we even summoned those same imperial powers to help us defeat our domestic 'enemy.'
+Quindi iniziamo con questo punto. Un grande ostacolo che impedisce agli arabi e ai musulmani di sondare i loro dilemmi è Israele. Ma sembrano dimenticare a questo riguardo che il nostro vero problema non è Israele, né i poteri imperiali. Un problema più basilare che si nasconde dietro le nostre tragiche condizioni è che soffriamo di alcuni inconvenienti mentali per i quali né Israele né alcun potere imperiale sono responsabili. Molto tempo fa il Corano ci ha avvertito di cercare i nostri problemi nel posto giusto: "Di ':" È da voi stessi ". (3: 165) Se qualcuno ha ancora dei dubbi sul fatto che i nostri mali di base si trovano nelle nostre anime, lasciateli ricorda la Seconda Guerra del Golfo, quando abbiamo dimenticato di Israele, ed eravamo sicuri che più importanti di Israele fossero le dispute tra di noi - abbiamo persino convocato quelle stesse potenze imperiali per aiutarci a sconfiggere il nostro nemico domestico.
 
-Just make peace among yourselves, with each other, and you will see, Arabs and Muslims, how the world will respect you, will try to win your favor; and you will see how America will turn its back on Israel; because America has always changed sides when it proved more profitable to do so.
+Basta fare pace tra di voi, l'uno con l'altro, e vedrete, arabi e musulmani, come il mondo vi rispetterà, proverà a conquistare il vostro favore; e vedrai come l'America volterà le spalle a Israele; perché l'America ha sempre cambiato le parti quando si è dimostrato più redditizio farlo.
 
-The point here is that no one can subjugate us unless we agree to be subjugated. But if we still refuse to learn, then more catastrophes and more scourge will force us one day to learn, though after we have paid for our failure to open our ears and eyes earlier. We shall have to learn, if not through learning from history, then from more pain and catastrophes. The Qur'an is replete with exhortation to look and listen and think, as in this verse, "And how many signs in the heavens and earth do they pass by? Yet they turn their faces away from them." (12:105)
+Il punto qui è che nessuno può sottometterci se non accettiamo di essere soggiogati. Ma se ci rifiutiamo ancora di imparare, più catastrofi e più flagelli ci costringeranno un giorno a imparare, anche se dopo aver pagato per il nostro fallimento di aprire le orecchie e gli occhi prima. Dovremo imparare, se non attraverso l'apprendimento dalla storia, poi da più dolore e catastrofi. Il Corano è pieno di esortazioni per guardare, ascoltare e pensare, come in questo verso, "E quanti segni nei cieli e nella terra passano?" Eppure allontanano il loro volto da loro ". (12: 105)
 
-Can we for instance envision a future situation in which we have really established peace among ourselves, peace whereby no one will have to jeopardize anything, neither territory, nor position? Can our intellectuals perceive that? It will be clear then that what we need is not the great hero that comes forth and forces us by might into a unified body. For as long as we keep waiting for the one man to come and draw us out of the abyss we shall never find our way.
+Possiamo per esempio immaginare una situazione futura in cui abbiamo veramente stabilito la pace tra di noi, pace in cui nessuno dovrà mettere a repentaglio nulla, né territorio, né posizione? I nostri intellettuali possono percepirlo? Sarà chiaro allora che ciò di cui abbiamo bisogno non è il grande eroe che viene fuori e ci costringe per forza a un corpo unificato. Finché continueremo ad aspettare che un solo uomo venga e ci trascinerà fuori dall'abisso non troveremo mai la nostra strada.
 
-But I am sure that the light of day is coming, because of what God has promised, "Their intention is to extinguish Allah's Light by blowing with their mouths; but Allah will complete the revelation of His Light," (61:8) and on the basis of what I have seen and heard in this world.
+Ma sono sicuro che la luce del giorno sta arrivando, a causa di ciò che Dio ha promesso: "La loro intenzione è di estinguere la luce di Allah soffiando con le loro bocche, ma Allah completerà la rivelazione della sua luce" (61: 8) e sulla base di ciò che ho visto e sentito in questo mondo.
 
-Beer Ajam (a village southwest of Syria), 6/11/1996 {.sig}
+Beer Ajam (un villaggio a sud-ovest della Siria), 6/11/1996 {.sig}
 
 ---
 
-## INTRODUCTORY, THE LANGUAGE OF WORDS AND THE LANGUAGE OF CONCEPTS
+## INTRODUTTORE, LINGUA DELLE PAROLE E LINGUA DEI CONCETTI
 
-Let us start our discussion with the following short tradition of the Prophet's (peace be upon him): "Follow the example of Adam's son" (an authentic tradition, reported by al-Tirmidhi, and also, in slightly different wording, by Abu Dawood.)
+Cominciamo la nostra discussione con la seguente breve tradizione del Profeta (pace su di lui): "Segui l'esempio del figlio di Adamo" (una tradizione autentica, riportata da al-Tirmidhi, e anche, in termini leggermente diversi, da Abu Dawood .)
 
-Is not this a tradition of the Prophet's? If so, why have Muslims generally not cared for it? Or even flouted and derided the concept in it? I still remember when, as I was once elaborating on this, one among the audience said: "Nay! I will never buy this! If I am to enter Paradise, I want to enter it with my sword brandished high in my hands; never with my head bent down with submission and surrender."
+Non è questa una tradizione del Profeta? Se è così, perché i musulmani in genere non se ne prendono cura? O ha persino vaneggiato e deriso il concetto in esso? Ricordo ancora quando, come una volta mi stavo elaborando, uno tra il pubblico disse: "No, non lo comprerò mai! Se devo entrare in Paradiso, voglio entrare con la mia spada brandita in alto nelle mie mani, mai con la mia testa china per sottomissione e arrendersi. "
 
-Often have we seen a Muslim scholar devote a whole book to the explication of one tradition of the Prophet's (peace be upon him), so why have all the scholars totally ignored the above tradition?
+Spesso abbiamo visto uno studioso musulmano dedicare un intero libro alla spiegazione di una tradizione del Profeta (la pace sia con lui), quindi perché tutti gli studiosi hanno completamente ignorato la tradizione di cui sopra?
 
 To go one further step; let us inquire what renders a certain text idle and inoperative? It is worth our while to inquire how the Qur'an and the sunnah (the Prophet's traditions) have fared across the ages, how certain portions are ignored and others attended to. A whole science should be dedicated to the study of the processes through which texts come to be brought into life or thrown into oblivion. I know some light has been thrown on this, but it is not yet developed into a science, which we do need.
 

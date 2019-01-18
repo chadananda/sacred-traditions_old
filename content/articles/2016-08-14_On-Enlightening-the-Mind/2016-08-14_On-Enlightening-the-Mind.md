@@ -4,7 +4,7 @@ author: "Moses Mendelssohn"
 pubdate: 2016-08-14
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-04.jpg
+img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
 category: enlightening
 snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
 ---

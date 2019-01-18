@@ -4,7 +4,7 @@ author: "Thomas Merton"
 pubdate: 2016-10-27
 language: en
 tags: sit amet, consectetur
-img: astrif-post-entry-02.jpg
+img: article_assets/Dhirendra-Brahmachari.jpeg
 category: Bramachari
 snip: "I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
 ---

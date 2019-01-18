@@ -4,33 +4,33 @@ author: "Moses Mendelssohn"
 pubdate: 2016-08-14
 language: it
 tags: sit amet, consectetur
-img: astrif-post-entry-04.jpg
+img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
 category: enlightening
-snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
+snip: "I termini miglioramento intellettuale, o illuminazione della mente, coltivazione e civiltà [Aufklärung, Kultur, Bildung], sono ancora scarsamente naturalizzati in lingua tedesca."
 ---
 
 
-THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language. Their use is almost confined to books. By the majority of mankind they are scarcely known or understood: but can this be considered as a proof that the objects these words represent are new or foreign to us? Certainly not. It is said of a certain nation, that they have no words for virtue and superstition, and yet no small portion of each may justly be ascribed to them.
+I termini miglioramento intellettuale, o illuminazione della mente, coltivazione e civiltà [Aufklärung, Kultur, Bildung], sono ancora scarsamente naturalizzati in lingua tedesca. Il loro uso è quasi limitato ai libri. Per la maggior parte dell'umanità sono poco conosciuti o capiti: ma può essere considerata una prova che gli oggetti che queste parole rappresentano sono nuovi o estranei a noi? Certamente no. Si dice di una certa nazione, che non hanno parole per la virtù e la superstizione, e tuttavia nessuna piccola parte di ciascuno può giustamente essere attribuita a loro.
 
-Common usage, however, although it apparently tends to establish a distinction between these nearly synonymous words, has not yet had time to fix the boundaries of each.
+L'uso comune, tuttavia, anche se apparentemente tende a stabilire una distinzione tra queste parole quasi sinonimi, non ha ancora avuto il tempo di fissare i confini di ciascuna.
 
-Civilization, cultivation, and intellect, are modifications of social life, the result of the industry and exertions of mankind to improve the general happiness.
+La civiltà, la coltivazione e l'intelletto sono modifiche della vita sociale, il risultato dell'industria e gli sforzi dell'umanità per migliorare la felicità generale.
 
-The more the state of society of any nation is made to harmonize through art and industry with the respective conditions of men, to so much greater degree of civilization has that nation attained.
+Quanto più lo stato della società di qualsiasi nazione è fatto per armonizzarsi attraverso l'arte e l'industria con le rispettive condizioni degli uomini, tanto più alto è il livello di civiltà raggiunto dalla nazione.
 
-Civilization may be divided into cultivation and enlightening the public mind, the former of which seems to be chiefly practical, and to consist of refinement, beauty, and perfection in mechanics, in the arts, and in the manners of society of talents and industry in the arts, and of moral inclinations and propensities. The more these agree with the condition of men, the more cultivation may they be said to have acquired, as a piece of land is said to be better cultivated, the more industry has been bestowed on it, so as to produce things useful to mankind; but on the other hand, enlightening seems to relate principally to theory or rational knowledge, and a facility to reason on the affairs of life according to their importance and influence on the condition of men.
+La civiltà può essere divisa in coltivazione e illuminante nella mente pubblica, la prima delle quali sembra essere principalmente pratica, e consiste di raffinatezza, bellezza e perfezione nella meccanica, nelle arti e nei modi della società dei talenti e dell'industria in le arti, e le inclinazioni e le inclinazioni morali. Più questi sono d'accordo con la condizione degli uomini, più si può dire che la coltivazione abbia acquisito, come si dice che un pezzo di terra è coltivato meglio, più l'industria è stata donata su di essa, in modo da produrre cose utili all'umanità ; ma d'altra parte, l'illuminazione sembra riguardare principalmente la teoria o la conoscenza razionale, e una facilità di ragionare sugli affari della vita in base alla loro importanza e influenza sulla condizione degli uomini.
 
-I consider the condition of man as the grand measure and end of all our exertions and labours, and as a point which we must constantly keep in view, if we would avoid losing ourselves in conjecture and speculation.
+Considero la condizione dell'uomo come la grande misura e la fine di tutti i nostri sforzi e fatiche, e come un punto che dobbiamo costantemente tenere in considerazione, se evitassimo di perdersi in congetture e speculazioni.
 
-A language becomes enlightened by means of the sciences, and it becomes cultivated or polished by means of social converse, poetry, and eloquence. By the former it becomes more adapted to objects of theory, and by the latter to those of practice. Both together give a language that quality which is denominated civilization.
+Una lingua diventa illuminata per mezzo delle scienze e diventa coltivata o levigata per mezzo di conversazioni sociali, poesia ed eloquenza. Con il primo diventa più adatto a oggetti di teoria, e da quest'ultimo a quelli di pratica. Entrambi insieme danno un linguaggio a quella qualità che è denominata civiltà.
 
-The highest degree of cultivation is called refinement. Happy is the nation whose refinement is the effect of cultivation, and of an enlightened state of the public mind, whose external lustre and polish arises from an internal solid basis of truth and virtue.
+Il più alto grado di coltivazione è chiamato raffinatezza. Felice è la nazione la cui raffinatezza è l'effetto della coltivazione e di uno stato illuminato della mente pubblica, la cui lucentezza esterna e lucentezza derivano da una solida base interna di verità e virtù.
 
-An enlightened state of mind is to cultivation what theory generally is to practice, knowledge to morality, and criticism to taste. Considered in themselves, they stand in the nearest relation to each other, although they very often appear totally distinct.
+Uno stato mentale illuminato è quello di coltivare ciò che la teoria in genere è praticare, la conoscenza alla morale e la critica al gusto. Considerati in se stessi, si collocano nella relazione più vicina l'uno con l'altro, anche se molto spesso appaiono totalmente distinti.
 
-It may be said that the inhabitants of Nuremberg and of France are more cultivated, those of Berlin and of England more enlightened, while the Chinese are highly cultivated, but very unenlightened: the Greeks possessed both these qualities. They were a highly civilized and polished nation, as their language is a highly civilized and polished language. In general the language of a nation is the best measure and criterion of their civilization, as well as of the more or less enlightened state of the national mind, and of the expansion of that mind as well as of its strength.
+Si può dire che gli abitanti di Norimberga e della Francia sono più coltivati, quelli di Berlino e dell'Inghilterra più illuminati, mentre i cinesi sono altamente coltivati, ma molto non illuminati: i Greci possedevano entrambe queste qualità. Erano una nazione altamente civilizzata e raffinata, poiché la loro lingua è un linguaggio altamente civilizzato e raffinato. In generale, la lingua di una nazione è la misura e il criterio migliori della loro civiltà, così come dello stato più o meno illuminato della mente nazionale, e dell'espansione di quella mente e della sua forza.
 
-Farther, the actual condition of men may be divided into, 1. the condition of men considered as men, and, 2. the condition of men considered as citizens.
+Più lontano, la condizione reale degli uomini può essere divisa in: 1. la condizione degli uomini considerati come uomini, e, 2. la condizione degli uomini considerati come cittadini.
 
 In considering the subject of cultivation these objects coincide, as the value of all practical perfections depends alone on their influence on social life, and must accord with the actual condition of men as members of society. Men as men require no cultivation, but even in this point of view they require much enlightening.
 
