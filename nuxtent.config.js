@@ -34,8 +34,8 @@ module.exports = {
     generate: [ 'get', 'getAll' ]
    }],
    ["events", {
-    page: '/_events',
-    permalink: '/events/:slug',
+    page: '/events/_event',
+    permalink: 'events/:slug',
     isPost: false,
     generate: [ 'get', 'getAll' ]
    }],

@@ -1,22 +1,34 @@
 ---
-title: Course Title
-author: Dr. Porro Quisquam
+title: Heroic Struggle Narratives of the Great Religious Traditions
+author: Peter Terry
 language: en
-tags: sit amet, consectetur
+tags: Dawn-Breakers, Acts, Holy War
 img:
-category:
-snip:
+category: history
+snip: Every religion has a narrative of early struggle against an entrenched political or religious establishment.
 ---
 
-# Course Title
-## by Dr. Porro Quisquam
+# Heroic Struggle Narratives of the Great Religious Traditions
+## by Prof. Peter Terry
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis felis vel ligula ullamcorper, sed mollis lorem posuere. Phasellus venenatis arcu dui, a auctor libero pellentesque vitae. Sed semper urna turpis, et fringilla nibh mollis sed. Mauris nec luctus nibh, eget rhoncus velit. Nulla quis laoreet nunc, id pulvinar velit. Maecenas condimentum justo sed lacinia scelerisque. Suspendisse tempor, dolor ac efficitur facilisis, nulla arcu rhoncus neque, et consectetur turpis leo ut ante. Vestibulum a dolor sed enim cursus ornare. Donec sed ullamcorper lacus. Cras posuere leo turpis, eu porta mauris accumsan sed. Nullam metus est, pellentesque ac blandit vel, convallis ac metus. Fusce ut bibendum metus. Morbi feugiat lorem in sodales consequat.
 
-Nunc convallis molestie dolor, ac porta erat faucibus cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam fermentum turpis sed arcu luctus, ut finibus urna finibus. Donec eget nisi ullamcorper, mattis sem vel, sagittis leo. Curabitur et sapien vitae nisi eleifend euismod. Donec egestas massa massa, id accumsan tortor pharetra vitae. In hac habitasse platea dictumst. Duis elementum tempor eleifend. Vestibulum ut ante eget nulla scelerisque pellentesque quis at felis. In venenatis lectus iaculis neque luctus sollicitudin. Sed imperdiet augue a sapien rutrum pellentesque.
+The battle of Jerico: 300 years later, the nephew of Moses, Joshua, leed a small band of Israelites -- emmigrant slaves coming from Egypt -- to re-capture the Holy Land from the Cannanites.
 
-Donec viverra eros justo, lacinia placerat nulla cursus non. Cras et sem ultricies, semper ipsum ac, aliquam mauris. Integer a purus molestie, vestibulum arcu et, fringilla eros. Nunc vel sem risus. Vestibulum luctus interdum est. Integer a dolor ultricies, iaculis libero id, dictum mauris. Suspendisse potenti. Nullam sit amet urna non nunc luctus pretium vestibulum vitae mi. Donec in ante et quam viverra venenatis et non tellus.
+Acts of the Apostles: Within five years of the crucifiction of Jesus a handful of persecuted apostles to their struggle to the heart of the political order in Rome.
 
-Nullam non venenatis nulla, vitae faucibus lacus. Proin bibendum felis quis eleifend tempus. Fusce ut mauris eros. Maecenas euismod, est a mattis facilisis, enim diam sagittis augue, eu efficitur ante purus ut neque. Vivamus pulvinar, ante nec posuere facilisis, nisl sem varius tellus, vel sodales enim libero nec quam. Suspendisse vitae eros tincidunt, accumsan libero id, posuere nunc. Morbi a nisi lobortis nibh efficitur ornare. Quisque sit amet eros nec est aliquam egestas quis vel lacus. Sed dictum tortor sit amet porttitor accumsan. Vivamus ut posuere tortor. Cras vestibulum placerat luctus.
+Battle of Khaybar: In the deserts of Arabia, a persecuted group of monotheists defended themselves against overwhelming odds as the Meccan forces gathered for a final military exterminiation.
 
-Suspendisse aliquam egestas dolor, ut accumsan lorem fringilla eu. Donec erat nisl, tincidunt vitae blandit eu, facilisis vel arcu. Aenean sapien diam, ullamcorper a felis vel, cursus maximus turpis. Nulla convallis tempus nulla, accumsan egestas tortor dignissim a. Quisque pharetra est ut scelerisque convallis. Phasellus et ligula arcu. Proin a libero pellentesque ante aliquet malesuada quis sed urna. Nullam placerat molestie posuere. Duis cursus libero sed tincidunt consequat. Duis venenatis, lectus nec ultricies mollis, nibh sem dignissim justo, in blandit neque diam at dolor. Aliquam erat volutpat. Nullam enim nisi, ultricies sed lectus non, imperdiet euismod diam. Aliquam ornare non mi dapibus imperdiet. Duis scelerisque arcu risus, vel rhoncus ante suscipit quis. Suspendisse quis tortor sit amet dui suscipit egestas.
+Martyrdom of Imam Husayn: On the plains a Karbila, the murderous army of Yazid encircled the small band representing the last descendents of the Prophet Muhammad. The Muslim defenders fight against impossible odds while dying of thirst within view of the unreachable Euphrates river.
+
+Nabil's Narrative: In the ancient land of Persia, a tiny band of followers of the new Prophet known only as "the Bab" struggles against the combined forces of a powerful political and ecclesiastical order.
+
+---
+
+Participants in this intensive retreat study will survey key narratives of religious struggle across the ages, studying thorougly a half-dozen books and learning the main characters and episodes of each of the world's religious traditions. Groups will have the option to add additional emphasis on any religion of their choice.
+
+
+
+
+
+
+
