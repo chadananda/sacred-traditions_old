@@ -29,7 +29,7 @@ export default {
         {
           id: 1,
           path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
-          imagepath: require("~/assets/img/astrif-popular-01.jpg"),
+          imagepath: "/img/article_assets/spirituality-4.jpg",
           alt: "popular post1",
           spanhref: "2016-09-07-lorem-ipsum-dolor-sit-amet",
           spancontent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -38,7 +38,7 @@ export default {
         {
           id: 2,
           path: "2016-08-14-on-enlightening-the-mind",
-          imagepath: require("~/assets/img/astrif-popular-02.jpg"),
+          imagepath: "/img/article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg",
           alt: "popular post2",
           spanhref: "2016-08-14-on-enlightening-the-mind",
           spancontent: "On Enlightening the Mind",
@@ -47,7 +47,7 @@ export default {
         {
           id: 3,
           path: "2016-08-02-be-like-adams-son",
-          imagepath: require("~/assets/img/astrif-popular-03.jpg"),
+          imagepath: "/img/article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg",
           alt: "popular post3",
           spanhref: "2016-08-02-be-like-adams-son",
           spancontent: "Be Like Adam’s Son",
@@ -56,7 +56,7 @@ export default {
         {
           id: 4,
           path: "2016-03-11-essay-on-the-trinity",
-          imagepath: require("~/assets/img/astrif-popular-04.jpg"),
+          imagepath: "/img/article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png",
           alt: "popular post4",
           spanhref: "2016-03-11-essay-on-the-trinity",
           spancontent: "Essay on the Trinity",
@@ -65,7 +65,7 @@ export default {
         {
           id: 5,
           path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
-          imagepath: require("~/assets/img/astrif-popular-05.jpg"),
+          imagepath: "/img/article_assets/Dalailama1_20121014_4639.jpg",
           alt: "popular post5",
           spanhref: "2016-03-11-developing-a-good-heart-by-dalai-lama",
           spancontent: "Developing a Good Heart",

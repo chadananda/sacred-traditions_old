@@ -20,70 +20,70 @@ export default {
       articles: [
         {
           path: "2016-08-14-an-indian-folk-religion",
-          img: "astrif-post-entry-01.jpg",
+          img: "article_assets/46122bc4dca93e61413c2e750ca0974b.jpg",
           title: "An Indian Folk Religion",
           pubdate: "2016-08-14",
-          category: "breakfast",
+          category: "buddhism",
           likes: 172,
           snip:
             "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
         },
         {
           path: "2016-10-26-thomas-merton-memoirs-about-interfaith",
-          img: "astrif-post-entry-02.jpg",
+          img: "article_assets/Dhirendra-Brahmachari.jpeg",
           title: "Thomas Merton Memoirs about Interfaith",
           pubdate: "2016-10-27",
-          category: "Interfaith",
+          category: "Bramachari",
           likes: 320,
           snip:
             "I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
         },
         {
           path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
-          img: "astrif-post-entry-03.jpg",
+          img: "article_assets/spirituality-4.jpg",
           title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           pubdate: "2016-09-07",
-          category: "breakfast",
+          category: "adipiscing",
           likes: 42,
           snip:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ligula est. Duis nec tellus tellus. Nulla dignissim dui ac ante iaculis, ut pellentesque enim consectetur. Pellentesque convallis sollicitudin ipsum, eu ultrices justo aliquam quis."
         },
         {
           path: "2016-08-14-on-enlightening-the-mind",
-          img: "astrif-post-entry-04.jpg",
+          img: "article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg",
           title: "On Enlightening the Mind",
           pubdate: "2016-08-14",
-          category: "breakfast",
+          category: "enlightening",
           likes: 5,
           snip:
             "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
         },
         {
           path: "2016-08-02-be-like-adams-son",
-          img: "astrif-post-entry-05.jpg",
+          img: "article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg",
           title: "Be Like Adam’s Son",
           pubdate: "2016-08-02",
-          category: "breakfast",
+          category: "disputes",
           likes: 36,
           snip:
             "I take up here an approach to the main dilemma of human life on this planet; I tackle this issue in the light of the story of Adam's two sons, as related by God in His Scripture, the Qur'an (5:27-31)."
         },
         {
           path: "2016-03-11-essay-on-the-trinity",
-          img: "astrif-post-entry-06.jpg",
+          img: "article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png",
           title: "Essay on the Trinity",
           pubdate: "2016-03-11",
-          category: "breakfast",
+          category: "trinity",
           likes: 99,
           snip:
             "IT IS COMMON when speaking of the Divine happiness to say that God is infinitely happy in the enjoyment of Himself, in perfectly beholding and infinitely loving, and rejoicing in, His own essence and perfection."
         },
         {
           path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
-          img: "astrif-post-entry-07.jpg",
+          img: "article_assets/Dalailama1_20121014_4639.jpg",
           title: "Developing a Good Heart",
           pubdate: "2018-11-18",
-          category: "breakfast",
+          category: "heart",
           likes: 87,
           snip:
             "I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion."
