@@ -39,7 +39,39 @@
           <span class="instagram-subtitle">Follow our Projects</span>
         </div>
         <div class="instagram-widget">
-          <FooterImages :footer_images="images"/>
+          <ul>
+            <li>
+              <a href>
+                <img src="/img/article_assets/Dhirendra-Brahmachari.jpeg" alt>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="/img/article_assets/spirituality-4.jpg" alt>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="/img/article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg" alt>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="/img/article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg" alt>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="/img/article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png" alt>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="/img/article_assets/Dalailama1_20121014_4639.jpg" alt>
+              </a>
+            </li>
+          </ul>
+          <!--<FooterImages :footer_images="images"/>-->
           <p class="instagram-follow">
             <a
               href="http://instagram.com/sacredtraditions"
@@ -67,21 +99,7 @@
   </div>
 </template>
 <script>
-  import FooterImages from "~/components/footer/FooterImages.vue";
   export default {
-      components: { FooterImages },
-      data() {
-          return {
-              images: [
-                  {id: 1, url: require('~/assets/img/astrif-post-entry-02.jpg'), alt: 'Not found'},
-                  {id: 2, url: require('~/assets/img/astrif-post-entry-03.jpg'), alt: 'Not found'},
-                  {id: 3, url: require('~/assets/img/astrif-post-entry-04.jpg'), alt: 'Not found'},
-                  {id: 4, url: require('~/assets/img/astrif-post-entry-05.jpg'), alt: 'Not found'},
-                  {id: 5, url: require('~/assets/img/astrif-post-entry-06.jpg'), alt: 'Not found'},
-                  {id: 6, url: require('~/assets/img/astrif-post-entry-07.jpg'), alt: 'Not found'},
-              ]
-          }
-      },
     methods: {
         googleSignUp() {
           this.$store.dispatch('signInWithGoogle').then(() => {
