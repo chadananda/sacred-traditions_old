@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       links: [
-        { id: 1, path: "category.html", content: "appetizer" },
-        { id: 2, path: "category.html", content: "cook" },
-        { id: 3, path: "category.html", content: "dessert" },
-        { id: 4, path: "category.html", content: "food" },
-        { id: 5, path: "category.html", content: "healthy" },
-        { id: 6, path: "category.html", content: "tips" }
+        { id: 1, path: "category.html", content: "Bramachari" },
+        { id: 2, path: "category.html", content: "adipiscing" },
+        { id: 3, path: "category.html", content: "enlightening" },
+        { id: 4, path: "category.html", content: "disputes" },
+        { id: 5, path: "category.html", content: "trinity" },
+        { id: 6, path: "category.html", content: "heart" }
       ]
     };
   }

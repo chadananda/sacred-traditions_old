@@ -17,13 +17,13 @@ export default {
   data() {
     return {
       links: [
-        { id: 1, content: "food", spanvalue: "52" },
-        { id: 2, content: "dessert", spanvalue: "86" },
-        { id: 3, content: "thoughts", spanvalue: "13" },
-        { id: 4, content: "inspiring", spanvalue: "7" },
-        { id: 5, content: "tips", spanvalue: "64" },
-        { id: 6, content: "cook", spanvalue: "9" },
-        { id: 7, content: "healthy", spanvalue: "29" }
+        { id: 1, content: "buddhism", spanvalue: "52" },
+        { id: 2, content: "Bramachari", spanvalue: "86" },
+        { id: 3, content: "adipiscing", spanvalue: "13" },
+        { id: 4, content: "enlightening", spanvalue: "7" },
+        { id: 5, content: "disputes", spanvalue: "64" },
+        { id: 6, content: "trinity", spanvalue: "9" },
+        { id: 7, content: "heart", spanvalue: "29" }
       ]
     };
   }
