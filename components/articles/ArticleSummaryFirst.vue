@@ -1,7 +1,8 @@
 <template>
   <article class="post first-post format-standard hentry">
     <div class="entry-featured-image">
-      <img :src="`/img/${article.img}`" :alt="article.title">
+      <ImageWrapper :src="`${article.img}`" :alt="`${article.title}`" :width="1200" :height="500"></ImageWrapper>
+      <!--<img :src="`/img/${article.img}`" :alt="article.title">-->
     </div>
     <div class="entry-area">
       <div class="entry-header">
@@ -53,7 +54,9 @@
 </template>
 
 <script>
-export default {
-  props: ["article", "type"]
-};
+  import ImageWrapper from '~/components/images/ImageWrapper'
+  export default {
+    components: { ImageWrapper },
+    props: ["article", "type"]
+  };
 </script>

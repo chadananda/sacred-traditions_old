@@ -29,6 +29,7 @@
     "nuxt": "^2.3.4",
     "nuxtdown": "^2.0.3",
     "nuxtent": "^1.4.1",
+    "object-fit-images": "^3.2.4",
     "prismjs": "^1.15.0",
     "vue-i18n": "^8.7.0",
     "vue-loader": "^15.4.2"
@@ -43,8 +44,6 @@
     "nodemon": "^1.18.9",
     "prettier": "^1.14.3",
     "push-dir": "^0.4.1",
-    "responsive-loader": "^1.2.0",
-    "sass-loader": "^7.1.0",
-    "sharp": "^0.21.3"
+    "sass-loader": "^7.1.0"
   }
 }
