@@ -8,15 +8,15 @@
                 <div class="post-container">
                     <div class="post-thumbnail">
                         <a href="#">
-                            <img src="~/assets/img/astrif-post-entry-02.jpg">
+                            <ImageWrapper :src="`article_assets/Dhirendra-Brahmachari.jpeg`" :alt="``" :width="223" :height="223"></ImageWrapper>
                         </a>
                     </div>
                     <!-- .post-thumbnail -->
                     <h3 class="post-title">
-                        <a href="#">What I Wore Today</a>
+                        <a href="#">Thomas Merton Memoirs about Interfaith</a>
                     </h3>
                     <span class="post-meta">
-            <a href="#">Okt 09, 2016</a>
+            <a href="#">Oct 27, 2016</a>
           </span>
                 </div>
                 <!-- .post-container -->
@@ -26,12 +26,12 @@
                 <div class="post-container">
                     <div class="post-thumbnail">
                         <a href="#">
-                            <img src="~/assets/img/astrif-post-entry-04.jpg">
+                            <ImageWrapper :src="`article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg`" :alt="``" :width="223" :height="223"></ImageWrapper>
                         </a>
                     </div>
                     <!-- .post-thumbnail -->
                     <h3 class="post-title">
-                        <a href="#">10 comfy swimsuit in this month</a>
+                        <a href="#">On Enlightening the Mind</a>
                     </h3>
                     <span class="post-meta">
             <a href="#">Aug 14, 2016</a>
@@ -44,12 +44,12 @@
                 <div class="post-container">
                     <div class="post-thumbnail">
                         <a href="#">
-                            <img src="~/assets/img/astrif-post-entry-05.jpg">
+                            <ImageWrapper :src="`article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg`" :alt="``" :width="223" :height="223"></ImageWrapper>
                         </a>
                     </div>
                     <!-- .post-thumbnail -->
                     <h3 class="post-title">
-                        <a href="#">7 sweet hat for hangout that you should know</a>
+                        <a href="#">Be Like Adam’s Son</a>
                     </h3>
                     <span class="post-meta">
             <a href="#">Aug 02, 2016</a>
@@ -64,9 +64,11 @@
 </template>
 
 <script>
-  export default {
-    name: "Posts"
-  };
+    import ImageWrapper from '~/components/images/ImageWrapper';
+    export default {
+        components: { ImageWrapper },
+        name: "Posts"
+    };
 </script>
 
 <style scoped>

@@ -4,17 +4,17 @@
     <div class="nav-links">
       <div class="nav-previous">
         <a href="#" class="image-link">
-          <img src="~/assets/img/astrif-post-entry-02.jpg">
+          <ImageWrapper :src="`article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png`" :alt="``" :width="90" :height="90"></ImageWrapper>
         </a>
         <span>Previous Post</span>
-        <a href="#" class="prev-link" rel="prev">Healthy Breakfast For Cute Girl</a>
+        <a href="#" class="prev-link" rel="prev">Essay on the Trinity</a>
       </div>
       <div class="nav-next">
         <a href="#" class="image-link">
-          <img src="~/assets/img/astrif-post-entry-07.jpg">
+          <ImageWrapper :src="`article_assets/Dalailama1_20121014_4639.jpg`" :alt="``" :width="90" :height="90"></ImageWrapper>
         </a>
         <span>Next Post</span>
-        <a href="#" class="next-link" rel="next">Gelato in 'omah gelato' will punch you hard!</a>
+        <a href="#" class="next-link" rel="next">Developing a Good Heart</a>
       </div>
     </div>
   </nav>
@@ -22,9 +22,11 @@
 </template>
 
 <script>
-export default {
-  name: "Navigation"
-};
+  import ImageWrapper from '~/components/images/ImageWrapper';
+  export default {
+    components: { ImageWrapper },
+    name: "Navigation"
+  };
 </script>
 
 <style scoped>

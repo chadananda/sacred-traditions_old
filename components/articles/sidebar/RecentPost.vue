@@ -5,7 +5,7 @@
     </h2>
     <ul>
       <li v-for="link in links" :key="link.id">
-        <a :href="link.path">{{link.title}}</a>
+        <a :href="`/articles/${link.path}`">{{link.title}}</a>
         <span class="post-date">{{link.postdate}}</span>
       </li>
     </ul>
@@ -19,33 +19,33 @@ export default {
       links: [
         {
           id: 1,
-          path: "single.html",
-          title: "Best beef burger in this city, I had met",
-          postdate: "August 14, 2016"
+          path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
+          title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          postdate: "September 7, 2016"
         },
         {
           id: 2,
-          path: "single.html",
-          title: "Fruit salad made from Black Autumn Royal grapes",
-          postdate: "September 25, 2016"
+          path: "2016-08-14-on-enlightening-the-mind",
+          title: "On Enlightening the Mind",
+          postdate: "August 23, 2016"
         },
         {
           id: 3,
-          path: "single.html",
-          title: "How to make nasi goreng seafood pedas",
-          postdate: "June 16, 2016"
+          path: "2016-08-02-be-like-adams-son",
+          title: "Be Like Adam’s Son",
+          postdate: "August 2, 2016"
         },
         {
           id: 4,
-          path: "single.html",
-          title: "All you need is gelato, yeey!",
-          postdate: "May 8, 2016"
+          path: "2016-03-11-essay-on-the-trinity",
+          title: "Essay on the Trinity",
+          postdate: "March 11, 2016"
         },
         {
           id: 5,
-          path: "single.html",
-          title: "Healthy breakfast for cute girle",
-          postdate: "April 27, 2016"
+          path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
+          title: "Developing a Good Heart",
+          postdate: "November 18, 2018"
         }
       ]
     };
