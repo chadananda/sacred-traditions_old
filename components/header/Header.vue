@@ -10,9 +10,9 @@
           </div>
           <!-- .col-md-3 -->
           <div class="col-md-6">
-            <!-- <h1 class="site-title"><a href="index.html" rel="home">Astrif.</a></h1> -->
+            <!-- <h1 class="site-title"><a href="/" rel="home">Astrif.</a></h1> -->
             <!-- <h1 class="site-title title-image"> -->
-            <a href="index.html" rel="home">
+            <a href="/" rel="home">
               <img src="/logo2.svg" alt="home" class="title-image">
             </a>
             <!-- </h1> -->

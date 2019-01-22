@@ -3,7 +3,7 @@
         <h1 class="entry-title">How to Make Mak-Nyuss Baked Potatoes Stick Recipes From Deanda</h1>
         <div class="entry-meta">
       <span class="posted-on">
-        <a href="single.html" rel="bookmark">
+        <a href="single/" rel="bookmark">
           <time class="entry-date" datetime="2016-09-07">Sept 07, 2016</time>
         </a>
       </span>
@@ -16,7 +16,7 @@
             <!-- .entry-cat -->
             <span class="entry-cat">
         <span class="cat-link">
-          <a href="category.html">Tips</a>
+          <a href="categories/">Tips</a>
         </span>
       </span>
             <!-- .entry-cat -->

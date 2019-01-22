@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       links: [
-        { id: 1, path: "category.html", content: "Bramachari" },
-        { id: 2, path: "category.html", content: "adipiscing" },
-        { id: 3, path: "category.html", content: "enlightening" },
-        { id: 4, path: "category.html", content: "disputes" },
-        { id: 5, path: "category.html", content: "trinity" },
-        { id: 6, path: "category.html", content: "heart" }
+        { id: 1, path: "categories/", content: "Bramachari" },
+        { id: 2, path: "categories/", content: "adipiscing" },
+        { id: 3, path: "categories/", content: "enlightening" },
+        { id: 4, path: "categories/", content: "disputes" },
+        { id: 5, path: "categories/", content: "trinity" },
+        { id: 6, path: "categories/", content: "heart" }
       ]
     };
   }

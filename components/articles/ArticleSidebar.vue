@@ -19,7 +19,7 @@
         <WidgetPopularEntries/>
         <!-- /.astrif_widget_popular_entries -->
         <!-- .astrif_widget_text -->
-        <Advertisment :image="require('~/assets/img/astrif-sidebar-banner.jpg')" url="index.html"/>
+        <Advertisment :image="require('~/assets/img/astrif-sidebar-banner.jpg')" url="/"/>
         <!-- /.astrif_widget_text -->
         <!-- .widget_recent_entries -->
         <RecentPost/>
