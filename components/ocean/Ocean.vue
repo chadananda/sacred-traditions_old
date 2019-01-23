@@ -165,11 +165,11 @@ export default {
     getOS: function () {
       var os = null;
       var exprs = {
-        windows: [/\bWindows|(Win\d\d)\b/, /\bWin 9x\b/],
         ios    : [/\biPad\b/, /\biPhone\b/, /\biPod\b/],
+        android: [/\bAndroid\b/],
+        windows: [/\bWindows|(Win\d\d)\b/, /\bWin 9x\b/],
         mac    : [/\bMac OS\b/],
-        linux  : [/\bLinux\b/],
-        android: [/\bAndroid\b/]
+        linux  : [/\bLinux\b/]
       };
 
       Object.keys(exprs).every(function (key) {
