@@ -17,11 +17,11 @@ module.exports = {
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js', type: 'text/javascript' },
-      { src: 'plugins/imagesloaded.pkgd.min.js', type: 'text/javascript' },
-      { src: 'plugins/owl.carousel.min.js', type: 'text/javascript' },
-      { src: 'plugins/masonry.pkgd.min.js', type: 'text/javascript' },
-      { src: 'js/navigation.js', type: 'text/javascript' },
-      { src: 'js/skip-link-focus-fix.js', type: 'text/javascript' },
+      { src: '/plugins/imagesloaded.pkgd.min.js', type: 'text/javascript' },
+      { src: '/plugins/owl.carousel.min.js', type: 'text/javascript' },
+      { src: '/plugins/masonry.pkgd.min.js', type: 'text/javascript' },
+      { src: '/js/navigation.js', type: 'text/javascript' },
+      { src: '/js/skip-link-focus-fix.js', type: 'text/javascript' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
