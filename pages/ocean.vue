@@ -1,5 +1,5 @@
 <template>
-  <Ocean :CDNUrl="CDNUrl" :artifacts="artifacts"/>
+  <Ocean :artifacts="artifacts"/>
 </template>
 
 <script>
@@ -19,12 +19,12 @@ export default {
         {"name": "theme-color", "content": "#ffffff"}
       ],
       "link": [
-        {"rel": "stylesheet", "href": this.CDNUrl + "pages/styles/main.css"},
-        {"rel": "apple-touch-icon", "sizes": "180x180", "href": this.CDNUrl + "pages/favicon/apple-touch-icon.png"},
-        {"rel": "icon", "type": "image/png", "sizes": "32x32", "href": this.CDNUrl + "pages/favicon/favicon-32x32.png"},
-        {"rel": "icon", "type": "image/png", "sizes": "16x16", "href": this.CDNUrl + "pages/favicon/favicon-16x16.png"},
-        {"rel": "manifest", "href": this.CDNUrl + "pages/favicon/site.webmanifest"},
-        {"rel": "mask-icon", "href": this.CDNUrl + "pages/favicon/safari-pinned-tab.svg", "color": "#5bbad5"},
+        {"rel": "stylesheet", "href": "/ocean_assets/styles/main.css"},
+        {"rel": "apple-touch-icon", "sizes": "180x180", "href": "/ocean_assets/favicon/apple-touch-icon.png"},
+        {"rel": "icon", "type": "image/png", "sizes": "32x32", "href": "/ocean_assets/favicon/favicon-32x32.png"},
+        {"rel": "icon", "type": "image/png", "sizes": "16x16", "href": "/ocean_assets/favicon/favicon-16x16.png"},
+        {"rel": "manifest", "href": "/ocean_assets/favicon/site.webmanifest"},
+        {"rel": "mask-icon", "href": "/ocean_assets/favicon/safari-pinned-tab.svg", "color": "#5bbad5"},
         {"rel": "msapplication-TileColor", "content": "#00aba9"},
         {"rel": "theme-color", "content": "#ffffff"}
       ]
@@ -36,7 +36,6 @@ export default {
   },
   data: function () {
     return {
-      CDNUrl: 'https://dnmxza13qkhgr.cloudfront.net/',
       artifacts: {
         windows:  'https://ocean-download.dev2.us/win32_setup.exe',
         mac:      'https://ocean-download.dev2.us/mac_setup.pkg',

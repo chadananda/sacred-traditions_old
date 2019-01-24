@@ -3,7 +3,7 @@
   <section class="promo">
      <div class="container">
         <div class="logo">
-           <img :src="CDNUrl + 'pages/images/ocean_logo.svg'" />
+           <img src="/ocean_assets/images/ocean_logo.svg" />
            <div>Ocean 2.0 Reader
               <span>Interfaith Library</span>
            </div>
@@ -22,37 +22,37 @@
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <img :src="CDNUrl + 'pages/images/icon_android_button.svg'" /> Get for
+                <img src="/ocean_assets/images/icon_android_button.svg" /> Get for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <img :src="CDNUrl + 'pages/images/icon_ios_button.svg'" /> Get for
+                <img src="/ocean_assets/images/icon_ios_button.svg" /> Get for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <img :src="CDNUrl + 'pages/images/icon_subtract_button.svg'" /> Get for
+                <img src="/ocean_assets/images/icon_subtract_button.svg" /> Get for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <img :src="CDNUrl + 'pages/images/icon_linux_button.svg'" /> Get for
+                <img src="/ocean_assets/images/icon_linux_button.svg" /> Get for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <img :src="CDNUrl + 'pages/images/icon_windows_button.svg'" /> Get for
+                <img src="/ocean_assets/images/icon_windows_button.svg" /> Get for
                 <span> Windows</span>
               </a>
               <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><img :src="CDNUrl + 'pages/images/icon_linux.svg'" alt=""></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><img :src="CDNUrl + 'pages/images/icon_android.svg'" alt=""></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><img :src="CDNUrl + 'pages/images/icon_subtract.svg'" alt=""></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><img :src="CDNUrl + 'pages/images/icon_windows.svg'" alt=""></a>
+                 <a v-if="!OS.linux" :href="artifacts.linux"><img src="/ocean_assets/images/icon_linux.svg" alt=""></a>
+                 <a v-if="!OS.android" :href="artifacts.android"><img src="/ocean_assets/images/icon_android.svg" alt=""></a>
+                 <a v-if="!OS.mac" :href="artifacts.mac"><img src="/ocean_assets/images/icon_subtract.svg" alt=""></a>
+                 <a v-if="!OS.windows" :href="artifacts.windows"><img src="/ocean_assets/images/icon_windows.svg" alt=""></a>
               </div>
            </div>
         </div>
         <div class="img-promo">
-           <img :src="CDNUrl + 'pages/images/promo.png'" class="big-img"/>
-           <img :src="CDNUrl + 'pages/images/promo_portret.png'" class="md-img"/>
-           <img :src="CDNUrl + 'pages/images/promo_sm.png'" class="sm-img"/>
+           <img src="/ocean_assets/images/promo.png" class="big-img"/>
+           <img src="/ocean_assets/images/promo_portret.png" class="md-img"/>
+           <img src="/ocean_assets/images/promo_sm.png" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -62,7 +62,7 @@
         <div class="about-content">
            <div class="icons-block">
               <div class="icons icon-read">
-                 <img :src="CDNUrl + 'pages/images/icon_open_book.svg'" />
+                 <img src="/ocean_assets/images/icon_open_book.svg" />
               </div>
               <h3>Read</h3>
               <span>The Ocean library contains a proofread collection of the world’s great religious classics.</span>
@@ -70,7 +70,7 @@
            </div>
            <div class="icons-block">
               <div class="icons icon-read">
-                 <img :src="CDNUrl + 'pages/images/icon_headphones.svg'" />
+                 <img src="/ocean_assets/images/icon_headphones.svg" />
               </div>
               <h3>Listen</h3>
               <span>Each book is word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
@@ -78,7 +78,7 @@
            </div>
            <div class="icons-block">
               <div class="icons icon-read">
-                 <img :src="CDNUrl + 'pages/images/icon_search.svg'" />
+                 <img src="/ocean_assets/images/icon_search.svg" />
               </div>
               <h3>Search</h3>
               <span>Full text search across thousands of books, articles and website resources.</span>
@@ -95,8 +95,8 @@
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
-           <img :src="CDNUrl + 'pages/images/1.png'" class="big-img"/>
-           <img :src="CDNUrl + 'pages/images/1_sm.png'" class="sm-img"/>
+           <img src="/ocean_assets/images/1.png" class="big-img"/>
+           <img src="/ocean_assets/images/1_sm.png" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -108,8 +108,8 @@
               you can still search, but only through non copyright-encumbered library books.</span>
         </div>
         <div class="images-wrapper">
-           <img :src="CDNUrl + 'pages/images/2.png'"  class="big-img" />
-           <img :src="CDNUrl + 'pages/images/2_sm.png'" class="sm-img"/>
+           <img src="/ocean_assets/images/2.png"  class="big-img" />
+           <img src="/ocean_assets/images/2_sm.png" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -122,8 +122,8 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img :src="CDNUrl + 'pages/images/3.png'"  class="big-img" />
-           <img :src="CDNUrl + 'pages/images/3_sm.png'" class="sm-img"/>
+           <img src="/ocean_assets/images/3.png"  class="big-img" />
+           <img src="/ocean_assets/images/3_sm.png" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -135,8 +135,8 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img :src="CDNUrl + 'pages/images/4.png'"  class="big-img" />
-           <img :src="CDNUrl + 'pages/images/4_sm.png'" class="sm-img"/>
+           <img src="/ocean_assets/images/4.png"  class="big-img" />
+           <img src="/ocean_assets/images/4_sm.png" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -149,7 +149,7 @@
 
 <script>
 export default {
-  props: ['CDNUrl', 'artifacts'],
+  props: ['artifacts'],
   mounted: function () {
     var os = this.getOS();
     this.link = this.artifacts[os];
