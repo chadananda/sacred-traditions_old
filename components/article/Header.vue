@@ -1,10 +1,10 @@
 <template>
     <div class="entry-header">
-        <h1 class="entry-title">How to Make Mak-Nyuss Baked Potatoes Stick Recipes From Deanda</h1>
+        <h1 class="entry-title"></h1>
         <div class="entry-meta">
       <span class="posted-on">
         <a href="single/" rel="bookmark">
-          <time class="entry-date" datetime="2016-09-07">Sept 07, 2016</time>
+          <time class="entry-date" datetime="2016-09-07">Sept 07, 2019</time>
         </a>
       </span>
             <!-- .posted-on -->
