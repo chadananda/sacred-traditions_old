@@ -40,34 +40,9 @@
         </div>
         <div class="instagram-widget">
           <ul>
-            <li>
+            <li v-for="article in articles">
               <a href>
-                <ImageWrapper :src="`article_assets/Dhirendra-Brahmachari.jpeg`" :alt="``" :width="300" :height="300"></ImageWrapper>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <ImageWrapper :src="`article_assets/spirituality-4.jpg`" :alt="``" :width="300" :height="300"></ImageWrapper>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <ImageWrapper :src="`article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg`" :alt="``" :width="300" :height="300"></ImageWrapper>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <ImageWrapper :src="`article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg`" :alt="``" :width="300" :height="300"></ImageWrapper>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <ImageWrapper :src="`article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png`" :alt="``" :width="300" :height="300"></ImageWrapper>
-              </a>
-            </li>
-            <li>
-              <a href>
-                <ImageWrapper :src="`article_assets/Dalailama1_20121014_4639.jpg`" :alt="``" :width="300" :height="300"></ImageWrapper>
+                <ImageWrapper :src="article.img" :alt="``" :width="300" :height="300"></ImageWrapper>
               </a>
             </li>
           </ul>
@@ -110,6 +85,42 @@
             console.log(e.message);
           })
         }
+    },
+    data() {
+      return {
+        articles: [
+          {
+            id: 1,
+            img: "article_assets/Dhirendra-Brahmachari.jpeg"
+          },
+          {
+            id: 2,
+            img: "article_assets/spirituality-4.jpg"
+          },
+          {
+            id: 3,
+            img: "article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg"
+          },
+          {
+            id: 4,
+            img: "article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg"
+          },
+          {
+            id: 5,
+            img: "article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png"
+          },
+          {
+            id: 6,
+            img: "article_assets/Dalailama1_20121014_4639.jpg"
+          },
+        ]
+      }
     }
   }
 </script>
+
+<style scoped>
+  .instagram-follow {
+    left: 49%!important;
+  }
+</style>
