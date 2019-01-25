@@ -64,6 +64,7 @@ module.exports = {
     middleware: ['router-auth', 'i18n']
   },
 
+
   /*
   ** Nuxt.js modules
   */

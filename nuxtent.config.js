@@ -40,9 +40,18 @@ module.exports = {
     generate: [ 'get', 'getAll' ]
    }],
  ],
+
+
+//  api: {
+//   baseURL: 'http://localhost:1844',
+//   browserBaseURL: 'https://sacred-traditions.org'
+//  },
+
+
  api: isStatic => {
    return {
      browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
+     baseURL: 'http://localhost:1844',
    }
  },
  parsers: {

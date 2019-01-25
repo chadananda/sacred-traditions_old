@@ -1,20 +1,21 @@
 {
   "name": "astrif",
-  "version": "1.0.0",
-  "description": "Bootstrap Nuxt App",
-  "author": "Chad",
+  "version": "1.0.1",
+  "description": "Sacred Traditions Website",
+  "author": "Chad Jones",
   "private": true,
   "scripts": {
     "dev": "nuxt --port 1844",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "generate": "STATIC=true nuxt generate",
+    "deploy": "STATIC=true nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^4.5.2",
+    "@dinamomx/nuxtent": "^3.0.1",
+    "@nuxtjs/axios": "4.5.2",
     "ajv": "^6.6.2",
     "base62": "^2.0.0",
     "bootstrap": "^3.4.0",
