@@ -7,26 +7,21 @@
     <div class="entry-area">
       <div class="entry-header">
         <h2 class="entry-title">
-          <a
-            :href="type === 'articles' ? article.permalink : `/articles/${article.path}`"
-            rel="bookmark"
-          >{{article.title}}</a>
+          <nuxt-link :to="arHref" rel="bookmark">{{article.title}}</nuxt-link>
         </h2>
         <div class="entry-meta">
           <span class="posted-on">
-            <a
-              :href="type === 'articles' ? article.permalink : `/articles/${article.path}`"
-              rel="bookmark"
-            >
+            <nuxt-link :to="arHref" rel="bookmark">
               <time
                 class="entry-date"
                 :datetime="article.pubdate"
               >{{ new Date(article.pubdate).toLocaleDateString("en-US", {year:'numeric',month:'short',day:'numeric'}) }}</time>
-            </a>
+            </nuxt-link>
           </span>
           <span class="entry-cat">
             <span class="cat-link">
-              <a :href="`/category/${article.category}`">{{article.category}}</a>
+              <nuxt-link :to="`/category/${article.category}`" rel="bookmark">{{article.category}}</nuxt-link>
+              <!-- <a :href="`/category/${article.category}`">{{article.category}}</a> -->
             </span>
           </span>
           <span class="entry-like">
@@ -40,13 +35,10 @@
       <div class="entry-content">
         <p>
           {{article.snip}}...
-          <a
-            :href="type === 'articles' ? article.permalink : `/articles/${article.path}`"
-            class="more-link"
-          >
+          <nuxt-link :to="arHref" class="more-link">
             <span class="moretext">Read more</span>
             <span class="screen-reader-text">{{article.title}}</span>
-          </a>
+          </nuxt-link>
         </p>
       </div>
     </div>
@@ -57,6 +49,11 @@
   import ImageWrapper from '~/components/images/ImageWrapper'
   export default {
     components: { ImageWrapper },
-    props: ["article", "type"]
+    props: ["article", "type"],
+    data: function () {
+      return {
+        arHref: this.article.permalink ? this.article.permalink : `/articles/${this.article.path}`
+      }
+    }
   };
 </script>
