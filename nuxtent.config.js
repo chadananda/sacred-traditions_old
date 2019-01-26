@@ -6,8 +6,7 @@ module.exports = {
    ["articles", {
      page: '/articles/_article',
      permalink: 'articles/:slug',
-     isPost: false,
-     generate: [ 'get', 'getAll' ]
+     isPost: false
    }],
    ["narration", {
     page: '/_narration',
@@ -48,12 +47,18 @@ module.exports = {
 //  },
 
 
- api: isStatic => {
-   return {
-     browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
-     baseURL: 'http://localhost:1844',
-   }
- },
+ // api: isStatic => {
+ //   return {
+ //     browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
+ //     baseURL: 'http://localhost:1844',
+ //   }
+ // },
+
+    api: {
+        baseURL: process.env.NODE_ENV === 'production'
+            ? 'https://sacred-traditions.org'
+            : 'http://localhost:1844'
+    },
  parsers: {
    md: {
      extend(config) {
