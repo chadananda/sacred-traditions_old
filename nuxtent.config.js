@@ -54,10 +54,10 @@ module.exports = {
  //   }
  // },
 
-    api: {
-        baseURL: process.env.NODE_ENV === 'production'
-            ? 'https://sacred-traditions.org'
-            : 'http://localhost:1844'
+    api: isStatic => {
+        return {
+            browserBaseURL: isStatic ? 'https://sacred-traditions.org' : '',
+        }
     },
  parsers: {
    md: {

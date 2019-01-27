@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt --port 1844",
-    "build": "NODE_ENV='production' nuxt build",
-    "start": "NODE_ENV='production' nuxt start",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "generate": "STATIC=true nuxt generate",
     "deploy": "STATIC=true nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
