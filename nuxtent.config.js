@@ -5,7 +5,7 @@ module.exports = {
  content: [
    ["articles", {
      page: '/articles/_article',
-     permalink: 'articles/:slug',
+     permalink: '/articles/:slug',
      isPost: false
    }],
    ["narration", {
