@@ -1,5 +1,4 @@
 const Prism = require('prismjs');
-const externalLinks = require('markdown-it-link-attributes');
 
 module.exports = {
  content: [
@@ -41,44 +40,20 @@ module.exports = {
    }],
  ],
 
-
-//  api: {
-//   baseURL: 'http://localhost:1844',
-//   browserBaseURL: 'https://sacred-traditions.org'
-//  },
-
-
- // api: isStatic => {
- //   return {
- //     browserBaseURL: isStatic ? 'https://sacred-traditions' : '',
- //     baseURL: 'http://localhost:1844',
- //   }
- // },
-
-    api: isStatic => {
-        return {
-            browserBaseURL: isStatic ? 'https://sacred-traditions.org' : '',
+    parsers: {
+        md: {
+            extend(config) {
+                config.highlight = (code, lang) => {
+                    return `<pre class="language-${lang}"><code class="language-${lang}">${Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup)}</code></pre>`
+                }
+            }
         }
     },
- parsers: {
-   md: {
-     extend(config) {
-       config.highlight = (code, lang) => {
-         return Prism.highlight(
-           code,
-           Prism.languages[lang] || Prism.languages.markup
-         )
-       }
-     },
-     plugins: [
-       [
-         externalLinks,
-         {
-           target: '_blank',
-           rel: 'noopener'
-         }
-       ]
-     ]
-   }
- }
+
+    api: function(isStatic) {
+        return {
+            baseURL: 'http://localhost:1844',
+            browserBaseURL: isStatic ? 'https://sacred-traditions.org' : ''
+        }
+    }
 };
