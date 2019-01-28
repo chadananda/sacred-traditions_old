@@ -6,7 +6,8 @@ module.exports = {
    ["articles", {
      page: '/articles/_article',
      permalink: '/articles/:slug',
-     isPost: false
+     isPost: false,
+     generate: [ 'get', 'getAll' ]
    }],
    ["narration", {
     page: '/_narration',
