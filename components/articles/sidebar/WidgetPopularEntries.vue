@@ -42,7 +42,7 @@
     data() {
       const _articles = this.articles.slice(0, 5);
       _articles.sort((a, b) => {
-        return b.likes - a.likes; // sort by descending
+        return b.likes - a.likes; // sort articles by likes
       });
       return { links: _articles }
     }
