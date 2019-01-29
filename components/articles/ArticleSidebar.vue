@@ -16,7 +16,7 @@
         <Follow/>
         <!-- /.astrif_widget_follow_me -->
         <!-- .astrif_widget_popular_entries -->
-        <WidgetPopularEntries/>
+        <WidgetPopularEntries :articles="_articles"/>
         <!-- /.astrif_widget_popular_entries -->
         <!-- .astrif_widget_text -->
         <Advertisment :image="require('~/assets/img/astrif-sidebar-banner.jpg')" url="/"/>
@@ -50,7 +50,7 @@ import Categories from "~/components/articles/sidebar/Categories";
 import Tags from "~/components/articles/sidebar/Tags";
 
 export default {
-  props: ["listStyle", "articleCount"],
+  props: ["_articles", "articleCount"],
   components: {
     ArticleSummary,
     ArticleSummaryFirst,

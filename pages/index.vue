@@ -9,7 +9,7 @@
         </div>
       </div>
       <!-- .col-md-8 -->
-      <ArticleSidebar/>
+      <ArticleSidebar :_articles="articlesByLang"/>
     </div>
   </Wrapper>
 </template>
