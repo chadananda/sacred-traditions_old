@@ -3,6 +3,7 @@ title: "Thomas Merton Memoirs about Interfaith"
 author: "Thomas Merton"
 pubdate: 2016-10-27
 language: it
+likes: 19
 tags: sit amet, consectetur
 img: article_assets/Dhirendra-Brahmachari.jpeg
 category: Bramachari

@@ -3,6 +3,7 @@ title: "Be Like Adam’s Son"
 author: "Jawdat Sa’eed"
 pubdate: 2016-08-02
 language: it
+likes: 31
 tags: sit amet, consectetur
 img: article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg
 category: disputes

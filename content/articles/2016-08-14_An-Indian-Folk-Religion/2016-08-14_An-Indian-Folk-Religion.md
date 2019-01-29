@@ -3,6 +3,7 @@ title: "An Indian Folk Religion"
 author: "Rabindranath Tagore"
 pubdate: 2016-08-14
 language: en
+likes: 12
 tags: sit amet, consectetur
 img: article_assets/46122bc4dca93e61413c2e750ca0974b.jpg
 category: buddhism

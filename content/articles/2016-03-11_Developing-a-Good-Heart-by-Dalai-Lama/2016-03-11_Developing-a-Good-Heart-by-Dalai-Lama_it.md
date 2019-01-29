@@ -3,6 +3,7 @@ title: "Developing a Good Heart"
 author: "Dalai Lama"
 pubdate: 2018-11-18
 language: it
+likes: 100
 tags: sit amet, consectetur
 img: article_assets/Dalailama1_20121014_4639.jpg
 category: heart

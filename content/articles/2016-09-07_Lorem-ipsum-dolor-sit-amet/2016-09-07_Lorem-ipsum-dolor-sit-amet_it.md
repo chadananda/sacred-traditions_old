@@ -3,6 +3,7 @@ title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Virginia Woolf"
 pubdate: 2016-09-07
 language: it
+likes: 95
 tags: sit amet, consectetur
 img: article_assets/spirituality-4.jpg
 category: adipiscing

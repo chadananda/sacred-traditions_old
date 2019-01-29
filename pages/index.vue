@@ -4,7 +4,7 @@
       <!-- articles -->
       <div class="col-md-8">
         <div class="site-entry">
-          <RecentArticles/>
+          <RecentArticles :_articles="articlesByLang"/>
           <Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>
         </div>
       </div>
@@ -22,7 +22,22 @@ import Pagination from "~/components/pagination/Pagination";
 
 export default {
   components: { Wrapper, RecentArticles, ArticleSidebar, Pagination },
-
+  asyncData: async ( { app } ) => {
+    return {
+      articles: await app.$content('/articles').query({ exclude: ['body'] }).getAll()
+    }
+  },
+  computed: {
+    articlesByLang() {
+      const articles = [];
+      this.articles.forEach(article => {
+        if (article.language === 'en') {
+          articles.push(article);
+        }
+      });
+      return articles;
+    }
+  },
   data() {
     return {
       title: "Sacred Traditions Interfaith Project"

@@ -3,6 +3,7 @@ title: "On Enlightening the Mind"
 author: "Moses Mendelssohn"
 pubdate: 2016-08-14
 language: it
+likes: 33
 tags: sit amet, consectetur
 img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
 category: enlightening

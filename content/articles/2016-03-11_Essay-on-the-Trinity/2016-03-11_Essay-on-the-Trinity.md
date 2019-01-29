@@ -3,6 +3,7 @@ title: "Essay on the Trinity"
 author: "Jonathan Edwards"
 pubdate: 2016-03-11
 language: en
+likes: 74
 tags: sit amet, consectetur
 img: article_assets/2000px-Society_of_Our_Lady_of_the_Most_Holy_Trinity_badge.svg.png
 category: trinity
