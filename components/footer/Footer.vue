@@ -79,7 +79,7 @@
     components: { ImageWrapper },
     computed: {
       getArticles() {
-        const articles = this.$store.state.articles;
+        const articles = this.$store.getters.getArticles;
         return articles.slice(0, 6);
       }
     },
