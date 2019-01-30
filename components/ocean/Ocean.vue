@@ -16,9 +16,9 @@
               <span class="text-header">Listen</span>
               <span class="text-header">Search</span>
            </h2>
-           <div class="text-content">Ocean Reader is a custom ebook reader specialized for exploration of the world’s shared heritage of religious
-              literature. It is intended to be used by students for exploring the literary treasures of the world’s scriptural
-              traditions.
+           <div class="text-content">Ocean Reader is a custom ebook reader specialized for exploration of the world’s
+              shared heritage of religious
+              literature. It is intended to be used by students for exploring the literary treasures of the world’s scriptural traditions.
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
@@ -46,6 +46,7 @@
                  <a v-if="!OS.android" :href="artifacts.android"><img src="/ocean_assets/images/icon_android.svg" alt=""></a>
                  <a v-if="!OS.mac" :href="artifacts.mac"><img src="/ocean_assets/images/icon_subtract.svg" alt=""></a>
                  <a v-if="!OS.windows" :href="artifacts.windows"><img src="/ocean_assets/images/icon_windows.svg" alt=""></a>
+                 <a v-if="!OS.ios" :href="artifacts.ios"><img src="/ocean_assets/images/icon_ios.svg" alt="" class="applelogo"></a>
               </div>
            </div>
         </div>
@@ -188,6 +189,11 @@ export default {
 </script>
 
 <style scoped>
+
+  img.applelogo {
+    width: 40px;
+  }
+
   .container {
     padding: 0;
   }
@@ -200,7 +206,7 @@ export default {
     top: 0;
     margin-top: -5px;
   }
-  
+
   h1,
   h2,
   h3,
