@@ -31,13 +31,15 @@
       </div>
       <!-- .footer-subscribe -->
       <!-- footer instagram -->
+
       <div class="footer-instagram">
-        <div class="instagram-title">
+        <!-- <div class="instagram-title">
           <h3>insta
             <i class="fa fa-instagram"></i> gram
           </h3>
           <span class="instagram-subtitle">Follow our Projects</span>
-        </div>
+        </div> -->
+        <br><br>
         <div class="instagram-widget">
           <ul>
             <li v-for="article in getArticles">
@@ -46,16 +48,16 @@
               </a>
             </li>
           </ul>
-          <!--<FooterImages :footer_images="images"/>-->
-          <p class="instagram-follow">
+          <!-- <p class="instagram-follow">
             <a
               href="http://instagram.com/sacredtraditions"
               target="_blank"
               class="btn btn-default"
             >@sacredtraditions</a>
-          </p>
+          </p> -->
         </div>
       </div>
+
       <!-- .footer-instagram -->
     </footer>
     <!-- #site-footer -->

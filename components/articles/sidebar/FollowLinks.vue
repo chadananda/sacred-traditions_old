@@ -1,7 +1,7 @@
 <template>
   <section class="widget astrif_widget_follow_me">
     <h2 class="widget-title">
-      <span>Follow me</span>
+      <span>Follow us</span>
     </h2>
     <div class="follow-me">
       <ul class="social-icon social-icon-color">
@@ -20,10 +20,10 @@ export default {
   data() {
     return {
       links: [
-        { id: 1, icon: "twitter" },
+        // { id: 1, icon: "twitter" },
         { id: 2, icon: "facebook" },
-        { id: 3, icon: "instagram" },
-        { id: 4, icon: "pinterest" },
+        // { id: 3, icon: "instagram" },
+        // { id: 4, icon: "pinterest" },
         { id: 5, icon: "youtube" }
       ]
     };

@@ -3,33 +3,26 @@
     <!-- sidebar -->
     <div class="col-md-4">
       <div class="site-sidebar">
+
         <!-- search component -->
-        <SidebarSearch/>
-        <!-- /search component -->
+        <!-- <SidebarSearch/> -->
+
+        <!-- Ocean ad -->
+        <Advertisment :image="require('~/assets/img/ocean-promo.png')" url="/ocean"/>
+
         <!-- about component -->
         <About
-          :image="require('~/assets/img/astrif-about.jpg')"
-          description="I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
+          :image="require('~/assets/img/world_religions.jpg')"
+          description="Should interfaith be limited to mutual tolerance? What if we instead look at other Faiths with a sense of appreciation and wonder, diving into their sacred teachings with an open mind eager to understand God’s greater plan for all his children?"
         />
+
+
         <!-- /about component -->
-        <!-- .astrif_widget_follow_me -->
         <Follow/>
-        <!-- /.astrif_widget_follow_me -->
-        <!-- .astrif_widget_popular_entries -->
         <WidgetPopularEntries :articles="_articles"/>
-        <!-- /.astrif_widget_popular_entries -->
-        <!-- .astrif_widget_text -->
-        <Advertisment :image="require('~/assets/img/ocean-promo.png')" url="/ocean"/>
-        <!-- /.astrif_widget_text -->
-        <!-- .widget_recent_entries -->
         <RecentPost/>
-        <!-- /.widget_recent_entries -->
-        <!-- .widget_categories -->
         <Categories/>
-        <!-- .widget_categories -->
-        <!-- .widget_tag_cloud -->
         <Tags/>
-        <!-- /.widget_tag_cloud -->
       </div>
       <!-- .site-sidebar -->
     </div>
