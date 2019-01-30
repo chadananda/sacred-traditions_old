@@ -7,11 +7,11 @@
     <div class="entry-area">
       <div class="entry-header">
         <h2 class="entry-title">
-          <nuxt-link :to="arHref" rel="bookmark">{{article.title}}</nuxt-link>
+          <nuxt-link :to="ar_link" rel="bookmark">{{article.title}}</nuxt-link>
         </h2>
         <div class="entry-meta">
           <span class="posted-on">
-            <nuxt-link :to="arHref" rel="bookmark">
+            <nuxt-link :to="ar_link" rel="bookmark">
               <time
                 class="entry-date"
                 :datetime="article.pubdate"
@@ -21,7 +21,6 @@
           <span class="entry-cat">
             <span class="cat-link">
               <nuxt-link :to="`/category/${article.category}`" rel="bookmark">{{article.category}}</nuxt-link>
-              <!-- <a :href="`/category/${article.category}`">{{article.category}}</a> -->
             </span>
           </span>
           <span class="entry-like">
@@ -35,7 +34,7 @@
       <div class="entry-content">
         <p>
           {{article.snip}}...
-          <nuxt-link :to="arHref" class="more-link">
+          <nuxt-link :to="ar_link" class="more-link">
             <span class="moretext">Read more</span>
             <span class="screen-reader-text">{{article.title}}</span>
           </nuxt-link>
@@ -52,7 +51,7 @@
     props: ["article", "type"],
     data: function () {
       return {
-        arHref: this.article.permalink ? this.article.permalink : `/articles/${this.article.path}`
+        ar_link: this.article.permalink ? this.article.permalink : `/articles/${this.article.path}`
       }
     }
   };
