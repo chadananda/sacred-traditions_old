@@ -39,13 +39,15 @@
   export default {
     props: ['articles'],
     components: { ImageWrapper },
-
     data() {
       return {
-        links: this.articles.slice().sort((a, b) => b.likes - a.likes).slice(0, 5) // 5 most popular
+        links: this.articles.slice().sort((a,b) => b.likes-a.likes ).slice(0, 5) // 5 most popular
       }
-    }
-};
+    },
+
+
+
+  }
 </script>
 
 <style scoped>
