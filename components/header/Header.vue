@@ -112,17 +112,18 @@ export default {
     return {
       header_links: [
         { url: "/", name: "Home" },
-        { url: "/category", name: "Interfaith Concept" },
+        // { url: "/category", name: "Interfaith Concept" },
         { url: "/project", name: "Projects" },
-        { url: "/idea", name: "Big Ideas" },
+        // { url: "/idea", name: "Big Ideas" },
+        { url: "/ocean", name: "- Ocean 2.0 Reader! - " },
         { url: "/about", name: "About Us" },
         { url: "/contact", name: "Contact" }
       ],
       s_icons: [
-        { href: "", icon: "twitter" },
+        // { href: "", icon: "twitter" },
         { href: "", icon: "facebook" },
-        { href: "", icon: "instagram" },
-        { href: "", icon: "pinterest" },
+        // { href: "", icon: "instagram" },
+        // { href: "", icon: "pinterest" },
         { href: "", icon: "youtube" }
       ]
     };
