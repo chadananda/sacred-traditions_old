@@ -4,7 +4,8 @@ import firebase, {auth, GoogleProvider} from '@/services/fireinit.js'
 const createStore = () => {
     return new Vuex.Store({
         state: {
-            user: null
+            user: null,
+            articles: []
         },
         getters: {
             activeUser: (state, getters) => {
@@ -14,9 +15,15 @@ const createStore = () => {
         mutations: {
             setUser (state, payload) {
                 state.user = payload;
+            },
+            setArticles: (state, payload) => {
+                state.articles = payload;
             }
         },
         actions: {
+            setArticles ({commit}, payload) {
+                commit('setArticles', payload);
+            },
             autoSignIn ({commit}, payload) {
                 commit('setUser', payload)
             },
@@ -35,6 +42,6 @@ const createStore = () => {
             }
         }
     })
-}
+};
 
 export default createStore

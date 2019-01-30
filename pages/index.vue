@@ -35,6 +35,7 @@ export default {
           articles.push(article);
         }
       });
+      this.$store.commit('setArticles', articles);
       return articles;
     }
   },
