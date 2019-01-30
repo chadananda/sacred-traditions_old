@@ -1,10 +1,10 @@
 <template>
   <section class="widget astrif_widget_popular_entries">
     <h2 class="widget-title">
-      <span>Popular Posts (again)</span>
+      <span>Most Popular Articles</span>
     </h2>
     <ul>
-      <li v-for="link in links">
+      <li v-for="(link, index) in links" :key="index">
         <nuxt-link v-if="`${link.permalink}`" :to="`${link.permalink}`" class="popular-entry-thumbnail">
           <ImageWrapper :src="`${link.img}`" :alt="`${link.title}`" :width="130" :height="130"></ImageWrapper>
         </nuxt-link>
@@ -39,12 +39,11 @@
   export default {
     props: ['articles'],
     components: { ImageWrapper },
+
     data() {
-      const _articles = this.articles.slice(0, 5);
-      _articles.sort((a, b) => {
-        return b.likes - a.likes; // sort articles by likes
-      });
-      return { links: _articles }
+      return {
+        links: this.articles.slice().sort((a, b) => b.likes - a.likes).slice(0, 5) // 5 most popular
+      }
     }
 };
 </script>
