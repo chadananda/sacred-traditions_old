@@ -27,8 +27,7 @@
     "nuxt": "^1.0.0",
     "nuxtent": "^1.4.1",
     "object-fit-images": "^3.2.4",
-    "prismjs": "^1.13.0",
-    "vue-i18n": "^8.7.0"
+    "prismjs": "^1.13.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

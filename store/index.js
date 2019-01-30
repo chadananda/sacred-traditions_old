@@ -4,22 +4,7 @@ import firebase, {auth, GoogleProvider} from '@/services/fireinit.js'
 const createStore = () => {
     return new Vuex.Store({
         state: {
-            user: null,
-            locales: [
-                {
-                    code: 'en',
-                    name: 'EN'
-                },
-                {
-                    code: 'de',
-                    name: 'DE'
-                },
-                {
-                    code: 'ru',
-                    name: 'RU'
-                }
-            ],
-            locale: 'en'
+            user: null
         },
         getters: {
             activeUser: (state, getters) => {
@@ -29,11 +14,6 @@ const createStore = () => {
         mutations: {
             setUser (state, payload) {
                 state.user = payload;
-            },
-            SET_LANG(state, locale) {
-                if (state.locales.find(el => el.code == locale)) {
-                    state.locale = locale
-                }
             }
         },
         actions: {

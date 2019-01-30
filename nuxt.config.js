@@ -56,12 +56,11 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-      '~/plugins/fireauth.js',
-      '~/plugins/i18n.js'
+      '~/plugins/fireauth.js'
   ],
 
   router: {
-    middleware: ['router-auth', 'i18n']
+    middleware: ['router-auth']
   },
 
 
@@ -90,7 +89,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vue-i18n'],
     extend (config, { isDev }) {
       if (isDev && process.client) {
         config.module.rules.push({
