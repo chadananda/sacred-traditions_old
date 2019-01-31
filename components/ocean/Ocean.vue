@@ -15,30 +15,31 @@
               <span class="text-header">Read</span>
               <span class="text-header">Listen</span>
               <span class="text-header">Search</span>
+              <span class="text-header">Share</span>
            </h2>
-           <div class="text-content">Ocean is a custom ebook reader specialized for exploration and study of the
+           <div class="text-content">Ocean is a custom ebook reader designed for exploration and study of the
               sacred literature of the world’s religious traditions. It provides a simple cross-platform reading
               experience with an immersive audio-integrated reading experience and usful study and research tools.
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_android_button.svg" /> Get for
+                <img src="/ocean_assets/images/icon_android_button.svg" /> App for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_ios_button.svg" /> Get for
+                <img src="/ocean_assets/images/icon_ios_button.svg" /> App for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_subtract_button.svg" /> Get for
+                <img src="/ocean_assets/images/icon_subtract_button.svg" /> Installer for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_linux_button.svg" /> Get for
+                <img src="/ocean_assets/images/icon_linux_button.svg" /> Installer for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_windows_button.svg" /> Get for
+                <img src="/ocean_assets/images/icon_windows_button.svg" /> Installer for
                 <span> Windows</span>
               </a>
               <div class="links-images">
