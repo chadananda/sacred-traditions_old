@@ -10,7 +10,7 @@
                 <!-- <Article/> -->
                 <nuxt/>
                 <Navigation/>
-                <Authbio/>
+                <!-- <Authbio/> -->
                 <Posts/>
                 <Comments/>
               </div>
