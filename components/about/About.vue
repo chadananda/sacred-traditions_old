@@ -39,12 +39,12 @@ export default {
     return {
       s_icons: [
         { href: "https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/", icon: "facebook" },
-        { href: "", icon: "twitter" },
-        { href: "", icon: "instagram" },
-        { href: "", icon: "google-plus" },
-        { href: "", icon: "linkedin" },
-        { href: "", icon: "pinterest" },
-        { href: "", icon: "dribbble" },
+        // { href: "", icon: "twitter" },
+        // { href: "", icon: "instagram" },
+        // { href: "", icon: "google-plus" },
+        // { href: "", icon: "linkedin" },
+        // { href: "", icon: "pinterest" },
+        // { href: "", icon: "dribbble" },
         { href: "", icon: "youtube" }
       ]
     };
