@@ -11,7 +11,7 @@ export default {
   layout: "ocean",
   head: function () {
     return {
-      "title": "Ocean 2.0 Reader",
+      "title": "Ocean 2.0 Interfaith Reader",
       "meta": [
         {"charset": "utf-8"},
         {"name": "viewport", "content": "width=device-width, initial-scale=1"},
@@ -51,19 +51,7 @@ export default {
     }
   },
 
-  head() {
-    return {
-      title: 'Ocean 2.0 Interfaith Reader',
-      meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {
-          hid: "description",
-          name: "description",
-          content: "Ocean Interfaith Immersive Reading Software"
-        }
-      ]
-    };
-  }
+
 
 };
 </script>
