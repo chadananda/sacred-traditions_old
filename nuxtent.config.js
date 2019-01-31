@@ -52,7 +52,8 @@ module.exports = {
 
     api: function(isStatic) {
         return {
-            baseURL: 'http://localhost:1844',
+            // baseURL: 'http://localhost:1844',
+            baseURL: '',
             browserBaseURL: isStatic ? 'https://sacred-traditions.org' : ''
         }
     }
