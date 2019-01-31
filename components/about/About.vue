@@ -35,7 +35,7 @@
 import IconsWrapper from "~/components/icons/IconsWrapper.vue";
 export default {
   components: { IconsWrapper },
-  data() {
+  data: function() {
     return {
       s_icons: [
         { href: "", icon: "facebook" },

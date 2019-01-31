@@ -40,12 +40,13 @@
           <span class="instagram-subtitle">Follow our Projects</span>
         </div> -->
         <br><br>
+
         <div class="instagram-widget">
           <ul>
-            <li v-for="article in getArticles">
-              <a href>
+            <li v-for="(article, index) in getArticles" :key='index'>
+              <nuxt-link :to="article.permalink">
                 <ImageWrapper :src="article.img" :alt="article.title" :width="300" :height="300"></ImageWrapper>
-              </a>
+              </nuxt-link>
             </li>
           </ul>
           <!-- <p class="instagram-follow">
