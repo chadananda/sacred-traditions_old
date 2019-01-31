@@ -20,7 +20,7 @@
         <!-- /about component -->
         <Follow/>
         <WidgetPopularEntries :articles="_articles"/>
-        <RecentPost/>
+
         <Categories/>
         <Tags/>
       </div>
@@ -38,7 +38,6 @@ import About from "~/components/articles/sidebar/About";
 import Follow from "~/components/articles/sidebar/FollowLinks";
 import WidgetPopularEntries from "~/components/articles/sidebar/WidgetPopularEntries";
 import Advertisment from "~/components/articles/sidebar/Advertisment";
-import RecentPost from "~/components/articles/sidebar/RecentPost";
 import Categories from "~/components/articles/sidebar/Categories";
 import Tags from "~/components/articles/sidebar/Tags";
 
@@ -52,7 +51,7 @@ export default {
     Follow,
     WidgetPopularEntries,
     Advertisment,
-    RecentPost,
+    // RecentPost,
     Categories,
     Tags
   },
