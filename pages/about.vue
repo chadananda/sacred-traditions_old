@@ -18,6 +18,20 @@ import Wrapper from "~/components/wrapper/Wrapper.vue";
 import About from "~/components/about/About.vue";
 export default {
   layout: "other",
-  components: { Wrapper, About }
+  components: { Wrapper, About },
+
+  head() {
+    return {
+      title: 'About Sacred-Traditions.org',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "Sacred Traditions Interfaith Project"
+        }
+      ]
+    };
+  }
 };
 </script>

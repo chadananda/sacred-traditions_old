@@ -9,12 +9,12 @@
                 <!-- article -->
                 <div class="col-md-10 col-md-offset-1">
                   <div class="site-entry">
-              
+
                     <article class="post format-standard hentry">
                       <div class="entry-header">
                         <h1 class="entry-title">Not Found.</h1>
                       </div><!-- .entry-header -->
-                      
+
                       <div class="entry-content">
                       	<div class="row">
                       		<div class="col-md-8 col-md-offset-2 text-center">
@@ -52,7 +52,21 @@
 </template>
 
 <script>
-    export default {
-        layout: 'other'
+  export default {
+    layout: 'other',
+
+    head() {
+      return {
+        title: 'Sacred-Traditions.org - content not found',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: "description",
+            name: "description",
+            content: "Sacred Traditions Interfaith Project - 404"
+          }
+        ]
+      };
     }
+  }
 </script>

@@ -17,6 +17,19 @@ import Wrapper from "~/components/wrapper/Wrapper.vue";
 import Contact from "~/components/contact/Contact.vue";
 export default {
   layout: "other",
-  components: { Wrapper, Contact }
+  components: { Wrapper, Contact },
+  head() {
+    return {
+      title: 'Contact Us',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "Sacred Traditions Interfaith Project -- contact page"
+        }
+      ]
+    };
+  }
 };
 </script>
