@@ -4,8 +4,8 @@
      <div class="container">
         <div class="logo">
            <img src="/ocean_assets/images/ocean_logo.svg" />
-           <div>Ocean 2.0 Reader
-              <span>Interfaith Library</span>
+           <div>Ocean 2.0 Interfaith Reader
+              <span>Immersive Library of the World’s Sacred Literature</span>
            </div>
         </div>
      </div>
@@ -16,9 +16,9 @@
               <span class="text-header">Listen</span>
               <span class="text-header">Search</span>
            </h2>
-           <div class="text-content">Ocean Reader is a custom ebook reader specialized for exploration of the world’s
-              shared heritage of religious
-              literature. It is intended to be used by students for exploring the literary treasures of the world’s scriptural traditions.
+           <div class="text-content">Ocean is a custom ebook reader specialized for exploration and study of the
+              sacred literature of the world’s religious traditions. It provides a simple cross-platform reading
+              experience with an immersive audio-integrated reading experience and usful study and research tools.
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
@@ -66,7 +66,7 @@
                  <img src="/ocean_assets/images/icon_open_book.svg" />
               </div>
               <h3>Read</h3>
-              <span>The Ocean library contains a proofread collection of the world’s great religious classics.</span>
+              <span>The Ocean library contains a vast collection of the world’s great religious classics.</span>
 
            </div>
            <div class="icons-block">
@@ -92,7 +92,7 @@
      <div class="container container-flex">
         <div class="wrapper-text">
            <h2>Read &amp; Listen</h2>
-           <span>Every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
+           <span>Alost every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
@@ -106,7 +106,7 @@
         <div class="wrapper-text">
            <h2>Powerful Full-text Search</h2>
            <span>When online, Ocean can return search results from thousands of books, papers, articles and websites. When offline,
-              you can still search, but only through non copyright-encumbered library books.</span>
+              you can still search, but only in non copyright-encumbered library books.</span>
         </div>
         <div class="images-wrapper">
            <img src="/ocean_assets/images/2.png"  class="big-img" />
@@ -118,8 +118,8 @@
      <div class="container container-flex">
         <div class="wrapper-text">
            <h2>Organize Tags and Notes</h2>
-           <span>Add your own notes, filter and organize notes for presentations or study. In the future you will be able to export
-              and share your notes with others.
+           <span>Add your own notes, filter and organize notes for presentations or study. (Soon you will be able to export
+              and share your notes with others.)
            </span>
         </div>
         <div class="images-wrapper">
@@ -132,7 +132,7 @@
      <div class="container container-flex">
         <div class="wrapper-text">
            <h2>Build and Share Compilations</h2>
-           <span>Extract quotes into subject compilations for later study. Read, listen or share.
+           <span>Extract quotes (with audio) into subject compilations for later study. Read, listen or share your compilations with anyone.
            </span>
         </div>
         <div class="images-wrapper">
@@ -142,7 +142,7 @@
      </div>
   </section>
   <section class="footer">
-     Ocean 2.0 Reader
+     Ocean 2.0 Interfaith Reader
   </section>
 </div>
 </template>
@@ -191,7 +191,7 @@ export default {
 <style scoped>
 
   img.applelogo {
-    width: 40px;
+    width: 35px;
   }
 
   .container {
