@@ -3,7 +3,10 @@
 </template>
 
 <script>
-import Ocean from "~/components/ocean/Ocean.vue";
+
+import Ocean from "~/components/ocean/Ocean.vue"
+
+
 export default {
   layout: "ocean",
   head: function () {
@@ -46,6 +49,21 @@ export default {
         // ios:      'itms-services://?action=download-manifest&url=https://ocean.bahaistudies.org/manifest-https_-ocean.bahaistudies.org-.plist'
       }
     }
+  },
+
+  head() {
+    return {
+      title: 'Ocean 2.0 Interfaith Reader',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "Ocean Interfaith Immersive Reading Software"
+        }
+      ]
+    };
   }
+
 };
 </script>
