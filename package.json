@@ -8,7 +8,7 @@
     "dev": "nuxt --port 1844",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "NODE_ENV='production' IS_STATIC=true nuxt generate",
+    "generate": "NODE_ENV='production' IS_STATIC=true STATIC=true nuxt generate",
     "deploy": "npm run generate && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
