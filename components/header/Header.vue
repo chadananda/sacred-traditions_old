@@ -121,7 +121,7 @@ export default {
       ],
       s_icons: [
         // { href: "", icon: "twitter" },
-        { href: "", icon: "facebook" },
+        { href: "https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/", icon: "facebook" },
         // { href: "", icon: "instagram" },
         // { href: "", icon: "pinterest" },
         { href: "", icon: "youtube" }
