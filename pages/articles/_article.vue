@@ -19,12 +19,9 @@ export default {
   // components: {NuxtentBody},
   components: { ImageWrapper },
 
-  async asyncData({ app, route }) {
+  async asyncData({ app, route, payload }) {
     return {
-      article: await app.$content("articles").get(route.path)
-      // contentPreview: await app.$content('/')
-      //   .query({ exclude: ['attributes', 'body'] })
-      //   .getAll()
+      article: (await app.$content("articles").get(route.path)) || payload
     };
   },
 
