@@ -1,5 +1,6 @@
 <template>
     <div class="related-posts">
+        <template v-if="alsoLikes">
         <div class="section-title">
             <h3>You May Also Like</h3>
         </div>
@@ -24,6 +25,7 @@
                 </div>
             </div>
         </div>
+        </template>
     </div>
 </template>
 
