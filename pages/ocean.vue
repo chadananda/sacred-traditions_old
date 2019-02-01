@@ -151,7 +151,7 @@
 <script>
 
 export default {
-  layout: "ocean",
+  layout: "remove_all_chrome",
   head: function () {
     return {
       "title": "Ocean 2.0 Interfaith Reader",
@@ -162,7 +162,8 @@ export default {
         {"name": "description", "content": ""},
         {"name": "viewport", "content": "width=device-width, initial-scale=1.0"},
         {"name": "msapplication-TileColor", "content": "#00aba9"},
-        {"name": "theme-color", "content": "#ffffff"}
+        {"name": "theme-color", "content": "#ffffff"},
+        {"name": "language", "content": "en"},
       ],
       "link": [
         // {"rel": "stylesheet", "href": "/ocean_assets/styles/main.css"},
