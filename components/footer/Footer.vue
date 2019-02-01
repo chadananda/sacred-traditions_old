@@ -7,7 +7,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-              <div v-if="!$store.state.user">
+
+
+              <!-- <div v-if="!$store.state.user">
                 <button class="btn btn-default" @click="googleSignUp">Google Sign In</button>
               </div>
               <div v-else>
@@ -20,7 +22,9 @@
                   <input type="email" class="form-control" placeholder="Your email address">
                 </div>
                 <button type="submit" class="btn btn-default">Sign up</button>
-              </form>
+              </form> -->
+
+
               <!-- .form-inline -->
             </div>
             <!-- .col-## -->
@@ -66,7 +70,10 @@
     <section id="copyright" class="copyright">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">Copyright &copy; 2019. All Right Reserved.</div>
+          <div class="col-sm-12">Copyright &copy; 2019. All Right Reserved.
+
+            &mdash; <nuxt-link to="/">https://sacred-traditions.org</nuxt-link>
+          </div>
           <!-- .col-sm-6 -->
         </div>
         <!-- .row -->
@@ -76,8 +83,13 @@
     <!-- #copyright -->
   </div>
 </template>
+
+
+
+
 <script>
   import ImageWrapper from '~/components/images/ImageWrapper'
+
   export default {
     components: { ImageWrapper },
     computed: {
