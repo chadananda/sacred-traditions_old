@@ -39,6 +39,7 @@ export default {
       return articles;
     }
   },
+
   data() {
     return {
       title: "Sacred Traditions Interfaith Project"
@@ -50,11 +51,7 @@ export default {
       title: this.title,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {
-          hid: "description",
-          name: "description",
-          content: "Sacred Traditions Interfaith Project"
-        }
+        { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
       ]
     };
   }

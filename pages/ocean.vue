@@ -154,7 +154,7 @@ export default {
   layout: "remove_all_chrome",
   head: function () {
     return {
-      "title": "Ocean 2.0 Interfaith Reader",
+      "title": "Ocean 2.0 Interfaith Reader", // not working
       "meta": [
         {"charset": "utf-8"},
         {"name": "viewport", "content": "width=device-width, initial-scale=1"},
@@ -163,10 +163,10 @@ export default {
         {"name": "viewport", "content": "width=device-width, initial-scale=1.0"},
         {"name": "msapplication-TileColor", "content": "#00aba9"},
         {"name": "theme-color", "content": "#ffffff"},
-        {"name": "language", "content": "en"},
+        {"name": "language", "content": "en"}, // kosher?
+        {"name": 'title', "content": "Ocean 2.0 Interfaith Reader" },
       ],
       "link": [
-        // {"rel": "stylesheet", "href": "/ocean_assets/styles/main.css"},
         {"rel": "apple-touch-icon", "sizes": "180x180", "href": "/ocean_assets/favicon/apple-touch-icon.png"},
         {"rel": "icon", "type": "image/png", "sizes": "32x32", "href": "/ocean_assets/favicon/favicon-32x32.png"},
         {"rel": "icon", "type": "image/png", "sizes": "16x16", "href": "/ocean_assets/favicon/favicon-16x16.png"},
