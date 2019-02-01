@@ -9,10 +9,14 @@
               <div class="site-entry">
                 <!-- <Article/> -->
                 <nuxt/>
+
                 <Navigation/>
+
                 <!-- <Authbio/> -->
+
                 <Posts/>
-                <Comments/>
+
+                <!-- <Comments/> -->
               </div>
             </div>
           </div>
