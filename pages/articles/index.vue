@@ -1,6 +1,6 @@
 <template><div>
   <h3>  Articles: </h3>
-  <div v-for="(ar, id) in articles" :key="id">
+  <div v-for="(ar, id) in getArticles" :key="id">
     <img v-if="ar.img" :src="`/img/${ar.img}`" :alt="ar.title" class="thumb" />
     <h3><nuxt-link :to="ar.permalink">{{ar.title}}</nuxt-link></h3>
     <pre class="details">{{ar}}</pre>
@@ -19,6 +19,12 @@
         articles: await app.$content('/articles').query({ exclude: ['body'] }).getAll()
       }
     },
+    computed: {
+      getArticles() {
+        this.$store.commit('setArticles', this.articles);
+        return this.articles;
+      }
+    }
   }
 </script>
 
