@@ -21,8 +21,14 @@
     },
     computed: {
       getArticles() {
-        this.$store.commit('setArticles', this.articles);
-        return this.articles;
+        const articles = [];
+        this.articles.forEach(article => {
+          if (article.language === 'en') {
+            articles.push(article);
+          }
+        });
+        this.$store.commit('setArticles', articles);
+        return articles;
       }
     }
   }
