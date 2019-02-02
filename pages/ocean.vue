@@ -52,9 +52,9 @@
            </div>
         </div>
         <div class="img-promo">
-           <img src="/ocean_assets/images/promo.png" class="big-img"/>
-           <img src="/ocean_assets/images/promo_portret.png" class="md-img"/>
-           <img src="/ocean_assets/images/promo_sm.png" class="sm-img"/>
+           <img src="/ocean_assets/images/webp/promo.webp" class="big-img"/>
+           <img src="/ocean_assets/images/webp/promo_portret.webp" class="md-img"/>
+           <img src="/ocean_assets/images/webp/promo_sm.webp" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -97,8 +97,8 @@
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/1.png" class="big-img"/>
-           <img src="/ocean_assets/images/1_sm.png" class="sm-img"/>
+           <img src="/ocean_assets/images/webp/1.webp" class="big-img"/>
+           <img src="/ocean_assets/images/webp/1_sm.webp" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -110,8 +110,8 @@
               you can still search, but only in non copyright-encumbered library books.</span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/2.png"  class="big-img" />
-           <img src="/ocean_assets/images/2_sm.png" class="sm-img"/>
+           <img src="/ocean_assets/images/webp/2.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/2_sm.webp" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -124,8 +124,8 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/3.png"  class="big-img" />
-           <img src="/ocean_assets/images/3_sm.png" class="sm-img"/>
+           <img src="/ocean_assets/images/webp/3.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/3_sm.webp" class="sm-img"/>
         </div>
      </div>
   </section>
@@ -137,8 +137,8 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/4.png"  class="big-img" />
-           <img src="/ocean_assets/images/4_sm.png" class="sm-img"/>
+           <img src="/ocean_assets/images/webp/4.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/4_sm.webp" class="sm-img"/>
         </div>
      </div>
   </section>
