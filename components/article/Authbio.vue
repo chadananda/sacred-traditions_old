@@ -13,29 +13,9 @@
                 <p>Young girl who love meet people to talk each other. Nerd. Has ability to make people fascinated. My passion in fashion and making a good personality bring happiness to a lot of people.</p>
 
                 <ul class="social-icon">
-                    <li>
-                        <nuxt-link to="#" class="icon-facebook" target="_blank">
-                            <i class="fa fa-facebook"></i>
-                        </nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#" class="icon-twitter" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                        </nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#" class="icon-instagram" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                        </nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#" class="icon-youtube" target="_blank">
-                            <i class="fa fa-youtube-play"></i>
-                        </nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="#" class="icon-pinterest" target="_blank">
-                            <i class="fa fa-pinterest"></i>
+                    <li v-for="icon in icons">
+                        <nuxt-link to="#" :class="`${icon.class}`" target="_blank">
+                            <i :class="`${icon.social_icon}`"></i>
                         </nuxt-link>
                     </li>
                 </ul>
@@ -47,7 +27,18 @@
 
 <script>
     export default {
-        name: "Authbio"
+        name: "Authbio",
+        data() {
+            return {
+                icons: [
+                    {class: 'icon-facebook', social_icon: 'fa fa-facebook'},
+                    {class: 'icon-twitter', social_icon: 'fa fa-twitter'},
+                    {class: 'icon-instagram', social_icon: 'fa fa-instagram'},
+                    {class: 'icon-youtube', social_icon: 'fa fa-youtube-play'},
+                    {class: 'icon-pinterest', social_icon: 'fa fa-pinterest'},
+                ]
+            }
+        }
     };
 </script>
 
