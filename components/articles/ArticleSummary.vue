@@ -23,10 +23,10 @@
             </span>
           </span>
           <span class="entry-like">
-            <a href>
+            <nuxt-link to="#">
               <i class="fa fa-heart-o"></i>
               {{article.likes}}
-            </a>
+            </nuxt-link>
           </span>
         </div>
       </div>

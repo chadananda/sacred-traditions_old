@@ -8,9 +8,9 @@
       <div class="entry-content">
         <ul class="social-icon text-center">
           <li v-for="icon in social_icons" :key="icon.icon_name">
-            <a href="#" :class="`icon-social icon-${icon.icon_name}`">
+            <nuxt-link to="#" :class="`icon-social icon-${icon.icon_name}`">
               <i :class="`fa fa-${icon.icon_name}`"></i>
-            </a>
+            </nuxt-link>
           </li>
         </ul>
         <!-- .social-icon -->

@@ -14,29 +14,29 @@
 
                 <ul class="social-icon">
                     <li>
-                        <a href="#" class="icon-facebook" target="_blank">
+                        <nuxt-link to="#" class="icon-facebook" target="_blank">
                             <i class="fa fa-facebook"></i>
-                        </a>
+                        </nuxt-link>
                     </li>
                     <li>
-                        <a href="#" class="icon-twitter" target="_blank">
+                        <nuxt-link to="#" class="icon-twitter" target="_blank">
                             <i class="fa fa-twitter"></i>
-                        </a>
+                        </nuxt-link>
                     </li>
                     <li>
-                        <a href="#" class="icon-instagram" target="_blank">
+                        <nuxt-link to="#" class="icon-instagram" target="_blank">
                             <i class="fa fa-instagram"></i>
-                        </a>
+                        </nuxt-link>
                     </li>
                     <li>
-                        <a href="#" class="icon-youtube" target="_blank">
+                        <nuxt-link to="#" class="icon-youtube" target="_blank">
                             <i class="fa fa-youtube-play"></i>
-                        </a>
+                        </nuxt-link>
                     </li>
                     <li>
-                        <a href="#" class="icon-pinterest" target="_blank">
+                        <nuxt-link to="#" class="icon-pinterest" target="_blank">
                             <i class="fa fa-pinterest"></i>
-                        </a>
+                        </nuxt-link>
                     </li>
                 </ul>
             </div>
@@ -46,9 +46,9 @@
 </template>
 
 <script>
-  export default {
-    name: "Authbio"
-  };
+    export default {
+        name: "Authbio"
+    };
 </script>
 
 <style scoped>
