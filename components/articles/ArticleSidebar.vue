@@ -19,7 +19,7 @@
 
         <!-- /about component -->
         <Follow/>
-        <WidgetPopularEntries :articles="_articles"/>
+        <WidgetPopularEntries/>
 
         <Categories/>
         <Tags/>

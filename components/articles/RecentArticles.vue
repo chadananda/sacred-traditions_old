@@ -15,9 +15,9 @@ import ArticleSummaryFirst from "~/components/articles/ArticleSummaryFirst";
 export default {
   props: ["_articles", "articleCount"],
   components: { ArticleSummary, ArticleSummaryFirst },
-  data() {
-    return {
-      articles: this._articles.slice().sort((a,b) => this.compare(a.pubdate,b.pubdate)).slice(0, 6) // 6 most recent
+  computed: {
+    articles() {
+      return this.$store.getters.getArticles.slice().sort((a,b) => this.compare(a.pubdate,b.pubdate)).slice(0, 6);
     }
   },
   methods: {
