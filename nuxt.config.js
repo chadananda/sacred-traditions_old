@@ -60,7 +60,10 @@ module.exports = {
   ],
 
   router: {
-    middleware: ['router-auth']
+    middleware: [
+        'router-auth',
+        'article'
+    ]
   },
 
 
