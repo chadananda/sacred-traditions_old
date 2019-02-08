@@ -11,7 +11,7 @@ export default function({ isHMR, app, store, route }) {
                 store.commit('setArticles', articles);
             })
             .catch(() => {
-                console.log('error');
+                store.commit('setArticles', []);
             })
     }
 }
