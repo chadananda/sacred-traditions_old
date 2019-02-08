@@ -6,7 +6,8 @@ const createStore = () => {
     return new Vuex.Store({
         state: {
             user: null,
-            articles: []
+            articles: [],
+            language: 'en',
         },
         mutations,
         getters,

@@ -5,6 +5,10 @@ const getters = {
 
     getArticles: (state, getters) => {
         return state.articles;
+    },
+
+    currentLang: (state, getters) => {
+        return state.language;
     }
 };
 
