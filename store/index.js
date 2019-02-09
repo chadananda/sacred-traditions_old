@@ -8,6 +8,10 @@ const createStore = () => {
             user: null,
             articles: [],
             language: 'en',
+            languages: [
+                {code: 'en', name: 'English'},
+                {code: 'it', name: 'Spanish'}
+            ],
         },
         mutations,
         getters,

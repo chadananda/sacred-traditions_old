@@ -57,6 +57,11 @@
                         {{ link.name }}
                       </nuxt-link>
                     </li>
+                    <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{ 'Language' }}</a>
+                      <ul class="sub-menu">
+                        <li v-for="lang in languages" class="menu-item"><a @click="switchLanguage(lang.code)"> {{ lang.name }} </a></li>
+                      </ul>
+                    </li>
                     <!-- <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
                               <ul class="sub-menu">
                               <li class="menu-item"><nuxt-link to="/single">Single Post</nuxt-link></li>
@@ -108,6 +113,16 @@ import IconsWrapper from "~/components/icons/IconsWrapper.vue";
 export default {
   name: "slider",
   components: { MainNavigation, IconsWrapper },
+  computed: {
+    languages() {
+      return this.$store.state.languages
+    }
+  },
+  methods: {
+    switchLanguage (lang) {
+      this.$store.commit('SET_LANG', lang);
+    }
+  },
   data() {
     return {
       header_links: [
