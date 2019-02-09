@@ -1,6 +1,6 @@
 <template><div>
   <h3>  Articles: </h3>
-  <div v-for="(ar, id) in getArticles" :key="id">
+  <div v-for="(ar, id) in articles" :key="id">
     <img v-if="ar.img" :src="`/img/${ar.img}`" :alt="ar.title" class="thumb" />
     <h3><nuxt-link :to="ar.permalink">{{ar.title}}</nuxt-link></h3>
     <pre class="details">{{ar}}</pre>
@@ -14,21 +14,9 @@
 <script>
   export default {
     layout: "empty",
-    asyncData: async ( { app, route, payload } ) => {
-      return {
-        articles: await app.$content('/articles').query({ exclude: ['body'] }).getAll()
-      }
-    },
     computed: {
-      getArticles() {
-        const articles = [];
-        this.articles.forEach(article => {
-          if (article.language === 'en') {
-            articles.push(article);
-          }
-        });
-        this.$store.commit('setArticles', articles);
-        return articles;
+      articles() {
+        return this.$store.getters.getArticles;
       }
     }
   }
