@@ -25,10 +25,13 @@
 <style scoped>
   img.thumb {
     width: 150px; float: right;
+    height: 150px;
     padding: 5px; margin: 10px;
     border-radius: 50px 20px !important;
     border: 1px solid silver;
     box-shadow: 1px 1px 2px silver;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
   }
   pre.details {
     font-size: 6pt;
