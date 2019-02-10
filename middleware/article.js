@@ -4,14 +4,12 @@ export default function({ isHMR, app, store, route, req }) {
         return;
     }
 
-    if (req) {
-        if (req.headers.cookie) {
-            const cookies = req.headers.cookie.split('; ').map(stringCookie => stringCookie.split('='));
-            const cookie = cookies.find(cookie => cookie[0] === 'language');
+    if (document.cookie) {
+        const cookies = document.cookie.split('; ').map(stringCookie => stringCookie.split('='));
+        const cookie = cookies.find(cookie => cookie[0] === 'language');
 
-            if (cookie) {
-                lang = cookie[1];
-            }
+        if (cookie) {
+            lang = cookie[1];
         }
 
         if (!lang) {
