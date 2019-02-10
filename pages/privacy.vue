@@ -74,8 +74,8 @@
 </template>
 
 <script>
-import Wrapper from "~/components/wrapper/Wrapper.vue";
-import About from "~/components/about/About.vue";
+import Wrapper from "~/components/wrapper/Wrapper.vue"
+
 export default {
   layout: "other",
   components: { Wrapper, About },
@@ -91,7 +91,7 @@ export default {
           content: "Sacred Traditions Interfaith Project"
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
