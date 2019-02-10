@@ -1,21 +1,38 @@
-import Vuex from 'vuex';
-import mutations from './mutations';
-import getters from './getters';
+// store/index.js
+// root store module
+// ideally, this file should be nearly empty
 
-const createStore = () => {
-    return new Vuex.Store({
-        state: {
-            user: null,
-            articles: [],
-            language: 'en',
-            languages: [
-                {code: 'en', name: 'English'},
-                {code: 'it', name: 'Spanish'}
-            ],
-        },
-        mutations,
-        getters,
-    })
-};
 
-export default createStore
+export const state = () => ({
+  user: null,
+  language: 'en',
+  languages: [
+    {code: 'en', name: 'English'},
+    {code: 'it', name: 'Italian'}
+  ],
+})
+
+export const getters = {
+  activeUser: (state, getters) => {
+    return state.user;
+  },
+
+  currentLang: (state, getters) => {
+      return state.language;
+  }
+}
+
+export const mutations = {
+  setUser (state, payload) {
+    state.user = payload;
+  },
+  SET_LANG: (state, payload) => {
+    state.language = payload
+  }
+}
+
+export const actions = {
+
+}
+
+

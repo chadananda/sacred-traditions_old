@@ -17,7 +17,8 @@ export default {
   components: { ArticleSummary, ArticleSummaryFirst },
   computed: {
     articles() {
-      return this.$store.getters.getArticles.slice().sort((a,b) => this.compare(a.pubdate,b.pubdate)).slice(0, 6);
+      // sorted by date, trimmed to 6 items
+      return this.$store.getters['articles/getRecentArticles'].slice(0, 6)
     }
   },
   methods: {
@@ -40,21 +41,7 @@ export default {
         NaN
     )
   },
-  compare: function(a,b) {
-    // Compare two dates (could be of any type supported by the convert
-    // function above) and returns:
-    //  -1 : if a < b
-    //   0 : if a = b
-    //   1 : if a > b
-    // NaN : if a or b is an illegal date
-    // NOTE: The code inside isFinite does an assignment (=).
-    return (
-        isFinite(a=this.convert(a).valueOf()) &&
-        isFinite(b=this.convert(b).valueOf()) ?
-        (a>b)-(a<b) :
-        NaN
-    )
-  },
+
 },
 };
 </script>

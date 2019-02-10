@@ -36,7 +36,7 @@
         name: "Posts",
         computed: {
             alsoLikes() {
-                let articles = this.$store.getters.getArticles.slice() // get copy of articles
+                let articles = this.$store.getters['articles/getArticles'].slice() // get copy of articles
                 this.shuffleArray(articles) // randomize
                 articles = articles.slice(0, 3) // pick three
                 return articles

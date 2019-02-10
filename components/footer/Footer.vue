@@ -94,7 +94,7 @@
     components: { ImageWrapper },
     computed: {
       getArticles() {
-        const articles = this.$store.getters.getArticles;
+        const articles = this.$store.getters['articles/getArticles']
         return articles.slice(0, 6);
       }
     },
