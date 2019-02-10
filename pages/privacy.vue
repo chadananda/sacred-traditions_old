@@ -78,7 +78,7 @@ import Wrapper from "~/components/wrapper/Wrapper.vue"
 
 export default {
   layout: "other",
-  components: { Wrapper, About },
+  components: { Wrapper },
 
   head() {
     return {
