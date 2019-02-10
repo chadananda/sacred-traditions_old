@@ -1,5 +1,5 @@
-// store/articles.js
-// vuex functionality for articles
+// store/ux.js
+// vuex functionality for ux
 
 
 

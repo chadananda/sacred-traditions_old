@@ -36,7 +36,7 @@ export const actions = {
 
 
 
-// article tools
+/* =============================== article tools =================================== */
 
 function compareDate(a,b) {
   // Compare two dates (could be of any type supported by the convert
@@ -53,7 +53,6 @@ function compareDate(a,b) {
     NaN
   )
 }
-
 function convert(d) {
   // Converts the date in d to a date-object. The input can be:
   //   a date object: returned without modification
