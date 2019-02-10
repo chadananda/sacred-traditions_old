@@ -68,3 +68,6 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# Stupid package lock
+package-lock.json
