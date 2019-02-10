@@ -1,7 +1,26 @@
-export default function({ isHMR, app, store, route }) {
-    const lang = store.getters.currentLang;
+export default function({ isHMR, app, store, route, req }) {
+    let lang = null;
     if (isHMR) {
         return;
+    }
+
+    if (req) {
+        if (req.headers.cookie) {
+            const cookies = req.headers.cookie.split('; ').map(stringCookie => stringCookie.split('='));
+            const cookie = cookies.find(cookie => cookie[0] === 'language');
+
+            if (cookie) {
+                lang = cookie[1];
+            }
+        }
+
+        if (!lang) {
+            lang = store.getters.currentLang;
+        }
+
+        store.commit('SET_LANG', lang);
+    } else {
+        lang = store.getters.currentLang;
     }
 
     if (store.getters.getArticles.length === 0) { // if articles is empty, fetch list of articles from nuxtent api.

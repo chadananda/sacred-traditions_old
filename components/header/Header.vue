@@ -120,7 +120,8 @@ export default {
   },
   methods: {
     switchLanguage (lang) {
-      this.$store.commit('SET_LANG', lang);
+      document.cookie = `language=${lang}`;
+      location.reload();
     }
   },
   data() {
