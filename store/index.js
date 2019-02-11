@@ -19,6 +19,11 @@ export const getters = {
 
   currentLang: (state, getters) => {
       return state.language;
+  },
+
+  languageList: (state, getters) => {
+    if (!Array.isArray(state.languages)) return []
+      else return state.languages.slice()
   }
 }
 

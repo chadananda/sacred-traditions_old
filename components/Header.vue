@@ -12,9 +12,9 @@
           <div class="col-md-6">
             <!-- <h1 class="site-title"><a href="/" rel="home">Astrif.</a></h1> -->
             <!-- <h1 class="site-title title-image"> -->
-            <a href="/" rel="home">
+            <nuxt-link to="/" rel="home">
               <img src="/logo2.svg" alt="home" class="title-image">
-            </a>
+            </nuxt-link>
             <!-- </h1> -->
             <!-- <p class="site-description">- Sacred Traditions Interfaith -</p> -->
           </div>
@@ -59,7 +59,10 @@
                     </li>
                     <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{ 'Language' }}</a>
                       <ul class="sub-menu">
-                        <li v-for="(index, lang) in languages" class="menu-item" :key="index"><a @click="switchLanguage(lang.code)"> {{ lang.name }} </a></li>
+                        <li v-for="(lang, index) in languages" class="menu-item" :key="index">
+                          <a @click="switchLanguage(lang.code)"
+                            :class="{ active: lang.code===currentLang }"> {{ lang.name }} </a>
+                        </li>
                       </ul>
                     </li>
                     <!-- <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
@@ -108,7 +111,6 @@
 </template>
 
 <script>
-// import  MainNavigation from "~/components/MainNavigation.vue"
 import IconsWrapper from "~/components/IconsWrapper.vue"
 
 export default {
@@ -116,13 +118,17 @@ export default {
   components: { IconsWrapper },
   computed: {
     languages() {
-      return this.$store.state.languages
+      return this.$store.getters['languageList']
+    },
+    currentLang() {
+      return this.$store.getters['currentLang']
     }
   },
   methods: {
     switchLanguage (lang) {
       document.cookie = `language=${lang}`;
-      location.reload();
+      //      location.reload();
+      this.$store.commit('SET_LANG', lang)
     }
   },
   data() {
@@ -159,4 +165,14 @@ export default {
   width: 16px;
   margin-top: -5px;
 }
+.menu-item a {
+  cursor: pointer;
+}
+.menu-item a.active {
+  background-color: #EEE;
+  cursor: default;
+  color: black;
+  font-weight: bold;
+}
+
 </style>
