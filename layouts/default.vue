@@ -28,7 +28,7 @@
   }
 </script>
 
-<style>
+<style scoped>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
