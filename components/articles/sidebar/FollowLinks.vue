@@ -17,18 +17,12 @@
 
 <script>
 export default {
-  data() {
-    return {
-      links: [
-        // { id: 1, icon: "twitter" },
-        { id: 2, icon: "facebook", url:"https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/" },
-        // { id: 3, icon: "instagram" },
-        // { id: 4, icon: "pinterest" },
-        { id: 5, icon: "youtube", url:"" }
-      ]
-    };
-  }
-};
+  computed: {
+    links() {
+      return this.$store.getters['links/getSocialLinks']
+    }
+  },
+}
 </script>
 
 <style scoped>

@@ -27,7 +27,7 @@
           human race. The challenge is to find in them threads of eternal truth which bind us all together in
           a wider story.
         </p>
-        <IconsWrapper :icons="s_icons" iconClass="text-center"/>
+        <IconsWrapper :icons="this.$store.getters['links/getSocialLinks']" iconClass="text-center"/>
         <!-- .social-icon -->
       </div>
       <!-- .entry-content -->
@@ -63,16 +63,6 @@ export default {
           content: "Sacred Traditions Interfaith Project"
         }
       ],
-      s_icons: [
-        { href: "https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/", icon: "facebook" },
-        // { href: "", icon: "twitter" },
-        // { href: "", icon: "instagram" },
-        // { href: "", icon: "google-plus" },
-        // { href: "", icon: "linkedin" },
-        // { href: "", icon: "pinterest" },
-        // { href: "", icon: "dribbble" },
-        { href: "", icon: "youtube" }
-      ]
     };
   }
 };

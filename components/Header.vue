@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <IconsWrapper :icons="s_icons"/>
+            <IconsWrapper :icons="this.$store.getters['links/getSocialLinks']"/>
           </div>
           <!-- .col-md-3 -->
           <div class="col-md-6">
@@ -139,15 +139,8 @@ export default {
         { url: "/about", name: "About Us" },
         { url: "/contact", name: "Contact" }
       ],
-      s_icons: [
-        // { href: "", icon: "twitter" },
-        { href: "https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/", icon: "facebook" },
-        // { href: "", icon: "instagram" },
-        // { href: "", icon: "pinterest" },
-        { href: "", icon: "youtube" }
-      ]
-    };
-  }
+    }
+  },
 }
 </script>
 
