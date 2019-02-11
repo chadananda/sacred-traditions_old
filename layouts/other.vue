@@ -3,7 +3,9 @@
     <div id="page" class="site">
       <SkipContent/>
       <Header/>
-      <nuxt/>
+      <ContentWrapper>
+        <nuxt/>
+      </ContentWrapper>
       <Footer/>
     </div>
   </div>
@@ -12,15 +14,17 @@
 
 
 <script>
-import Header from "~/components/header/Header.vue";
-import Footer from "~/components/footer/Footer.vue";
-import SkipContent from "~/components/SkipContent.vue";
+import Header from "~/components/header/Header.vue"
+import Footer from "~/components/footer/Footer.vue"
+import SkipContent from "~/components/SkipContent.vue"
+import ContentWrapper from "~/components/ContentWrapper.vue"
 
 export default {
   components: {
     Header,
     Footer,
-    SkipContent
+    SkipContent,
+    ContentWrapper
   }
 };
 </script>

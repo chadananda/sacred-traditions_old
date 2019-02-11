@@ -1,5 +1,4 @@
 <template>
-  <!-- a resuable wrapper -->
   <div id="content" class="site-content">
     <div id="primary" class="content-area">
       <main id="main" class="site-main" role="main">
@@ -11,5 +10,6 @@
   </div>
 </template>
 
-<style scroped>
+<style scoped>
+
 </style>

@@ -1,6 +1,5 @@
 <template>
   <!-- content -->
-  <Wrapper>
     <div class="row">
       <!-- article -->
       <div class="col-md-8 col-md-offset-2">
@@ -43,17 +42,15 @@
     </div>
     <!-- .row -->
     <!-- #content -->
-  </Wrapper>
 </template>
 
 <script>
-import Wrapper from "~/components/wrapper/Wrapper.vue"
 import IconsWrapper from "~/components/icons/IconsWrapper.vue"
 
 // import About from "~/components/about/About.vue";
 export default {
   layout: "other",
-  components: { Wrapper, IconsWrapper },
+  components: { IconsWrapper },
 
   head() {
     return {

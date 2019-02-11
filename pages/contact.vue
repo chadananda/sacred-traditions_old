@@ -1,6 +1,5 @@
 <template>
   <!-- content -->
-  <Wrapper>
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
 
@@ -33,16 +32,15 @@
     </div>
     <!-- .row -->
     <!-- #content -->
-  </Wrapper>
 </template>
 
 <script>
-import Wrapper from "~/components/wrapper/Wrapper.vue"
+// import ContentWrapper from "~/components/ContentWrapper.vue"
 import ContactForm from "~/components/forms/ContactForm"
 
 export default {
   layout: "other",
-  components: { Wrapper, ContactForm },
+  components: { ContactForm },
   head() {
     return {
       title: 'Contact Us',

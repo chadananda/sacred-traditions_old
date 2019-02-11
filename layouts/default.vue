@@ -3,10 +3,30 @@
     <SkipContent/>
     <Slider/>
     <Header/>
-    <nuxt/>
+    <ContentWrapper>
+      <nuxt/>
+    </ContentWrapper>
     <Footer/>
   </div>
 </template>
+
+<script>
+  import Header from "~/components/header/Header.vue";
+  import Slider from "~/components/slider/Slider.vue";
+  import SkipContent from "~/components/SkipContent.vue";
+  import Footer from "~/components/footer/Footer.vue";
+  import ContentWrapper from "~/components/ContentWrapper.vue";
+
+  export default {
+    components: {
+      Header,
+      Slider,
+      SkipContent,
+      Footer,
+      ContentWrapper
+    }
+  }
+</script>
 
 <style>
 html {
@@ -58,18 +78,3 @@ html {
 }
 </style>
 
-<script>
-import Header from "~/components/header/Header.vue";
-import Slider from "~/components/slider/Slider.vue";
-import SkipContent from "~/components/SkipContent.vue";
-import Footer from "~/components/footer/Footer.vue";
-
-export default {
-  components: {
-    Header,
-    Slider,
-    SkipContent,
-    Footer
-  }
-};
-</script>

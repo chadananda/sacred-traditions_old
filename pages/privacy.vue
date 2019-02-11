@@ -1,6 +1,6 @@
 <template>
   <!-- content -->
-  <Wrapper>
+  <!-- <ContentWrapper> -->
     <div class="row">
       <!-- article -->
       <div class="col-md-8 col-md-offset-2">
@@ -70,15 +70,14 @@
     </div>
     <!-- .row -->
     <!-- #content -->
-  </Wrapper>
+  <!-- </ContentWrapper> -->
 </template>
 
 <script>
-import Wrapper from "~/components/wrapper/Wrapper.vue"
 
 export default {
   layout: "other",
-  components: { Wrapper },
+  components: {   },
 
   head() {
     return {

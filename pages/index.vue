@@ -1,5 +1,4 @@
 <template>
-  <Wrapper>
     <div class="row">
       <!-- articles -->
       <div class="col-md-8">
@@ -11,17 +10,15 @@
       <!-- .col-md-8 -->
       <ArticleSidebar/>
     </div>
-  </Wrapper>
 </template>
 
 <script>
-import Wrapper from "~/components/wrapper/Wrapper";
-import RecentArticles from "~/components/articles/RecentArticles";
-import ArticleSidebar from "~/components/articles/ArticleSidebar";
-import Pagination from "~/components/pagination/Pagination";
+import RecentArticles from "~/components/articles/RecentArticles"
+import ArticleSidebar from "~/components/articles/ArticleSidebar"
+import Pagination from "~/components/pagination/Pagination"
 
 export default {
-  components: { Wrapper, RecentArticles, ArticleSidebar, Pagination },
+  components: { RecentArticles, ArticleSidebar, Pagination },
   data() {
     return {
       title: "Sacred Traditions Interfaith Project"
