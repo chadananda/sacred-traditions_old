@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import IconsWrapper from "~/components/icons/IconsWrapper.vue"
+import IconsWrapper from "~/components/IconsWrapper.vue"
 
 // import About from "~/components/about/About.vue";
 export default {

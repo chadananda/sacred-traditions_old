@@ -30,7 +30,7 @@
 </template>
 
 <script>
-    import ImageWrapper from '~/components/images/ImageWrapper';
+    import ImageWrapper from '~/components/ImageWrapper';
     export default {
         components: { ImageWrapper },
         name: "Posts",

@@ -59,7 +59,7 @@
                     </li>
                     <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{ 'Language' }}</a>
                       <ul class="sub-menu">
-                        <li v-for="lang in languages" class="menu-item"><a @click="switchLanguage(lang.code)"> {{ lang.name }} </a></li>
+                        <li v-for="(index, lang) in languages" class="menu-item" :key="index"><a @click="switchLanguage(lang.code)"> {{ lang.name }} </a></li>
                       </ul>
                     </li>
                     <!-- <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Features</a>
@@ -108,8 +108,9 @@
 </template>
 
 <script>
-import  MainNavigation from "~/components/header/MainNavigation.vue";
-import IconsWrapper from "~/components/icons/IconsWrapper.vue";
+import  MainNavigation from "~/components/MainNavigation.vue"
+import IconsWrapper from "~/components/IconsWrapper.vue"
+
 export default {
   name: "slider",
   components: { MainNavigation, IconsWrapper },
@@ -144,8 +145,10 @@ export default {
       ]
     };
   }
-};
+}
 </script>
+
+
 
 <style scoped>
 .title-image {

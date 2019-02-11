@@ -13,7 +13,7 @@
                 <p>Young girl who love meet people to talk each other. Nerd. Has ability to make people fascinated. My passion in fashion and making a good personality bring happiness to a lot of people.</p>
 
                 <ul class="social-icon">
-                    <li v-for="icon in icons">
+                    <li v-for="(icon, index) in icons" :key="index">
                         <nuxt-link to="#" :class="`${icon.class}`" target="_blank">
                             <i :class="`${icon.social_icon}`"></i>
                         </nuxt-link>

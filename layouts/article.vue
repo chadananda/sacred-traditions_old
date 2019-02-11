@@ -33,8 +33,8 @@ import Article from "~/components/article/Article.vue";
 import Authbio from "~/components/article/Authbio.vue";
 import Posts from "~/components/article/Posts.vue";
 import Comments from "~/components/article/Comments.vue";
-import Header from "~/components/header/Header.vue";
-import Footer from "~/components/footer/Footer.vue";
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {

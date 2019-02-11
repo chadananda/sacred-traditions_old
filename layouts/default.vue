@@ -11,10 +11,10 @@
 </template>
 
 <script>
-  import Header from "~/components/header/Header.vue";
-  import Slider from "~/components/slider/Slider.vue";
+  import Header from "~/components/Header.vue";
+  import Slider from "~/components/Slider.vue";
   import SkipContent from "~/components/SkipContent.vue";
-  import Footer from "~/components/footer/Footer.vue";
+  import Footer from "~/components/Footer.vue";
   import ContentWrapper from "~/components/ContentWrapper.vue";
 
   export default {

@@ -36,7 +36,7 @@
 
 <script>
 // import ContentWrapper from "~/components/ContentWrapper.vue"
-import ContactForm from "~/components/forms/ContactForm"
+import ContactForm from "~/components/ContactForm"
 
 export default {
   layout: "other",

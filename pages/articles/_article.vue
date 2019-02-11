@@ -12,7 +12,7 @@
 <script>
 // This file handles any MD articles in the /content/articles folder.
 //  import {NuxtentBody} from 'nuxtent'
-import ImageWrapper from '~/components/images/ImageWrapper';
+import ImageWrapper from '~/components/ImageWrapper';
 
 export default {
   layout: "article",

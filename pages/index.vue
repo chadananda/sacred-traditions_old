@@ -15,7 +15,7 @@
 <script>
 import RecentArticles from "~/components/articles/RecentArticles"
 import ArticleSidebar from "~/components/articles/ArticleSidebar"
-import Pagination from "~/components/pagination/Pagination"
+import Pagination from "~/components/Pagination"
 
 export default {
   components: { RecentArticles, ArticleSidebar, Pagination },
