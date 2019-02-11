@@ -33,6 +33,21 @@ export const getters = {
     if (!Array.isArray(state.allArticles)) return []
       else return state.allArticles.slice()
   },
+  getTagList: (state, getters) => {
+    let tags = {}, total = 0
+    state.articles.forEach(a => a.tags.split(',').forEach(tag => {
+      if (tag in tags) tags[tag]++; else tags[tag] = 1
+      total++
+    }))
+    Object.keys(tags).forEach(tag => {
+      tags[tag] = Math.round(tags[tag]/total*100)
+    })
+    return tags
+  },
+
+  getCategoryList: (state, getters) => {
+
+  },
 }
 
 export const mutations = {
