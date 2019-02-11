@@ -60,6 +60,7 @@ export const mutations = {
   },
   setArticleLanguage: (state, lang) => {
     state.articles = state.allArticles.filter(a => a.language===lang)
+    //console.log('filtered to '+ state.articles.length+' articles in language: '+ lang)
   },
 }
 

@@ -43,7 +43,7 @@ export const actions = {
     if (lang === context.state.language) return // exit if this language is already selected
     if (!(lang in context.state.languages)) return
     context.commit('SET_LANG', lang)  // update and store
-    context.commit('articles/setArticleLanguage', lang) // re-filter articles
+    context.commit('articles/setArticleLanguage', lang, {root:true}) // re-filter articles
   }
 
 }
