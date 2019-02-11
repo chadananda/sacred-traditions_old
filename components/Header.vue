@@ -57,11 +57,10 @@
                         {{ link.name }}
                       </nuxt-link>
                     </li>
-                    <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{ 'Language' }}</a>
+                    <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{`Language: (${currentLang})`}}</a>
                       <ul class="sub-menu">
-                        <li v-for="(lang, index) in languages" class="menu-item" :key="index">
-                          <a @click="switchLanguage(lang.code)"
-                            :class="{ active: lang.code===currentLang }"> {{ lang.name }} </a>
+                        <li v-for="(language, code) in languages" class="menu-item" :key="code">
+                          <a @click="assignLanguage(code)" :class="{ active: code===currentLang }"> {{ language }} </a>
                         </li>
                       </ul>
                     </li>
@@ -125,10 +124,8 @@ export default {
     }
   },
   methods: {
-    switchLanguage (lang) {
-      document.cookie = `language=${lang}`;
-      //      location.reload();
-      this.$store.commit('ux/SET_LANG', lang)
+    assignLanguage (lang) {
+      this.$store.dispatch('ux/assignLanguage', lang) // saves language and rebuilds articles list
     }
   },
   data() {

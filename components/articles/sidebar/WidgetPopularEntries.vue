@@ -41,12 +41,9 @@
     components: { ImageWrapper },
     computed: {
       links() {
-        return this.$store.getters['articles/getArticles'].slice().sort((a,b) => b.likes-a.likes ).slice(0, 5) // 5 most popular(descending)
+        return this.$store.getters['articles/getPopularArticles'].slice(0, 5) // 5 most popular
       }
     },
-
-
-
   }
 </script>
 

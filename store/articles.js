@@ -1,34 +1,52 @@
 // store/articles.js
 // vuex functionality for articles
 
+// import
 
 
 export const state = () => ({
+  allArticles: [],
   articles: [],
 })
 
 export const getters = {
-  getArticles: (state, getters) => { // filter by current language and move to articles module
-    if (Array.isArray(state.articles)) return state.articles.slice() // returns copy, not state object
-      else return []
-  },
-  getRecentArticles:  (state, getters) => { // filter by current language and move to articles module
+  // full list of language articles, not sorted
+  getArticles: (state, getters) => {
     if (!Array.isArray(state.articles)) return []
-    let list = state.articles.slice() // because 'sort' will sort the original object in place
+    return state.articles.slice() //  copy of list
+  },
+  // full list of language articles, sorted by pubdate
+  getRecentArticles:  (state, getters) => {
+    if (!Array.isArray(state.articles)) return []
+    let list = state.articles.slice() //  copy
     list.sort((a,b) => compareDate(a.pubdate, b.pubdate))
     return list
+  },
+  // full list of language articles sorted by popularity
+  getPopularArticles: (state, getters) => {
+    if (!Array.isArray(state.articles)) return []
+    let list = state.articles.slice() //  copy
+    list.sort((a,b) => b.likes-a.likes)
+    return list
+  },
+  getAllArticles: (state, getters) => {
+    if (!Array.isArray(state.allArticles)) return []
+      else return state.allArticles.slice()
   },
 }
 
 export const mutations = {
-  setArticles: (state, payload) => {
-    state.articles = payload;
+  setAllArticles: (state, articles) => {
+    state.allArticles = articles
+    let lang = state.language || 'en'
+    state.articles = state.allArticles.filter(a => a.language===lang)
+  },
+  setArticleLanguage: (state, lang) => {
+    state.articles = state.allArticles.filter(a => a.language===lang)
   },
 }
 
 export const actions = {
-
-
 }
 
 
