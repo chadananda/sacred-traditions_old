@@ -10,7 +10,7 @@ category: heart
 snip: "I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion."
 ---
 
-# Developing a Good Heart, by Dalai Lama
+###  My religion is Kindness
 
 I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion. Due to the kindness of others, we have food, shelter, clothing, and medicine—all that we need to stay alive. As children, under the care of others, we receive an education and learn good values that help us in life. Having enjoyed the benefits of others’ kindness, it is only natural that we repay it.
 

@@ -48,6 +48,7 @@ export default {
 
 
 <style scoped>
+ /* Move to layout */
   #article_author {font-style: italic;}
   #ar_img {
     width: 150px; float: right;

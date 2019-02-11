@@ -19,7 +19,7 @@ export const getters = {
   getRecentArticles:  (state, getters) => {
     if (!Array.isArray(state.articles)) return []
     let list = state.articles.slice() //  copy
-    list.sort((a,b) => compareDate(a.pubdate, b.pubdate))
+    list.sort((b,a) => compareDate(a.pubdate, b.pubdate))
     return list
   },
   // full list of language articles sorted by popularity

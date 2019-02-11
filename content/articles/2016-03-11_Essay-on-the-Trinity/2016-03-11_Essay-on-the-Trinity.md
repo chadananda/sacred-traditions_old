@@ -10,7 +10,8 @@ category: trinity
 snip: "IT IS COMMON when speaking of the Divine happiness to say that God is infinitely happy in the enjoyment of Himself, in perfectly beholding and infinitely loving, and rejoicing in, His own essence and perfection."
 ---
 
-# Essay on the Trinity
+
+## Essay on the Trinity
 
 IT IS COMMON when speaking of the Divine happiness to say that God is infinitely happy in the enjoyment of Himself, in perfectly beholding and infinitely loving, and rejoicing in, His own essence and perfection, and accordingly it must be supposed that God perpetually and eternally has a most perfect idea of Himself, as it were an exact image and representation of Himself ever before Him and in actual view, and from hence arises a most pure and perfect act or energy in the Godhead, which is the Divine love, complacence and joy. The knowledge or view which God has of Himself must necessarily be conceived to be something distinct from His mere direct existence. There must be something that answers to our reflection. The reflection as we reflect on our own minds carries something of imperfection in it. However, if God beholds Himself so as thence to have delight and joy in Himself He must become his own object. There must be a duplicity. There is God and the idea of God, if it be proper to call a conception of that that is purely spiritual an idea.
 
@@ -21,6 +22,10 @@ Note, by having a reflex or contemplative idea of what passes in our own minds I
 Therefore as God with perfect clearness, fullness and strength, understands Himself, views His own essence (in which there is no distinction of substance and act but which is wholly substance and wholly act), that idea which God hath of Himself is absolutely Himself. This representation of the Divine nature and essence is the Divine nature and essence again: so that by God's thinking of the Deity must certainly be generated. Hereby there is another person begotten, there is another Infinite Eternal Almighty and most holy and the same God, the very same Divine nature.
 
 And this Person is the second person in the Trinity, the Only Begotten and dearly Beloved Son of God; He is the eternal, necessary, perfect, substantial and personal idea which God hath of Himself; and that it is so seems to me to be abundantly confirmed by the Word of God.
+
+
+
+### The form of God
 
 Nothing can more agree with the account the Scripture gives us of the Son of God, His being in the form of God and His express and perfect image and representation: (II Cor. 4:4) "Lest the light of the glorious Gospel of Christ Who is the image of God should shine unto them." (Phil. 2:6) "Who being in the form of God." (Col. 1:15) "Who is the image of the invisible God." (Heb. 1:3) "Who being the brightness of His glory and the express image of His person."
 
@@ -45,7 +50,12 @@ Doubtless that precious loving-kindness and that fatness of God's house and rive
 But Christ Himself expressly teaches us that by spiritual fountains and rivers of water of life is meant the Holy Ghost. (John 4:14; 7:38,39).That by the river of God's pleasures here is meant the same thing with the pure river of water of life spoken of in Revelation 22:1, will be much confirmed if we compare those verses with Revelation 21:23, 24; 22:1,5. (See the notes on chapters 21, 23, 24) I think if we compare these places and weigh them we cannot doubt but that it is the same happiness that is meant in this Psalm which is spoken of there.)
 
 So this well agrees with the similitudes and metaphors that are used about the Holy Ghost in Scripture, such as water, fire, breath, wind, oil, wine, a spring, a river, a being poured out and shed forth, and a being breathed forth. Can there any spiritual thing be thought, or anything belonging to any spiritual being to which such kind of metaphors so naturally agree, as to the affection of a Spirit. The affection, love or joy, may be said to flow out as water or to be breathed forth as breath or wind. But it would [not] sound so well to say that an idea or judgment flows out or is breathed forth.
+
+
 It is no way different to say of the affection that it is warm, or to compare love to fire, but it would not seem natural to say the same of perception or reason. It seems natural enough to say that the soul is poured out in affection or that love or delight are shed abroad: (Rom. 5:5) "The love of God is shed abroad in our hearts," but it suits with nothing else belonging to a spiritual being.
+
+
+## This is that "river of water of life"
 
 This is that "river of water of life" spoken of in the 22nd [chapter] of Revelation, which proceeds from the throne of the Father and the Son, for the rivers of living water or water of life are the Holy Ghost, by the same apostle's own interpretation (John 7:38, 39); and the Holy Ghost being the infinite delight and pleasure of God, the river is called the river of God's pleasures (Ps. 36:8), not God's river of pleasures, which I suppose signifies the same as the fatness of God's House, which they that trust in God shall be watered with, by which fatness of God's House I suppose is signified the same thing which oil typifies.
 

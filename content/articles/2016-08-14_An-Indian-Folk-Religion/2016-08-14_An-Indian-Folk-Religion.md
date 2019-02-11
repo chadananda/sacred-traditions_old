@@ -10,6 +10,7 @@ category: buddhism
 snip: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
 ---
 
+## The miseries of the thraldom of self
 
 IN HISTORICAL TIME the Buddha comes first of those who declared salvation to all men, without distinction, as by right man's own. What was the special force which startled men's minds and, almost within the master's lifetime, spread his teachings over India? It was the unique significance of the event, when a man came to men and said to them, ‘I am here to emancipate you from the miseries of the thraldom of self.’ This wisdom came, neither in texts of Scripture, nor in symbols of deities, nor in religious practices sanctified by ages, but through the voice of a living man and the love that flowed from a human heart.
 
@@ -20,6 +21,9 @@ Like the religion of the Upanishads, Buddhism also generated two divergent curre
 We have learnt that, by calculations made in accordance with the law of gravitation, some planets were discovered exactly in the place where they should be. Such a law of gravitation there is also in the moral world-And when we find men’s minds disturbed, as they were by the preaching of the Buddha, we can be sure, even without any corroborative evidence, that there must have been some great luminous body of attraction, positive and powerful, and not a mere unfathomable vacancy. It is exactly this which we discover in the heart of the Mahayana system; and we have no hesitation in saying that the truth of Buddhism is there. The oil has to be burnt, not for the purpose of diminishing it, but for the purpose of giving light to the lamp. And when the Buddha said that the self must go, he said at the same moment that love must be realized. Thus originated the doctrine of the Dharma-kaya, the Infinite Wisdom and Love manifested in the Buddha. It was the first instance, as I have said, when men felt that the Universal and the Eternal Spirit was revealed in a human individual whom they had known and touched. The joy was too great for them, since the very idea itself came to them as a freedom - a freedom from the sense of their measureless insignificance. It was the first time I repeat, when the individual, as a man, felt in himself the Infinite made concrete.
 
 What was more, those men who felt the love welling forth from the heart of Buddhism, as one with the current of the Eternal Love itself, were struck with the idea that such an effluence could never have been due to a single cataclysm of history - unnatural and therefore untrue. They felt instead that it was in the eternal nature of truth, that the event must belong to a series of manifestations; there must have been numberless other revelations in the past and endless others to follow.
+
+
+### Infinite Being was already in every one of them
 
 The idea grew and widened until men began to feel that this Infinite Being was already in every one of them, and that it rested with themselves to remove the sensual obstructions and reveal him in their own lives. In every individual there was, they realized, the potentiality of Buddha - that is to say, the Infinite made manifest.
 
