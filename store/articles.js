@@ -46,7 +46,9 @@ export const getters = {
   },
 
   getCategoryList: (state, getters) => {
-
+    let cats = {}
+    state.articles.forEach(a => a.category.split(',').forEach(cat =>  cats[cat] = 1 ))
+    return Object.keys(cats)
   },
 }
 
