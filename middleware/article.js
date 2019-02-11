@@ -7,7 +7,7 @@ export default function({ isHMR, app, store, route, req }) {
     const cookie = cookies.find(cookie => cookie[0] === 'language')
     if (cookie) lang = cookie[1]
     if (!lang) lang = store.getters.currentLang
-    store.commit('SET_LANG', lang)
+    store.commit('ux/SET_LANG', lang)
   } else {
     lang = store.getters.currentLang
   }

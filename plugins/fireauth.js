@@ -5,7 +5,7 @@ export default context => {
 
     return new Promise((resolve, reject) => {
         auth.onAuthStateChanged(user => {
-            store.commit('setUser', user);
+            store.commit('users/setUser', user);
             resolve();
         })
     })

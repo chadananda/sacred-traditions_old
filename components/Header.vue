@@ -118,17 +118,17 @@ export default {
   components: { IconsWrapper },
   computed: {
     languages() {
-      return this.$store.getters['languageList']
+      return this.$store.getters['ux/languageList']
     },
     currentLang() {
-      return this.$store.getters['currentLang']
+      return this.$store.getters['ux/currentLang']
     }
   },
   methods: {
     switchLanguage (lang) {
       document.cookie = `language=${lang}`;
       //      location.reload();
-      this.$store.commit('SET_LANG', lang)
+      this.$store.commit('ux/SET_LANG', lang)
     }
   },
   data() {
@@ -136,7 +136,7 @@ export default {
       header_links: [
         { url: "/", name: "Home" },
         // { url: "/category", name: "Interfaith Concept" },
-        { url: "/project", name: "Projects" },
+        // { url: "/project", name: "Projects" },
         // { url: "/idea", name: "Big Ideas" },
         { url: "/ocean", name: "- Ocean 2.0 Reader! - " },
         { url: "/about", name: "About Us" },
