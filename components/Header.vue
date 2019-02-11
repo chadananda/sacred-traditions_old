@@ -108,12 +108,12 @@
 </template>
 
 <script>
-import  MainNavigation from "~/components/MainNavigation.vue"
+// import  MainNavigation from "~/components/MainNavigation.vue"
 import IconsWrapper from "~/components/IconsWrapper.vue"
 
 export default {
   name: "slider",
-  components: { MainNavigation, IconsWrapper },
+  components: { IconsWrapper },
   computed: {
     languages() {
       return this.$store.state.languages
