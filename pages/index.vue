@@ -3,7 +3,12 @@
       <!-- articles -->
       <div class="col-md-8">
         <div class="site-entry">
-          <RecentArticles/>
+          <div class="recentArticles">
+            <template v-for="(article, index) in articles">
+              <ArticleSummaryFirst v-if="index===0" :article="article" :key="index"/>
+              <ArticleSummary v-else :article="article" :key="index"/>
+            </template>
+          </div>
           <Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>
         </div>
       </div>
@@ -13,26 +18,28 @@
 </template>
 
 <script>
-import RecentArticles from "~/components/articles/RecentArticles"
+import ArticleSummary from "~/components/articles/ArticleSummary"
+import ArticleSummaryFirst from "~/components/articles/ArticleSummaryFirst"
 import ArticleSidebar from "~/components/articles/ArticleSidebar"
 import Pagination from "~/components/Pagination"
 
 export default {
-  components: { RecentArticles, ArticleSidebar, Pagination },
-  data() {
-    return {
-      title: "Sacred Traditions Interfaith Project"
-    };
-  },
+  components: { ArticleSidebar, Pagination, ArticleSummary, ArticleSummaryFirst },
 
   head() {
     return {
-      title: this.title,
+      title: "Sacred Traditions Interfaith Project",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
-      ]
-    };
-  }
-};
+      ],
+    }
+  },
+
+  computed: {
+    articles() {
+      return this.$store.getters['articles/getRecentArticles'].slice(0, 6)
+    }
+  },
+}
 </script>
