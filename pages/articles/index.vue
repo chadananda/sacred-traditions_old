@@ -14,7 +14,7 @@
     layout: "empty",
     computed: {
       articles() {
-        return this.$store.getters.getArticles;
+        return this.$store.getters['articles/getArticles'];
       }
     }
   }
