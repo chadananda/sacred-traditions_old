@@ -4,12 +4,14 @@ author: "Moses Mendelssohn"
 pubdate: 2016-08-14
 language: en
 likes: 33
-tags: sit amet, consectetur
+tags: enlightenment, civilization
 img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
-category: enlightening
+category: enlightenment
 snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
 ---
 
+
+### Civilization, cultivation, and intellect
 
 THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language. Their use is almost confined to books. By the majority of mankind they are scarcely known or understood: but can this be considered as a proof that the objects these words represent are new or foreign to us? Certainly not. It is said of a certain nation, that they have no words for virtue and superstition, and yet no small portion of each may justly be ascribed to them.
 
@@ -46,6 +48,9 @@ The enlightening of the man may not always accord with that of the citizen. Many
 Unhappy is that country where the essential condition of the man does not harmonize with the essential condition of the citizen; where the degree of information which is indispensably necessary to men, cannot be extended through every class without danger to the political constitution.
 
 But when the accidental condition of the man comes in competition with the essential or accidental condition of the citizen, rules must be established, according to which exceptions may be made, and competitions may be decided.
+
+
+### Essential Condition of Men
 
 When the essential condition of men is unfortunately brought into a state of opposition with their accidental condition, when men dare not explain certain useful and [42] ornamental truths to mankind at large, without undermining the foundations of religion and morality, the instructor of his fellow-citizens who has a due regard to virtue, will act with caution and prudence, and rather permit prejudice to continue, than banish truths with which it is so intimately united. This maxim, however, has certainly proved the strongest bulwark of priestcraft, and we are indebted to it for many centuries of barbarism and superstition. As often as men were willing to destroy this evil, it took refuge in the sanctuary; and yet the friends of mankind will, even in the most enlightened periods, obey this maxim.
 

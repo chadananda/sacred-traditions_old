@@ -4,9 +4,9 @@
       <span>Fresh: Ocean 2.0 Reader</span>
     </h2>
     <div class="textwidget">
-      <a :href="url">
+      <nuxt-link :to="url">
         <img :src="image" alt="">
-      </a>
+      </nuxt-link>
     </div>
   </section>
 </template>

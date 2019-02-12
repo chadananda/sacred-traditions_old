@@ -78,7 +78,6 @@
 export default {
   layout: "other",
   components: {   },
-
   head() {
     return {
       title: 'About Sacred-Traditions.org',

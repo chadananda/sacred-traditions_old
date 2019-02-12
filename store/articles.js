@@ -31,7 +31,9 @@ export const getters = {
   },
   getAllArticles: (state, getters) => {
     if (!Array.isArray(state.allArticles)) return []
-      else return state.allArticles.slice()
+    let list = state.allArticles.slice() //  copy
+    list.sort((b,a) => compareDate(a.pubdate, b.pubdate)) // sort
+    return list
   },
   getTagList: (state, getters) => {
     let tags = {}, total = 0
@@ -44,7 +46,6 @@ export const getters = {
     })
     return tags
   },
-
   getCategoryList: (state, getters) => {
     let cats = {}
     state.articles.forEach(a => a.category.split(',').forEach(cat =>  cats[cat] = 1 ))

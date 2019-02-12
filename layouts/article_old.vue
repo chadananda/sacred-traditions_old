@@ -10,7 +10,7 @@
                 <!-- <Article/> -->
                 <nuxt/>
 
-                <Navigation/>
+                <PrevNext  />
 
                 <!-- <Authbio/> -->
 
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import Navigation from "~/components/article/Navigation.vue";
+import PrevNext from "~/components/article/PrevNext.vue";
 import Article from "~/components/article/Article.vue";
 import Authbio from "~/components/article/Authbio.vue";
 import Posts from "~/components/article/Posts.vue";
@@ -38,13 +38,13 @@ import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
-    Navigation,
+    PrevNext,
     Article,
     Authbio,
     Posts,
     Comments,
     Header,
     Footer
-  }
+  },
 };
 </script>

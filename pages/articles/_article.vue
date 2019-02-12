@@ -1,28 +1,54 @@
 <template>
-  <div>
-    <!-- <img v-if="article.img" :src="`/img/${article.img}`" :alt="article.title" class="arimg" /> -->
-    <ImageWrapper id="ar_img" :src="article.img" :alt="article.title" :width="200" :height="200"></ImageWrapper>
-    <h2>{{article.title}}</h2>
-    <p id="article_author" v-if="article.author && article.author!='unknown'"> by {{article.author}} </p>
-    <hr class="small"/>
-    <nuxtent-body :body="article.body" />
+  <div id="content" class="site-content">
+    <Header/>
+    <div id="primary" class="content-area">
+      <main id="main" class="site-main" role="main">
+        <div class="container">
+          <div class>
+            <div class="col-md-8 col-md-offset-2">
+              <div class="site-entry">
+
+        <ImageWrapper id="ar_img" :src="article.img" :alt="article.title" :width="200" :height="200"></ImageWrapper>
+        <h2>{{article.title}}</h2>
+        <p id="article_author" v-if="article.author && article.author!='unknown'"> by {{article.author}} </p>
+          <hr class="small"/>
+        <nuxtent-body :body="article.body" />
+
+                <PrevNext :article="article" />
+
+                <!-- <Authbio/> -->
+
+                <Posts/>
+
+                <!-- <Comments/> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
-// This file handles any MD articles in the /content/articles folder.
-//  import {NuxtentBody} from 'nuxtent'
-import ImageWrapper from '~/components/ImageWrapper';
+import ImageWrapper from '~/components/ImageWrapper'
+import PrevNext from "~/components/article/PrevNext.vue"
+import Authbio from "~/components/article/Authbio.vue"
+import Posts from "~/components/article/Posts.vue"
+import Comments from "~/components/article/Comments.vue"
+import Header from "~/components/Header.vue"
+import Footer from "~/components/Footer.vue"
 
 export default {
-  layout: "article",
-  // components: {NuxtentBody},
-  components: { ImageWrapper },
+  layout: "empty",
+
+  components: { ImageWrapper, PrevNext, Authbio, Posts, Posts, Comments, Header, Footer },
 
   async asyncData({ app, route, payload }) {
     return {
       article: (await app.$content("articles").get(route.path)) || payload
-    };
+    }
   },
 
   head() {
@@ -30,19 +56,12 @@ export default {
       title: `${this.article.title} - Sacred Traditions Interfaith Project`,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {
-          hid: "description",
-          name: "description",
-          content: this.article.snip
-        },
-        {
-          hid: "keywords",
-          name: "keywords",
-          keywords: this.article.tags
-        }
-      ]
-    };
-  }
+        { hid: "description", name: "description", content: this.article.snip },
+        { hid: "keywords", name: "keywords", keywords: this.article.tags }
+      ],
+
+    }
+  },
 };
 </script>
 

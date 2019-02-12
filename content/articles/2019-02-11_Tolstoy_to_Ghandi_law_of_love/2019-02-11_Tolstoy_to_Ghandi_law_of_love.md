@@ -1,5 +1,5 @@
 ---
-title: "Tolstoy’s Correspondence with Ghandi on the Law of Love"
+title: "Tolstoy’s Letter to Ghandi, Law of Love"
 author: "Leo Tolstoy"
 pubdate: 2019-02-11
 language: en
