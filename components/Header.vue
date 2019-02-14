@@ -135,7 +135,7 @@ export default {
         // { url: "/category", name: "Interfaith Concept" },
         // { url: "/project", name: "Projects" },
         // { url: "/idea", name: "Big Ideas" },
-        { url: "/ocean", name: "- Ocean 2.0 Reader! - " },
+        { url: "/ocean", name: "- Ocean 2.0 Reader! -" },
         { url: "/about", name: "About Us" },
         { url: "/contact", name: "Contact" }
       ],
