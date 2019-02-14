@@ -98,6 +98,13 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    postcss: {
+      preset: {
+        features: {
+          customProperties: false,
+        },
+      },
+    },
     extend (config, { isDev }) {
       if (isDev && process.client) {
         config.module.rules.push({
