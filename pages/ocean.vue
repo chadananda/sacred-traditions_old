@@ -93,7 +93,7 @@
      <div class="container container-flex">
         <div class="wrapper-text">
            <h2>Read &amp; Listen</h2>
-           <span>Alost every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
+           <span>Almost every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
