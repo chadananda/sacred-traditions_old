@@ -714,46 +714,42 @@ export default {
      display: block;
    }
  }
-</style>
+   img.applelogo {
+      width: 35px;
+   }
 
-<style scoped>
+   .container {
+      padding: 0;
+   }
 
-  img.applelogo {
-    width: 35px;
-  }
+   .download-button {
+      white-space: nowrap;
+   }
 
-  .container {
-    padding: 0;
-  }
+   .download-button img {
+      top: 0;
+      margin-top: -5px;
+   }
 
-  .download-button {
-    white-space: nowrap;
-  }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5 {
+      line-height: 1.5em;
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+   ul {
+      margin: 0;
+   }
+   .slider li {
+      float: none;
+   }
 
-  .download-button img {
-    top: 0;
-    margin-top: -5px;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    line-height: 1.5em;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  ul {
-    margin: 0;
-  }
-  .slider li {
-    float: none;
-  }
-
-  .lightlink:visited, .lightlink, .lightlink:hover {
-    color: white;
-  }
-  .lightlink:hover { text-decoration: underline;}
+   .lightlink:visited, .lightlink, .lightlink:hover {
+      color: white;
+   }
+   .lightlink:hover { text-decoration: underline;}
 </style>
 
