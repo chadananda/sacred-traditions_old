@@ -380,7 +380,7 @@ export default {
    }
  }
  .promo {
-   background-image: url('~/ocean_assets/images/logo_bg.svg');
+   background-image: url('../static/ocean_assets/images/logo_bg.svg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: 100% 100%;
