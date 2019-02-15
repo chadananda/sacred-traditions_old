@@ -9,7 +9,7 @@
               <div class="site-entry">
 
         <ImageWrapper id="ar_img" :src="article.img" :alt="article.title" :width="200" :height="200"></ImageWrapper>
-        <h2>{{article.title}}</h2>
+        <h2 id="article_title">{{article.title}}</h2>
         <p id="article_author" v-if="article.author && article.author!='unknown'"> by {{article.author}} </p>
           <hr class="small"/>
         <nuxtent-body :body="article.body" />
@@ -68,7 +68,8 @@ export default {
 
 <style scoped>
  /* Move to layout */
-  #article_author {font-style: italic;}
+  #article_title {color: rgb(100, 97, 141)}
+  #article_author {font-style: italic; color: rgb(89, 85, 141)}
   #ar_img {
     width: 150px; float: right;
     padding: 5px; margin: 10px; margin-top: 0;
