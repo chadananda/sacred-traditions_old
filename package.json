@@ -5,7 +5,7 @@
   "author": "Chad Jones",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 1844",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "NODE_ENV='production' STATIC=true nuxt generate --verbose",
