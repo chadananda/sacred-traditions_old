@@ -53,7 +53,7 @@ module.exports = {
 
     api: function(isStatic) {
         return {
-            baseURL: 'http://localhost:1844',
+            baseURL: 'http://localhost:3000',
             // browserBaseURL: 'http://127.0.0.1:8080',
             browserBaseURL: '',
         }
