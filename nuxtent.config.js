@@ -5,9 +5,10 @@ module.exports = {
    ["articles", {
      page: '/articles/_article',
      permalink: '/articles/:slug',
-     isPost: false,
-     generate: [ 'get' ]
+     isPost: true,
+     generate: [ 'get', 'getAll' ]
    }],
+
 //    ["narration", {
 //     page: '/_narration',
 //     permalink: 'narration/:slug',
@@ -52,10 +53,9 @@ module.exports = {
 
     api: function(isStatic) {
         return {
-            // baseURL: 'http://localhost:1844',
-            baseURL: process.env.NODE_ENV === 'production'  ? 'https://sacred-traditions.org' : '',
-            // browserBaseURL: isStatic ? 'https://sacred-traditions.org' : ''
-            browserBaseURL: isStatic ? '/' : '/'
+            baseURL: 'http://localhost:1844',
+            // browserBaseURL: 'http://127.0.0.1:8080',
+            browserBaseURL: '',
         }
     }
 };

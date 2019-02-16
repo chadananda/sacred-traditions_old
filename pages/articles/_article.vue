@@ -12,7 +12,8 @@
         <h2 id="article_title">{{article.title}}</h2>
         <p id="article_author" v-if="article.author && article.author!='unknown'"> by {{article.author}} </p>
           <hr class="small"/>
-        <nuxtent-body :body="article.body" />
+        <!-- <nuxtent-body :body="article.body" /> -->
+        <div v-html="article.body" />
 
                 <PrevNext :article="article" />
 
