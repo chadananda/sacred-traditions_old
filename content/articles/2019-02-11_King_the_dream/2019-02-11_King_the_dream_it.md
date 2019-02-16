@@ -9,7 +9,6 @@ img: article_assets/Martin-Luther-King.jpg
 category: racial amity
 snip: "E mentre camminiamo, dobbiamo impegnarci a fare sempre marcia avanti. Non possiamo tornare indietro."
 link: https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom
-permalink: 2019-02-11_King_the_dream
 ---
 
 

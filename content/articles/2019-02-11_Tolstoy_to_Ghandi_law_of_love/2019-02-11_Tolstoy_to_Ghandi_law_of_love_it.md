@@ -9,7 +9,6 @@ img: article_assets/tolsoy-portrait.jpg
 category: love
 snip: "E mentre camminiamo, dobbiamo impegnarci a fare sempre marcia avanti. Non possiamo tornare indietro."
 link: https://en.wikisource.org/wiki/Correspondence_between_Tolstoy_and_Gandhi
-permalink: 2019-02-11_Tolstoy_to_Ghandi_law_of_love
 ---
 
 
