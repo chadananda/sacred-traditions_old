@@ -47,6 +47,7 @@ export default {
   components: { ImageWrapper, PrevNext, Authbio, Posts, Posts, Comments, Header, Footer },
 
   async asyncData({ app, route, payload }) {
+    console.log('Route Path: ', route.path);
     return {
       article: (await app.$content("articles").get(route.path)) || payload
     }
