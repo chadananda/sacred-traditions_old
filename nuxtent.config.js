@@ -53,9 +53,11 @@ module.exports = {
 
     api: function(isStatic) {
         return {
-            baseURL: 'http://localhost:3000',
+            // baseURL: 'http://localhost:3000',
             // browserBaseURL: 'http://127.0.0.1:8080',
-            browserBaseURL: '',
+            // browserBaseURL: '',
+            baseURL: process.env.NODE_ENV === 'production'  ? 'https://sacred-traditions.org' : '',
+            browserBaseURL: isStatic ? 'https://sacred-traditions.org' : ''
         }
     }
 };
