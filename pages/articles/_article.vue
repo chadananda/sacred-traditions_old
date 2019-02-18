@@ -47,9 +47,10 @@ export default {
   components: { ImageWrapper, PrevNext, Authbio, Posts, Posts, Comments, Header, Footer },
 
   async asyncData({ app, route, payload }) {
-    console.log('Route Path: ', route.path);
+    let path = route.path
+    if (route.path.split('/')[3] === '') path = route.path.slice(0, route.path.length-1)
     return {
-      article: (await app.$content("articles").get(route.path)) || payload
+      article: (await app.$content("articles").get(path)) || payload
     }
   },
 
