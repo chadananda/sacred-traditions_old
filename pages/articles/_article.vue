@@ -44,11 +44,11 @@ import Footer from "~/components/Footer.vue"
 export default {
   layout: "empty",
 
-  components: { ImageWrapper, PrevNext, Authbio, Posts, Posts, Comments, Header, Footer },
+  components: { ImageWrapper, PrevNext, Authbio, Posts, Comments, Header, Footer },
 
   async asyncData({ app, route, payload }) {
     let path = route.path
-    if (route.path.split('/')[3] === '') path = route.path.slice(0, route.path.length-1)
+    if (route.path.slice(-1) === '/') path = route.path.slice(0, -1)
     return {
       article: (await app.$content("articles").get(path)) || payload
     }
