@@ -1,6 +1,6 @@
 {
   "name": "sacred-traditions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sacred Traditions Website",
   "author": "Chad Jones",
   "private": true,
@@ -21,7 +21,7 @@
     "bootstrap-vue": "^2.0.0-beta",
     "firebase": "^5.7.2",
     "jquery": "^3.3.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.0.0",
     "nuxtent": "^1.4.1",
     "object-fit-images": "^3.2.4"
   },
