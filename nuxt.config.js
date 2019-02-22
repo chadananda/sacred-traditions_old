@@ -77,7 +77,7 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     // 'nuxtent'
-    'nuxtent', // configured in nuxtdown.config.js
+    'nuxtdown', // configured in nuxtdown.config.js
    // 'nuxt-purgecss',
   ],
 
