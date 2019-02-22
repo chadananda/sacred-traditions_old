@@ -57,12 +57,12 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-      '~/plugins/fireauth.js'
+      // '~/plugins/fireauth.js'
   ],
 
   router: {
     middleware: [
-        'router-auth',
+        // 'router-auth',
         'article'
     ]
   },
