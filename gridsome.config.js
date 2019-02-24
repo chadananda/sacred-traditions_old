@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: `Gridsome Starter Blog`,
-  titleTemplate: `%s - Gridsome`,
+  siteName: `sacred-traditions`,
+  titleTemplate: `%s`,
 
   plugins: [
     {
@@ -11,5 +11,6 @@ module.exports = {
         route: '/:slug'
       }
     }
-  ]
+  ],
+  port: 3000
 }
