@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <div class="article">
-      <h1>{{ $page.blogPost.title }}</h1>
-      <span>{{ $page.blogPost.date }}</span>
-      <g-image :src="$page.blogPost.image"/>
-      <div class="content" v-html="$page.blogPost.content" />
+      <h1>{{ $page.article.title }}</h1>
+      <span>{{ $page.article.date }}</span>
+      <g-image :src="$page.article.image"/>
+      <div class="content" v-html="$page.article.content" />
     </div>
   </Layout>
 </template>
@@ -13,15 +13,15 @@
 export default {
   metaInfo () {
     return {
-      title: this.$page.blogPost.title
+      title: this.$page.article.title
     }
   }
 }
 </script>
 
 <page-query>
-  query BlogPost ($path: String!) {
-    blogPost (path: $path) {
+  query Article ($path: String!) {
+    article (path: $path) {
       title
       date (format: "D MMMM, YYYY")
       content
