@@ -1,6 +1,7 @@
 module.exports = {
   siteName: `sacred-traditions`,
   titleTemplate: `%s`,
+  siteUrl: 'https://sacred-traditions.org',
 
   plugins: [
     {

@@ -9,6 +9,10 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.0",
-    "gridsome": "^0.5.0"
+    "bootstrap": "^3.4.0",
+    "bootstrap-vue": "^2.0.0-beta",
+    "gridsome": "^0.5.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0"
   }
 }
