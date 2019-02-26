@@ -1,18 +1,15 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <g-link class="heading-link" :to="{ name: 'home' }">
-        <component :is="titleTag" class="heading">{{ config.siteName }}</component>
-      </g-link>
-    </header>
+  <div id="page" class="site">
+    <Header/>
     <slot/>
   </div>
 </template>
 
 <script>
-import config from '~/.temp/config.js';
-
+import config from '~/.temp/config.js'
+import Header from '~/components/Header.vue'
 export default {
+  components: { Header },
   computed: {
     titleTag () {
       return this.$route.name === 'home' ? 'h1' : 'h6'

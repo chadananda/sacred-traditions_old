@@ -1,4 +1,3 @@
-import DefaultLayout from '~/layouts/Default.vue'
 import Bootstrap from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -10,7 +9,6 @@ import '~/assets/css/style.less'
 import '~/assets/css/variables.less'
 
 export default function (Vue, { head }) {
-  Vue.component('Layout', DefaultLayout)
   Vue.use(Bootstrap)
 
   head.link.push({

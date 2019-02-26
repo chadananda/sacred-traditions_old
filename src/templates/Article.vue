@@ -1,12 +1,10 @@
 <template>
-  <Layout>
-    <div class="article">
-      <h1>{{ $page.article.title }}</h1>
-      <span>{{ $page.article.date }}</span>
-      <g-image :src="$page.article.image"/>
-      <div class="content" v-html="$page.article.content" />
-    </div>
-  </Layout>
+  <div class="article">
+    <h1>{{ $page.article.title }}</h1>
+    <span>{{ $page.article.date }}</span>
+    <g-image :src="$page.article.image"/>
+    <div class="content" v-html="$page.article.content" />
+  </div>
 </template>
 
 <script>

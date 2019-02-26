@@ -1,15 +1,15 @@
 <template>
-  <Layout class="home">
+    <Layout>
     <ul>
-      <li v-for="{ node } in $page.allArticle.edges" :key="node._id">
-        <router-link :to="node.path">
-          <h2 v-html="node.title"/>
-        </router-link>
-        <span v-html="node.date"/>
-        <div v-html="node.description"/>
-      </li>
+        <li v-for="{ node } in $page.allArticle.edges" :key="node._id">
+            <router-link :to="node.path">
+                <h2 v-html="node.title"/>
+            </router-link>
+            <span v-html="node.date"/>
+            <div v-html="node.description"/>
+        </li>
     </ul>
-  </Layout>
+    </Layout>
 </template>
 
 <page-query>
@@ -27,6 +27,13 @@
     }
   }
 </page-query>
+
+<script>
+    import Layout from '~/layouts/Default.vue'
+    export default {
+        components: { Layout }
+    }
+</script>
 
 <style scoped>
   .home >>> .heading {
