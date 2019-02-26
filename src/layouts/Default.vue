@@ -4,6 +4,7 @@
     <Slider/>
     <Header/>
     <slot/>
+    <Footer/>
   </div>
 </template>
 
@@ -13,8 +14,9 @@ import Header from '~/components/Header.vue'
 import SkipContent from '~/components/SkipContent.vue'
 import Slider from '~/components/Slider.vue'
 import ContentWrapper from '~/components/ContentWrapper.vue'
+import Footer from '~/components/Footer.vue'
 export default {
-  components: { Header, SkipContent, Slider, ContentWrapper },
+  components: { Header, SkipContent, Slider, ContentWrapper, Footer },
   computed: {
     titleTag () {
       return this.$route.name === 'home' ? 'h1' : 'h6'

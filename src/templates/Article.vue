@@ -1,31 +1,14 @@
 <template>
   <div class="article">
-    <h1>{{ $page.article.title }}</h1>
-    <span>{{ $page.article.date }}</span>
-    <g-image :src="$page.article.image"/>
-    <div class="content" v-html="$page.article.content" />
   </div>
 </template>
 
 <script>
 export default {
-  metaInfo () {
-    return {
-      title: this.$page.article.title
-    }
-  }
 }
 </script>
 
 <page-query>
-  query Article ($path: String!) {
-    article (path: $path) {
-      title
-      date (format: "D MMMM, YYYY")
-      content
-      image
-    }
-  }
 </page-query>
 
 <style>
