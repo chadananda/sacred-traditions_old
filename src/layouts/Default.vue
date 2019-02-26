@@ -1,5 +1,7 @@
 <template>
   <div id="page" class="site">
+    <SkipContent/>
+    <Slider/>
     <Header/>
     <slot/>
   </div>
@@ -8,8 +10,11 @@
 <script>
 import config from '~/.temp/config.js'
 import Header from '~/components/Header.vue'
+import SkipContent from '~/components/SkipContent.vue'
+import Slider from '~/components/Slider.vue'
+import ContentWrapper from '~/components/ContentWrapper.vue'
 export default {
-  components: { Header },
+  components: { Header, SkipContent, Slider, ContentWrapper },
   computed: {
     titleTag () {
       return this.$route.name === 'home' ? 'h1' : 'h6'
@@ -22,56 +27,52 @@ export default {
 </script>
 
 
-<style lang="css">
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    color: #4dba87;
-    text-decoration: none;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Mali', cursive;
-  }
-
-  h1 {
-    font-size: 48px;
-  }
-
-  h6 {
-    font-size: 20px;
-  }
-
-  body {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
+<style scoped>
+  html {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
-    padding: 0;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
   }
 
-  .heading-link {
-    color: black;
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .button--green {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #3b8070;
+    color: #3b8070;
     text-decoration: none;
+    padding: 10px 30px;
   }
 
-  .layout {
-    max-width: 600px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+  .button--green:hover {
+    color: #fff;
+    background-color: #3b8070;
   }
 
-  .layout {
-    margin-top: 30px;
-    margin-bottom: 50px;
+  .button--grey {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #35495e;
+    color: #35495e;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-left: 15px;
   }
 
-  .heading {
-    margin-bottom: 20px;
-    font-family: 'Mali', cursive;
-    font-weight: bold;
+  .button--grey:hover {
+    color: #fff;
+    background-color: #35495e;
   }
 </style>
