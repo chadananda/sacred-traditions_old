@@ -7,7 +7,7 @@
                     <div class="recentArticles">
                         <template v-for="(edge, index) in $page.allArticle.edges">
                             <ArticleSummaryFirst v-if="index===0" :article="edge.node" :key="index"/>
-                            <!--<ArticleSummary v-else :article="article" :key="index"/>-->
+                            <!--<ArticleSummary v-else :article="edge.node" :key="index"/>-->
                         </template>
                     </div>
                     <!--<Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>-->
@@ -46,39 +46,12 @@
     // import ArticleSummary from '~/components/articles/ArticleSummary.vue'
     // import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     export default {
-        components: { Layout, ArticleSummaryFirst }
+        components: { Layout, ArticleSummaryFirst },
+        metaInfo: {
+            title: "Sacred Traditions Interfaith Project",
+            meta: [
+                { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
+            ]
+        }
     }
 </script>
-
-<style scoped>
-  .home >>> .heading {
-    margin-bottom: 70px;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  ul li {
-    margin-bottom: 20px;
-  }
-
-  ul li a h2 {
-    margin-bottom: 10px;
-  }
-
-  span {
-    font-size: 80%;
-    padding: 0;
-  }
-
-  ul li p:first-child {
-    margin-top: 3px;
-  }
-
-  ul li p {
-    margin: 0;
-    line-height: 1.5;
-  }
-</style>
