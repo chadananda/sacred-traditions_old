@@ -9,6 +9,17 @@ export default {
 </script>
 
 <page-query>
+  query Article ($path: String!) {
+    article (path: $path) {
+      title
+      author
+      pubdate
+      img
+      snip
+      language
+      content
+    }
+  }
 </page-query>
 
 <style>

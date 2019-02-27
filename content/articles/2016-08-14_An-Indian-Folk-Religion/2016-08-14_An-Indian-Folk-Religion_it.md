@@ -1,5 +1,5 @@
 ---
-title: "An Indian Folk Religion"
+title: "An Indian Folk Religion IT"
 author: "Rabindranath Tagore"
 pubdate: 2016-08-14
 language: it

@@ -1,5 +1,5 @@
 ---
-title: "Essay on the Trinity"
+title: "Essay on the Trinity IT"
 author: "Jonathan Edwards"
 pubdate: 2016-03-11
 language: it

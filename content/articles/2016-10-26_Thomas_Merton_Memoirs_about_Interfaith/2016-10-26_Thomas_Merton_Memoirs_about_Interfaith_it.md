@@ -1,5 +1,5 @@
 ---
-title: "Thomas Merton Memoirs about Interfaith"
+title: "Thomas Merton Memoirs about Interfaith IT"
 author: "Thomas Merton"
 pubdate: 2016-10-27
 language: it

@@ -1,5 +1,5 @@
 ---
-title: "On Enlightening the Mind"
+title: "On Enlightening the Mind IT"
 author: "Moses Mendelssohn"
 pubdate: 2016-08-14
 language: it

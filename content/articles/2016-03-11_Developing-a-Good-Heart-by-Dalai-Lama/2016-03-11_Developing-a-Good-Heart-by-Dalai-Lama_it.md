@@ -1,5 +1,5 @@
 ---
-title: "Developing a Good Heart"
+title: "Developing a Good Heart IT"
 author: "Dalai Lama"
 pubdate: 2018-11-18
 language: it

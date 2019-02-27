@@ -1,5 +1,5 @@
 ---
-title: "Be Like Adam’s Son"
+title: "Be Like Adam’s Son IT"
 author: "Jawdat Sa’eed"
 pubdate: 2016-08-02
 language: it
