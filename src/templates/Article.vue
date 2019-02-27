@@ -1,11 +1,42 @@
 <template>
-  <div class="article">
+  <div id="content" class="site-content">
+    <Header/>
+    <div id="primary" class="content-area">
+      <main id="main" class="site-main" role="main">
+        <div class="container">
+          <div class>
+            <div class="col-md-8 col-md-offset-2">
+              <div class="site-entry">
+
+                <!--<ImageWrapper id="ar_img" :src="article.img" :alt="article.title" :width="200" :height="200"></ImageWrapper>-->
+                <h2 id="article_title">{{ $page.article.title}}</h2>
+                <p id="article_author" v-if="$page.article.author && $page.article.author!='unknown'"> by {{ $page.article.author }} </p>
+                <hr class="small"/>
+                <div v-html="$page.article.content" />
+
+                <!--<PrevNext :article="article" />-->
+
+                <!-- <Authbio/> -->
+
+                <!--<Posts/>-->
+
+                <!-- <Comments/> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
-export default {
-}
+  import Header from '~/components/Header.vue'
+  import Footer from '~/components/Footer.vue'
+  export default {
+    components: { Header, Footer }
+  }
 </script>
 
 <page-query>
@@ -22,54 +53,15 @@ export default {
   }
 </page-query>
 
-<style>
-  /* .header {
-    margin-bottom: 70px;
-  } */
-
-  .article {
-    margin-top: 15px;
-  }
-
-  .article h1 {
-    font-size: 40px;
-  }
-
-  .article img {
-    width: 100%;
-    border-radius: 5px;
-  }
-
-  .article a {
-    color: #4dba87;
-    text-decoration: underline;
-  }
-
-  .article a:hover {
-    text-decoration: none;
-  }
-
-  .article span {
-    font-size: 80%;
-    margin-bottom: 20px;
-  }
-
-  .article ol, .article ul {
-    list-style-position: outside;
-  }
-
-  .article ul {
-    list-style: disc;
-    padding-left: 20px;
-  }
-
-  .article .content p:first-child {
-    margin-top: 15px;
-  }
-
-  .article .content p {
-    margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 1.5;
+<style scoped>
+  /* Move to layout */
+  #article_title {color: rgb(100, 97, 141)}
+  #article_author {font-style: italic; color: rgb(89, 85, 141)}
+  #ar_img {
+    width: 150px; float: right;
+    padding: 5px; margin: 10px; margin-top: 0;
+    border-radius: 50px 20px !important;
+    border: 1px solid silver;
+    box-shadow: 1px 1px 2px silver;
   }
 </style>

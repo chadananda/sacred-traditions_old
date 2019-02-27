@@ -7,7 +7,7 @@
                     <div class="recentArticles">
                         <ul>
                             <li v-for="{ node } in $page.allArticle.edges">
-                                {{ node.title }}
+                                <g-link :to="node.path"> {{ node.title }} </g-link>
                             </li>
                         </ul>
                         <!--<template v-for="(article, index) in articles">-->
