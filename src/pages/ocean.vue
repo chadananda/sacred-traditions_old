@@ -18,8 +18,7 @@
               <span class="text-header">Share</span>
            </h2>
            <div class="text-content">Ocean is a custom ebook reader designed for exploration and study of the
-              sacred literature of the world’s religious traditions. It provides a simple cross-platform reading
-              experience with an immersive audio-integrated reading experience and usful study and research tools.
+              sacred literature of the world’s religious traditions. It provides a simple cross-platform reading experience with an immersive audio-integrated reading experience and usful study and research tools.
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
