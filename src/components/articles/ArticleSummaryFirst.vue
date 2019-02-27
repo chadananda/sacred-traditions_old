@@ -7,11 +7,11 @@
     <div class="entry-area">
       <div class="entry-header">
         <h2 class="entry-title">
-          <g-link :to="links" rel="bookmark">{{article.title}}</g-link>
+          <g-link :to="article.path" rel="bookmark">{{article.title}}</g-link>
         </h2>
         <div class="entry-meta">
           <span class="posted-on">
-            <g-link :to="links" rel="bookmark">
+            <g-link :to="article.path" rel="bookmark">
               <time
                 class="entry-date"
                 :datetime="article.pubdate"
@@ -34,7 +34,7 @@
       <div class="entry-content">
         <p>
           {{article.snip}}...
-          <g-link :to="links" class="more-link">
+          <g-link :to="article.path" class="more-link">
             <span class="moretext">Read more</span>
             <span class="screen-reader-text">{{article.title}}</span>
           </g-link>
@@ -48,11 +48,6 @@
   import ImageWrapper from '~/components/ImageWrapper'
   export default {
     components: { ImageWrapper },
-    props: ["article", "type"],
-    computed: {
-      links() {
-        return this.article.permalink ? this.article.permalink : `/articles/${this.article.path}`
-      }
-    }
+    props: ["article", "type"]
   };
 </script>

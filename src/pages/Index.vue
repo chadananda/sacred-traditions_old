@@ -5,15 +5,10 @@
             <div class="col-md-8">
                 <div class="site-entry">
                     <div class="recentArticles">
-                        <ul>
-                            <li v-for="{ node } in $page.allArticle.edges">
-                                <g-link :to="node.path"> {{ node.title }} </g-link>
-                            </li>
-                        </ul>
-                        <!--<template v-for="(article, index) in articles">-->
-                            <!--<ArticleSummaryFirst v-if="index===0" :article="article" :key="index"/>-->
+                        <template v-for="(edge, index) in $page.allArticle.edges">
+                            <ArticleSummaryFirst v-if="index===0" :article="edge.node" :key="index"/>
                             <!--<ArticleSummary v-else :article="article" :key="index"/>-->
-                        <!--</template>-->
+                        </template>
                     </div>
                     <!--<Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>-->
                 </div>
@@ -38,6 +33,7 @@
                     language
                     path
                     likes
+                    category
                 }
             }
         }
@@ -46,11 +42,11 @@
 
 <script>
     import Layout from '~/layouts/Default.vue'
-    // import ArticleSummaryFirst from '~/components/articles/ArticleSummaryFirst.vue'
+    import ArticleSummaryFirst from '~/components/articles/ArticleSummaryFirst.vue'
     // import ArticleSummary from '~/components/articles/ArticleSummary.vue'
     // import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     export default {
-        components: { Layout }
+        components: { Layout, ArticleSummaryFirst }
     }
 </script>
 
