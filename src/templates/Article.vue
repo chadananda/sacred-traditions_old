@@ -8,7 +8,7 @@
             <div class="col-md-8 col-md-offset-2">
               <div class="site-entry">
 
-                <!--<ImageWrapper id="ar_img" :src="article.img" :alt="article.title" :width="200" :height="200"></ImageWrapper>-->
+                <ImageWrapper id="ar_img" :src="$page.article.img" :alt="$page.article.title" :width="200" :height="200"></ImageWrapper>
                 <h2 id="article_title">{{ $page.article.title}}</h2>
                 <p id="article_author" v-if="$page.article.author && $page.article.author!='unknown'"> by {{ $page.article.author }} </p>
                 <hr class="small"/>
@@ -34,8 +34,9 @@
 <script>
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
+  import ImageWrapper from '~/components/ImageWrapper.vue'
   export default {
-    components: { Header, Footer }
+    components: { Header, Footer, ImageWrapper }
   }
 </script>
 
