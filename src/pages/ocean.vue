@@ -51,9 +51,9 @@
            </div>
         </div>
         <div class="img-promo">
-           <img src="/ocean_assets/images/webp/promo.webp" class="big-img"/>
-           <img src="/ocean_assets/images/webp/promo_portret.webp" class="md-img"/>
-           <img src="/ocean_assets/images/webp/promo_sm.webp" class="sm-img"/>
+           <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" />
+           <g-image src="/ocean_assets/images/promo_portret.webp" width="462"  class="md-img" />
+           <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" />
         </div>
      </div>
   </section>
@@ -96,8 +96,11 @@
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/webp/1.webp" class="big-img"/>
-           <img src="/ocean_assets/images/webp/1_sm.webp" class="sm-img"/>
+           <g-image src="/ocean_assets/images/1.webp" width="462" class="big-img" />
+           <g-image src="/ocean_assets/images/1_sm.webp" width="462" class="sm-img" />
+
+           <!-- <img src="/ocean_assets/images/webp/1.webp" class="big-img"/>
+           <img src="/ocean_assets/images/webp/1_sm.webp" class="sm-img"/> -->
         </div>
      </div>
   </section>
@@ -109,8 +112,10 @@
               you can still search, but only in non copyright-encumbered library books.</span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/webp/2.webp"  class="big-img" />
-           <img src="/ocean_assets/images/webp/2_sm.webp" class="sm-img"/>
+           <g-image src="/ocean_assets/images/2.webp" width="462" class="big-img" />
+           <g-image src="/ocean_assets/images/2_sm.webp" width="462" class="sm-img" />
+           <!-- <img src="/ocean_assets/images/webp/2.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/2_sm.webp" class="sm-img"/> -->
         </div>
      </div>
   </section>
@@ -123,8 +128,12 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/webp/3.webp"  class="big-img" />
-           <img src="/ocean_assets/images/webp/3_sm.webp" class="sm-img"/>
+
+           <g-image src="/ocean_assets/images/3.webp" width="462" class="big-img" />
+           <g-image src="/ocean_assets/images/3_sm.webp" width="462" class="sm-img" />
+
+           <!-- <img src="/ocean_assets/images/webp/3.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/3_sm.webp" class="sm-img"/> -->
         </div>
      </div>
   </section>
@@ -136,8 +145,11 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <img src="/ocean_assets/images/webp/4.webp"  class="big-img" />
-           <img src="/ocean_assets/images/webp/4_sm.webp" class="sm-img"/>
+           <g-image src="/ocean_assets/images/4.webp" width="462" class="big-img" />
+           <g-image src="/ocean_assets/images/4_sm.webp" width="462" class="sm-img" />
+
+           <!-- <img src="/ocean_assets/images/webp/4.webp"  class="big-img" />
+           <img src="/ocean_assets/images/webp/4_sm.webp" class="sm-img"/> -->
         </div>
      </div>
   </section>
