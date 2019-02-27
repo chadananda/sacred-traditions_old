@@ -80,3 +80,8 @@ src/.temp
 
 # cache
 .cache
+
+# Package lock
+package-lock.json
+
+

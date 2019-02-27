@@ -1,5 +1,8 @@
 {
-  "name": "gridsome-starter-markdown-blog",
+  "name": "sacred-traditions.org",
+  "description": "Sacred Traditions Interfaith Website",
+  "version": "2.0.5",
+  "author": "Chad Jones",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -12,7 +15,12 @@
     "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
     "gridsome": "^0.5.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1",
+    "core-js": "^2.6.5",
+    "webpack": "^4.29.5",
     "less": "^3.9.0",
     "less-loader": "^4.1.0"
   }
