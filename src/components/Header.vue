@@ -10,7 +10,7 @@
                     <!-- .col-md-3 -->
                     <div class="col-md-6">
                         <g-link to="/" rel="home">
-                            <img src="../assets/img/logo2.svg" alt="home" class="title-image">
+                            <img src="../../static/assets/img/logo2.svg" alt="home" class="title-image">
                         </g-link>
                     </div>
                     <!-- .col-md-6 -->
@@ -48,7 +48,7 @@
                                     <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                                         <li v-for="link in header_links" :key="link.name" class="menu-item">
                                             <g-link :to="link.url">
-                                                <img v-if="link.url === '/'" src="../assets/img/favicon.svg" class="ico">
+                                                <img v-if="link.url === '/'" src="../../static/assets/img/favicon.svg" class="ico">
                                                 {{ link.name }}
                                             </g-link>
                                         </li>

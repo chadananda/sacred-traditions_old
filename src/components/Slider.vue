@@ -34,42 +34,42 @@ export default {
         {
           title: "article1",
           path: "2016-10-26-thomas-merton-memoirs-about-interfaith",
-          image: require("../assets/img/astrif-featured-slider-01.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-01.png"),
           alt: "featured slider 01",
           description: "Thomas Merton Memoirs about Interfaith"
         },
         {
           title: "article2",
           path: "2016-09-07-lorem-ipsum-dolor-sit-amet",
-          image: require("../assets/img/astrif-featured-slider-02.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-02.png"),
           alt: "featured slider 02",
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
           title: "article3",
           path: "2016-08-14-on-enlightening-the-mind",
-          image: require("../assets/img/astrif-featured-slider-03.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-03.png"),
           alt: "featured slider 03",
           description: "On Enlightening the Mind"
         },
         {
           title: "article4",
           path: "2016-08-02-be-like-adams-son",
-          image: require("../assets/img/astrif-featured-slider-04.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-04.png"),
           alt: "featured slider 04",
           description: "Be Like Adam’s Son"
         },
         {
           title: "article5",
           path: "2016-03-11-essay-on-the-trinity",
-          image: require("../assets/img/astrif-featured-slider-05.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-05.png"),
           alt: "featured slider 05",
           description: "Essay on the Trinity"
         },
         {
           title: "article6",
           path: "2016-03-11-developing-a-good-heart-by-dalai-lama",
-          image: require("../assets/img/astrif-featured-slider-06.png"),
+          image: require("../../static/assets/img/astrif-featured-slider-06.png"),
           alt: "featured slider 06",
           description: "Developing a Good Heart"
         }

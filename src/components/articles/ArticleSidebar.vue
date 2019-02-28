@@ -8,7 +8,7 @@
         <!-- <SidebarSearch/> -->
 
         <!-- Ocean ad -->
-        <Advertisment :image="require('~/assets/img/ocean-promo.png')" url="/ocean"/>
+        <Advertisement :image="require('~/assets/img/ocean-promo.png')" url="/ocean"/>
 
         <!-- about component -->
         <About
@@ -31,26 +31,22 @@
 </template>
 
 <script>
-import ArticleSummary from "~/components/articles/ArticleSummary";
-import ArticleSummaryFirst from "~/components/articles/ArticleSummaryFirst";
 import SidebarSearch from "~/components/articles/sidebar/Search";
 import About from "~/components/articles/sidebar/About";
 import Follow from "~/components/articles/sidebar/FollowLinks";
 import WidgetPopularEntries from "~/components/articles/sidebar/WidgetPopularEntries";
-import Advertisment from "~/components/articles/sidebar/Advertisment";
+import Advertisement from "~/components/articles/sidebar/Advertisement";
 import Categories from "~/components/articles/sidebar/Categories";
 import Tags from "~/components/articles/sidebar/Tags";
 
 export default {
   props: ["_articles", "articleCount"],
   components: {
-    ArticleSummary,
-    ArticleSummaryFirst,
     SidebarSearch,
     About,
     Follow,
     WidgetPopularEntries,
-    Advertisment,
+    Advertisement,
     // RecentPost,
     Categories,
     Tags
