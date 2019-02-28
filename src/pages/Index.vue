@@ -7,10 +7,10 @@
                     <div class="recentArticles">
                         <template v-for="(edge, index) in $page.allArticle.edges">
                             <ArticleSummaryFirst v-if="index===0" :article="edge.node" :key="index"/>
-                            <!--<ArticleSummary v-else :article="edge.node" :key="index"/>-->
+                            <ArticleSummary v-else :article="edge.node" :key="index"/>
                         </template>
                     </div>
-                    <!--<Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>-->
+                    <Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>
                 </div>
             </div>
             <!-- .col-md-8 -->
@@ -43,10 +43,11 @@
 <script>
     import Layout from '~/layouts/Default.vue'
     import ArticleSummaryFirst from '~/components/articles/ArticleSummaryFirst.vue'
-    // import ArticleSummary from '~/components/articles/ArticleSummary.vue'
+    import ArticleSummary from '~/components/articles/ArticleSummary.vue'
     // import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
+    import Pagination from '~/components/Pagination.vue'
     export default {
-        components: { Layout, ArticleSummaryFirst },
+        components: { Layout, ArticleSummaryFirst, ArticleSummary, Pagination },
         metaInfo: {
             title: "Sacred Traditions Interfaith Project",
             meta: [

@@ -23,7 +23,7 @@
             </span>
           </span>
           <span class="entry-like">
-            <g-link to="#">
+            <g-link to="/#">
               <i class="fa fa-heart-o"></i>
               {{article.likes}}
             </g-link>
