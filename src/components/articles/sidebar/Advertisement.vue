@@ -13,10 +13,7 @@
 
 <script>
 export default {
-  props: ["url", "image"],
-  mounted() {
-    console.log('^^^^^^^^^^^^', this.image);
-  }
+  props: ["url", "image"]
 };
 </script>
 
