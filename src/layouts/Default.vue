@@ -3,7 +3,9 @@
     <SkipContent/>
     <Slider/>
     <Header/>
-    <slot/>
+    <ContentWrapper>
+      <slot/>
+    </ContentWrapper>
     <Footer :articles="$static.allArticle.edges"/>
   </div>
 </template>

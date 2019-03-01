@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <!--<IconsWrapper :icons="this.$store.getters['links/getSocialLinks']"/>-->
+                        <IconsWrapper :icons="social_links"/>
                     </div>
                     <!-- .col-md-3 -->
                     <div class="col-md-6">
@@ -90,6 +90,13 @@
                     { url: "/about", name: "About Us" },
                     { url: "/contact", name: "Contact" }
                 ],
+                social_links: [
+                    // { id: 1, icon: "twitter" },
+                    { id: 2, icon: "facebook", url:"https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/" },
+                    // { id: 3, icon: "instagram" },
+                    // { id: 4, icon: "pinterest" },
+                    { id: 5, icon: "youtube", url:"" }
+                ]
             }
         },
     }
