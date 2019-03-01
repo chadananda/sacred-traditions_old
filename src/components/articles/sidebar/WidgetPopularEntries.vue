@@ -4,27 +4,27 @@
       <span>Most Popular Articles</span>
     </h2>
     <ul>
-      <li v-for="(link, index) in links" :key="index">
-        <nuxt-link v-if="`${link.permalink}`" :to="`${link.permalink}`" class="popular-entry-thumbnail">
-          <ImageWrapper :src="`${link.img}`" :alt="`${link.title}`" :width="130" :height="130"></ImageWrapper>
-        </nuxt-link>
+      <li v-for="(edge, index) in articles" :key="index">
+        <g-link v-if="`${edge.node.path}`" :to="`${edge.node.path}`" class="popular-entry-thumbnail">
+          <ImageWrapper :src="`${edge.node.img}`" :alt="`${edge.node.title}`" :width="130" :height="130"></ImageWrapper>
+        </g-link>
         <span class="popular-entry-title">
-          <nuxt-link
-            :to="`${link.permalink}`"
+          <g-link
+            :to="`${edge.node.path}`"
             rel="bookmark"
             class="popular-entry-title-link"
-          >{{link.title}}</nuxt-link>
+          >{{edge.node.title}}</g-link>
           <div class="entry-meta">
           <span class="posted-on">
-            <time class="entry-date" :datetime="link.pubdate">
-              {{ new Date(link.pubdate).toLocaleDateString("en-US", {year:'numeric',month:'short',day:'numeric'}) }}
+            <time class="entry-date" :datetime="edge.node.pubdate">
+              {{ new Date(edge.node.pubdate).toLocaleDateString("en-US", {year:'numeric',month:'short',day:'numeric'}) }}
             </time>
           </span>
           <span class="entry-like">
-            <nuxt-link to="/#">
+            <g-link to="/#">
               <i class="fa fa-heart-o"></i>
-              {{ link.likes }}
-            </nuxt-link>
+              {{ edge.node.likes }}
+            </g-link>
           </span>
              </div>
         </span>
@@ -38,12 +38,7 @@
 
   export default {
     props: ['articles'],
-    components: { ImageWrapper },
-    computed: {
-      links() {
-        return this.$store.getters['articles/getPopularArticles'].slice(0, 5) // 5 most popular
-      }
-    },
+    components: { ImageWrapper }
   }
 </script>
 

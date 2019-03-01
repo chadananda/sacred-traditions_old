@@ -19,7 +19,7 @@
 
         <!-- /about component -->
         <Follow/>
-        <!--<WidgetPopularEntries/>-->
+        <WidgetPopularEntries :articles="_articles"/>
 
         <!--<Categories/>-->
         <!--<Tags/>-->
@@ -34,7 +34,7 @@
 // import SidebarSearch from "~/components/articles/sidebar/Search";
 import About from "~/components/articles/sidebar/About";
 import Follow from "~/components/articles/sidebar/FollowLinks";
-// import WidgetPopularEntries from "~/components/articles/sidebar/WidgetPopularEntries";
+import WidgetPopularEntries from "~/components/articles/sidebar/WidgetPopularEntries";
 import Advertisement from "~/components/articles/sidebar/Advertisement";
 // import Categories from "~/components/articles/sidebar/Categories";
 // import Tags from "~/components/articles/sidebar/Tags";
@@ -45,7 +45,7 @@ export default {
     // SidebarSearch,
     About,
     Follow,
-    // WidgetPopularEntries,
+    WidgetPopularEntries,
     Advertisement,
     // RecentPost,
     // Categories,
