@@ -14,7 +14,7 @@
                 </div>
             </div>
             <!-- .col-md-8 -->
-            <!--<ArticleSidebar/>-->
+            <ArticleSidebar/>
         </div>
     </Layout>
 </template>
@@ -44,10 +44,10 @@
     import Layout from '~/layouts/Default.vue'
     import ArticleSummaryFirst from '~/components/articles/ArticleSummaryFirst.vue'
     import ArticleSummary from '~/components/articles/ArticleSummary.vue'
-    // import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
+    import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     import Pagination from '~/components/Pagination.vue'
     export default {
-        components: { Layout, ArticleSummaryFirst, ArticleSummary, Pagination },
+        components: { Layout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
         metaInfo: {
             title: "Sacred Traditions Interfaith Project",
             meta: [

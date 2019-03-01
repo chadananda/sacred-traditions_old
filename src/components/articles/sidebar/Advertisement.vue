@@ -5,7 +5,7 @@
     </h2>
     <div class="textwidget">
       <g-link :to="url">
-        <img :src="image" alt="">
+        <g-image :src="image" alt=""></g-image>
       </g-link>
     </div>
   </section>
@@ -13,7 +13,10 @@
 
 <script>
 export default {
-  props: ["url", "image"]
+  props: ["url", "image"],
+  mounted() {
+    console.log('^^^^^^^^^^^^', this.image);
+  }
 };
 </script>
 
