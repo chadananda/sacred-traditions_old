@@ -33,6 +33,7 @@
                     language
                     path
                     likes
+                    tags
                     category
                 }
             }

@@ -21,8 +21,8 @@
         <Follow/>
         <WidgetPopularEntries :articles="_articles"/>
 
-        <!--<Categories/>-->
-        <!--<Tags/>-->
+        <Categories :articles="_articles"/>
+        <Tags :articles="_articles"/>
       </div>
       <!-- .site-sidebar -->
     </div>
@@ -36,8 +36,8 @@ import About from "~/components/articles/sidebar/About";
 import Follow from "~/components/articles/sidebar/FollowLinks";
 import WidgetPopularEntries from "~/components/articles/sidebar/WidgetPopularEntries";
 import Advertisement from "~/components/articles/sidebar/Advertisement";
-// import Categories from "~/components/articles/sidebar/Categories";
-// import Tags from "~/components/articles/sidebar/Tags";
+import Categories from "~/components/articles/sidebar/Categories";
+import Tags from "~/components/articles/sidebar/Tags";
 
 export default {
   props: ["_articles", "articleCount"],
@@ -48,8 +48,8 @@ export default {
     WidgetPopularEntries,
     Advertisement,
     // RecentPost,
-    // Categories,
-    // Tags
+    Categories,
+    Tags
   },
 };
 </script>

@@ -16,9 +16,18 @@
 
 <script>
 export default {
+  props: ['articles'],
   computed: {
     articleTags() {
-      return this.$store.getters['articles/getTagList']
+      let tags = {}, total = 0
+      this.articles.forEach(a => a.node.tags.split(',').forEach(tag => {
+        if (tag in tags) tags[tag]++; else tags[tag] = 1
+        total++
+      }))
+      Object.keys(tags).forEach(tag => {
+        tags[tag] = Math.round(tags[tag]/total*100)
+      })
+      return tags
     }
   }
 }

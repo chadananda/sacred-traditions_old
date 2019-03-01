@@ -3,9 +3,9 @@
     <h2 class="widget-title">
       <span>Categories</span>
     </h2>
-    <ul v-for="cat in articleCats" :key="cat">
+    <ul v-for="(edge, index) in articles" :key="index">
       <li>
-        <nuxt-link :to="`/categories/${cat}`">{{cat}}</nuxt-link>
+        <g-link :to="`/categories/${edge.node.category}`">{{edge.node.category}}</g-link>
       </li>
     </ul>
   </section>
@@ -13,11 +13,7 @@
 
 <script>
 export default {
-  computed: {
-    articleCats() {
-      return this.$store.getters['articles/getCategoryList']
-    }
-  }
+  props: ['articles']
 };
 </script>
 
