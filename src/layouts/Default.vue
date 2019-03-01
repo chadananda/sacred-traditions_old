@@ -4,7 +4,7 @@
     <Slider/>
     <Header/>
     <slot/>
-    <Footer/>
+    <Footer :articles="$static.allArticle.edges"/>
   </div>
 </template>
 
@@ -27,6 +27,28 @@ export default {
   }
 }
 </script>
+
+<static-query>
+  query Home ($page: Int) {
+    allArticle (page: $page, filter: { language: { eq: "en" }}) {
+      edges {
+        node {
+          _id
+          title
+          author
+          pubdate
+          img
+          snip
+          language
+          path
+          likes
+          tags
+          category
+        }
+      }
+    }
+  }
+</static-query>
 
 
 <style scoped>

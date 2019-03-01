@@ -46,13 +46,13 @@
         <br><br>
 
         <div class="instagram-widget">
-          <!--<ul>-->
-            <!--<li v-for="(article, index) in getArticles" :key='index'>-->
-              <!--<g-link :to="article.permalink">-->
-                <!--<ImageWrapper :src="article.img" :alt="article.title" :width="300" :height="300"></ImageWrapper>-->
-              <!--</g-link>-->
-            <!--</li>-->
-          <!--</ul>-->
+          <ul>
+            <li v-for="(edge, index) in footerArticles" :key='index'>
+              <g-link :to="edge.node.path">
+                <ImageWrapper :src="edge.node.img" :alt="edge.node.title" :width="300" :height="300"></ImageWrapper>
+              </g-link>
+            </li>
+          </ul>
           <!-- <p class="instagram-follow">
             <a
               href="http://instagram.com/sacredtraditions"
@@ -88,25 +88,17 @@
 
 
 <script>
-  // import ImageWrapper from '~/components/ImageWrapper'
+  import ImageWrapper from '~/components/ImageWrapper'
 
-  // export default {
-  //   components: { ImageWrapper },
-  //   computed: {
-  //     getArticles() {
-  //       return this.$store.getters['articles/getArticles'].slice(0, 6);
-  //     }
-  //   },
-  //   methods: {
-  //       googleSignUp() {
-  //         this.$store.dispatch('signInWithGoogle').then(() => {
-  //           console.log('Google Sign In');
-  //         }).catch((e) => {
-  //           console.log(e.message);
-  //         })
-  //       }
-  //   }
-  // }
+  export default {
+    props: ['articles'],
+    components: { ImageWrapper },
+    computed: {
+      footerArticles() {
+        return this.articles.slice(0, 6)
+      }
+    }
+  }
 </script>
 
 <style scoped>
