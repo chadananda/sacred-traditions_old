@@ -14,9 +14,9 @@
 
                 <ul class="social-icon">
                     <li v-for="(icon, index) in icons" :key="index">
-                        <nuxt-link to="#" :class="`${icon.class}`" target="_blank">
+                        <g-link to="#" :class="`${icon.class}`" target="_blank">
                             <i :class="`${icon.social_icon}`"></i>
-                        </nuxt-link>
+                        </g-link>
                     </li>
                 </ul>
             </div>

@@ -31,11 +31,10 @@ export default {
 </script>
 
 <static-query>
-  query Home ($page: Int) {
+  query DefaultLayoutQuery ($page: Int) {
     allArticle (page: $page, filter: { language: { eq: "en" }}) {
       edges {
         node {
-          _id
           title
           author
           pubdate

@@ -8,19 +8,19 @@
             <div class="col-sm-4" v-for="(article, index) in alsoLikes" :key="index">
                 <div class="post-container">
                     <div class="post-thumbnail">
-                        <nuxt-link :to="article.permalink">
+                        <g-link :to="article.permalink">
                             <ImageWrapper :src="`${article.img}`" :alt="``" :width="223" :height="223"></ImageWrapper>
-                        </nuxt-link>
+                        </g-link>
                     </div>
                     <h3 class="post-title">
-                        <nuxt-link :to="article.permalink">
+                        <g-link :to="article.permalink">
                             {{ article.title }}
-                        </nuxt-link>
+                        </g-link>
                     </h3>
                     <span class="post-meta">
-                        <nuxt-link :to="article.permalink">
+                        <g-link :to="article.permalink">
                             {{ article.date }}
-                        </nuxt-link>
+                        </g-link>
                     </span>
                 </div>
             </div>

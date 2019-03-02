@@ -12,11 +12,10 @@
 </template>
 
 <static-query>
-    query Home ($page: Int) {
+    query OtherLayoutQuery ($page: Int) {
         allArticle (page: $page, filter: { language: { eq: "en" }}) {
             edges {
                 node {
-                    _id
                     title
                     author
                     pubdate

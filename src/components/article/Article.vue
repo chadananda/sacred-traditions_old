@@ -1,7 +1,7 @@
 <template>
     <article class="post format-standard hentry">
         <Header/>
-        <nuxt/>
+        <slot/>
         <Footer/>
     </article>
 </template>

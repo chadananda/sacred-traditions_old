@@ -3,18 +3,18 @@
     <h2 class="screen-reader-text">Post navigation</h2>
     <div class="nav-links" v-if="nextArticle || prevArticle">
       <div class="nav-previous">
-        <nuxt-link :to="prevArticle.permalink" class="image-link">
+        <g-link :to="prevArticle.permalink" class="image-link">
           <ImageWrapper :src="prevArticle.img" :alt="prevArticle.title" :width="90" :height="90"></ImageWrapper>
-        </nuxt-link>
+        </g-link>
         <span>Previous</span>
-        <nuxt-link :to="prevArticle.permalink" class="prev-link" rel="prev">{{prevArticle.title}}</nuxt-link>
+        <g-link :to="prevArticle.permalink" class="prev-link" rel="prev">{{prevArticle.title}}</g-link>
       </div>
       <div class="nav-next">
-        <nuxt-link :to="nextArticle.permalink" class="image-link">
+        <g-link :to="nextArticle.permalink" class="image-link">
           <ImageWrapper :src="nextArticle.img" :alt="nextArticle.title" :width="90" :height="90"></ImageWrapper>
-        </nuxt-link>
+        </g-link>
         <span>Next</span>
-        <nuxt-link :to="nextArticle.permalink" class="next-link" rel="prev">{{nextArticle.title}}</nuxt-link>
+        <g-link :to="nextArticle.permalink" class="next-link" rel="prev">{{nextArticle.title}}</g-link>
       </div>
     </div>
   </nav>
