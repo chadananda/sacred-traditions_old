@@ -8,15 +8,28 @@ import '~/assets/css/skin.less'
 import '~/assets/css/style.less'
 import '~/assets/css/variables.less'
 import jquery from 'jquery'
+import Vuex from 'vuex'
+import getters from './store/getters'
+import mutations from './store/mutations'
+import actions from './store/actions'
 
-export default function (Vue, { head }) {
+export default function (Vue, { head, appOptions }) {
   Vue.use(Bootstrap)
+  Vue.use(Vuex)
 
-  // head.script.push({ src: 'https://code.jquery.com/jquery-3.3.1.min.js', type: 'text/javascript', defer: true })
-  // head.script.push({ src: '/assets/js/script.min.js', type: 'text/javascript', defer: true })
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Mali:700|Nunito'
   })
   Vue.prototype.$jquery = jquery
+
+  // set Vuex store
+  appOptions.store = new Vuex.Store({
+    state: {
+      articles: []
+    },
+    mutations,
+    getters,
+    actions
+  })
 }
