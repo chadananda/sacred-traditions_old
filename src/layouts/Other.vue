@@ -13,7 +13,7 @@
 
 <static-query>
     query OtherLayoutQuery ($page: Int) {
-        allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
+        allArticle (page: $page, sortBy: "pubdate", order: DESC) {
             edges {
                 node {
                     title
@@ -42,7 +42,9 @@
         name: "Other",
         components: { Header, SkipContent, Slider, ContentWrapper, Footer },
         mounted() {
-            this.$store.commit('SET_ARTICLES', this.$static.allArticle.edges)
+            if (this.$store.getters.getAllArticles.length === 0) {
+                this.$store.commit('setAllArticles', this.$static.allArticle.edges)
+            }
         }
     }
 </script>

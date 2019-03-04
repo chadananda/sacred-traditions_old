@@ -26,7 +26,21 @@ export default function (Vue, { head, appOptions }) {
   // set Vuex store
   appOptions.store = new Vuex.Store({
     state: {
+      allArticles: [],
       articles: [],
+      language: 'en',
+      languages: {
+        'en': 'English',
+        'it': 'Italiano',
+        'ar': 'العربية',
+        'fa': 'فارسی',
+        'es': 'Español',
+        'fr': 'français',
+        'cn': '中文',
+        'de': 'Deutsch',
+        'ru': 'русский',
+        'hi': 'हिन्दी'
+      },
       social_links: [
         // { id: 1, icon: "twitter" },
         { id: 2, icon: "facebook", url:"https://www.facebook.com/The-Dawn-Breakers-Challenge-329820570524376/" },

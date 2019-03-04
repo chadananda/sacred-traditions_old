@@ -1,13 +1,20 @@
 const getters = {
 
     getArticles: (state, getters) => {
-        return state.articles;
+        if (!Array.isArray(state.articles)) return []
+        return state.articles.slice() //  copy of list
     },
     // full list of language articles sorted by popularity
     getPopularArticles: (state, getters) => {
         if (!Array.isArray(state.articles)) return []
         let list = state.articles.slice() //  copy
         list.sort((a,b) => b.node.likes-a.node.likes)
+        return list
+    },
+
+    getAllArticles: (state, getters) => {
+        if (!Array.isArray(state.allArticles)) return []
+        let list = state.allArticles.slice() //  copy
         return list
     },
 

@@ -1,6 +1,8 @@
 const mutations = {
-    SET_ARTICLES: (state, payload) => {
-        state.articles = payload;
+    setAllArticles: (state, articles) => {
+        state.allArticles = articles
+        let lang = state.language || 'en'
+        state.articles = state.allArticles.filter(a => a.node.language===lang)
     }
 };
 

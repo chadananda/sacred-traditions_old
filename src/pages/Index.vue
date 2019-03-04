@@ -21,7 +21,7 @@
 
 <page-query>
     query Home ($page: Int) {
-        allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
+        allArticle (page: $page, sortBy: "pubdate", order: DESC) {
             edges {
                 node {
                     title
@@ -55,7 +55,9 @@
             ]
         },
         mounted() {
-            this.$store.commit('SET_ARTICLES', this.$page.allArticle.edges)
+            if (this.$store.getters.getAllArticles.length === 0) {
+                this.$store.commit('setAllArticles', this.$page.allArticle.edges)
+            }
         },
         computed: {
             articles() {
