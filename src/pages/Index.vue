@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <div class="site-entry">
                     <div class="recentArticles">
-                        <template v-for="(edge, index) in $page.allArticle.edges">
+                        <template v-for="(edge, index) in articles">
                             <ArticleSummaryFirst v-if="index===0" :article="edge.node" :key="index"/>
                             <ArticleSummary v-else :article="edge.node" :key="index"/>
                         </template>
@@ -21,7 +21,7 @@
 
 <page-query>
     query Home ($page: Int) {
-        allArticle (page: $page, filter: { language: { eq: "en" }}) {
+        allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
             edges {
                 node {
                     _id
@@ -57,6 +57,11 @@
         },
         mounted() {
             this.$store.commit('SET_ARTICLES', this.$page.allArticle.edges)
+        },
+        computed: {
+            articles() {
+                return this.$store.getters.getArticles.slice(0, 6)
+            }
         }
     }
 </script>
