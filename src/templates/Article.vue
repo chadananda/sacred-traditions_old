@@ -18,7 +18,7 @@
 
                   <!-- <Authbio/> -->
 
-                  <!--<Posts/>-->
+                  <Posts/>
 
                   <!-- <Comments/> -->
                 </div>
@@ -37,8 +37,9 @@
   import ImageWrapper from '~/components/ImageWrapper.vue'
   import OtherLayout from '~/layouts/Other.vue'
   import PrevNext from '~/components/article/PrevNext.vue'
+  import Posts from '~/components/article/Posts.vue'
   export default {
-    components: { Header, Footer, ImageWrapper, OtherLayout, PrevNext },
+    components: { Header, Footer, ImageWrapper, OtherLayout, PrevNext, Posts },
     metaInfo() {
       return {
         title: `${this.$page.article.title} - Sacred Traditions Interfaith Project`,
