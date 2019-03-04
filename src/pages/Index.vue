@@ -14,7 +14,7 @@
                 </div>
             </div>
             <!-- .col-md-8 -->
-            <ArticleSidebar :_articles="$page.allArticle.edges"/>
+            <ArticleSidebar/>
         </div>
     </DefaultLayout>
 </template>

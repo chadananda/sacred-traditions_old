@@ -14,6 +14,24 @@ const getters = {
     getSocialLinks: (state, getters) => {
         if (Array.isArray(state.social_links)) return state.social_links.slice()
         else return []
+    },
+
+    getCategoryList: (state, getters) => {
+        let cats = {}
+        state.articles.forEach(a => a.node.category.split(',').forEach(cat =>  cats[cat] = 1 ))
+        return Object.keys(cats)
+    },
+
+    getTagList: (state, getters) => {
+        let tags = {}, total = 0
+        state.articles.forEach(a => a.node.tags.split(',').forEach(tag => {
+            if (tag in tags) tags[tag]++; else tags[tag] = 1
+            total++
+        }))
+        Object.keys(tags).forEach(tag => {
+            tags[tag] = Math.round(tags[tag]/total*100)
+        })
+        return tags
     }
 };
 

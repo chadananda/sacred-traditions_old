@@ -3,9 +3,9 @@
     <h2 class="widget-title">
       <span>Categories</span>
     </h2>
-    <ul v-for="(edge, index) in articles" :key="index">
+    <ul v-for="(cat, index) in $store.getters.getCategoryList" :key="index">
       <li>
-        <g-link :to="`/categories/${edge.node.category}`">{{edge.node.category}}</g-link>
+        <g-link :to="`/categories/${cat}`">{{cat}}</g-link>
       </li>
     </ul>
   </section>

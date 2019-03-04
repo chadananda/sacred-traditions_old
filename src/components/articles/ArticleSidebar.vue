@@ -19,10 +19,10 @@
 
         <!-- /about component -->
         <Follow/>
-        <WidgetPopularEntries :articles="_articles"/>
+        <WidgetPopularEntries/>
 
-        <Categories :articles="_articles"/>
-        <Tags :articles="_articles"/>
+        <Categories/>
+        <Tags/>
       </div>
       <!-- .site-sidebar -->
     </div>
