@@ -1,4 +1,5 @@
 const getters = {
+
     getArticles: (state, getters) => {
         return state.articles;
     },
@@ -9,6 +10,11 @@ const getters = {
         list.sort((a,b) => b.node.likes-a.node.likes)
         return list
     },
+
+    getSocialLinks: (state, getters) => {
+        if (Array.isArray(state.social_links)) return state.social_links.slice()
+        else return []
+    }
 };
 
 export default getters
