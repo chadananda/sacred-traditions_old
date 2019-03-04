@@ -14,7 +14,7 @@
                   <hr class="small"/>
                   <div v-html="$page.article.content" />
 
-                  <!--<PrevNext :article="article" />-->
+                  <PrevNext :article="$page.article" />
 
                   <!-- <Authbio/> -->
 
@@ -36,8 +36,9 @@
   import Footer from '~/components/Footer.vue'
   import ImageWrapper from '~/components/ImageWrapper.vue'
   import OtherLayout from '~/layouts/Other.vue'
+  import PrevNext from '~/components/article/PrevNext.vue'
   export default {
-    components: { Header, Footer, ImageWrapper, OtherLayout },
+    components: { Header, Footer, ImageWrapper, OtherLayout, PrevNext },
     metaInfo() {
       return {
         title: `${this.$page.article.title} - Sacred Traditions Interfaith Project`,
@@ -61,6 +62,7 @@
       img
       snip
       language
+      path
       content
     }
   }
