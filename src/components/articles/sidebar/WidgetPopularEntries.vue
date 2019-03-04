@@ -4,7 +4,7 @@
       <span>Most Popular Articles</span>
     </h2>
     <ul>
-      <li v-for="(edge, index) in articles" :key="index">
+      <li v-for="(edge, index) in popularArticles" :key="index">
         <g-link v-if="`${edge.node.path}`" :to="`${edge.node.path}`" class="popular-entry-thumbnail">
           <ImageWrapper :src="`${edge.node.img}`" :alt="`${edge.node.title}`" :width="130" :height="130"></ImageWrapper>
         </g-link>
@@ -38,7 +38,12 @@
 
   export default {
     props: ['articles'],
-    components: { ImageWrapper }
+    components: { ImageWrapper },
+    computed: {
+      popularArticles() {
+        return this.$store.getters.getPopularArticles.slice(0, 5) // 5 most popular
+      }
+    }
   }
 </script>
 
