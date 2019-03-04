@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <OtherLayout>
     <!-- content -->
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
@@ -29,16 +29,16 @@
     </div>
     <!-- .row -->
     <!-- #content -->
-  </Layout>
+  </OtherLayout>
 </template>
 
 <script>
-  import Layout from '~/layouts/Other.vue'
+  import OtherLayout from '~/layouts/Other.vue'
   import ContactForm from '~/components/ContactForm.vue'
 
   export default {
     components: {
-      Layout,
+      OtherLayout,
       ContactForm
     },
     metaInfo: {

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <OtherLayout>
     <!-- content -->
     <div class="row">
       <!-- article -->
@@ -41,15 +41,15 @@
     </div>
     <!-- .row -->
     <!-- #content -->
-  </Layout>
+  </OtherLayout>
 </template>
 
 <script>
   import IconsWrapper from "~/components/IconsWrapper.vue"
-  import Layout from '~/layouts/Other.vue'
+  import OtherLayout from '~/layouts/Other.vue'
   export default {
     components: {
-      Layout,
+      OtherLayout,
       IconsWrapper
     },
     metaInfo: {

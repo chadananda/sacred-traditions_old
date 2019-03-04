@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <OtherLayout>
     <div id="content" class="site-content">
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
@@ -28,16 +28,16 @@
         </main>
       </div>
     </div>
-  </Layout>
+  </OtherLayout>
 </template>
 
 <script>
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
   import ImageWrapper from '~/components/ImageWrapper.vue'
-  import Layout from '~/layouts/Other.vue'
+  import OtherLayout from '~/layouts/Other.vue'
   export default {
-    components: { Header, Footer, ImageWrapper, Layout },
+    components: { Header, Footer, ImageWrapper, OtherLayout },
     metaInfo() {
       return {
         title: `${this.$page.article.title} - Sacred Traditions Interfaith Project`,

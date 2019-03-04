@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <DefaultLayout>
         <div class="row">
             <!-- articles -->
             <div class="col-md-8">
@@ -16,7 +16,7 @@
             <!-- .col-md-8 -->
             <ArticleSidebar :_articles="$page.allArticle.edges"/>
         </div>
-    </Layout>
+    </DefaultLayout>
 </template>
 
 <page-query>
@@ -41,13 +41,13 @@
 </page-query>
 
 <script>
-    import Layout from '~/layouts/Default.vue'
+    import DefaultLayout from '~/layouts/Default.vue'
     import ArticleSummaryFirst from '~/components/articles/ArticleSummaryFirst.vue'
     import ArticleSummary from '~/components/articles/ArticleSummary.vue'
     import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     import Pagination from '~/components/Pagination.vue'
     export default {
-        components: { Layout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
+        components: { DefaultLayout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
         metaInfo: {
             title: "Sacred Traditions Interfaith Project",
             meta: [
