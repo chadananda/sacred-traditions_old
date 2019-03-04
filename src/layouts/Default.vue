@@ -6,7 +6,7 @@
     <ContentWrapper>
       <slot/>
     </ContentWrapper>
-    <Footer :articles="$static.allArticle.edges"/>
+    <Footer/>
   </div>
 </template>
 
@@ -26,6 +26,9 @@ export default {
     config () {
       return config
     }
+  },
+  mounted() {
+    this.$store.commit('SET_ARTICLES', this.$static.allArticle.edges)
   }
 }
 </script>
