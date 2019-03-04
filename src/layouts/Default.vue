@@ -27,7 +27,7 @@ export default {
 
 <static-query>
   query DefaultLayoutQuery ($page: Int) {
-    allArticle (page: $page, filter: { language: { eq: "en" }}) {
+    allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
       edges {
         node {
           title

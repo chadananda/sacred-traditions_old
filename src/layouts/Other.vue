@@ -13,7 +13,7 @@
 
 <static-query>
     query OtherLayoutQuery ($page: Int) {
-        allArticle (page: $page, filter: { language: { eq: "en" }}) {
+        allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
             edges {
                 node {
                     title

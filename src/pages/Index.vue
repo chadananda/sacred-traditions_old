@@ -24,7 +24,6 @@
         allArticle (page: $page, filter: { language: { eq: "en" }}, sortBy: "pubdate", order: DESC) {
             edges {
                 node {
-                    _id
                     title
                     author
                     pubdate
