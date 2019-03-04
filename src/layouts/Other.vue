@@ -6,7 +6,7 @@
             <ContentWrapper>
                 <slot/>
             </ContentWrapper>
-            <Footer :articles="$static.allArticle.edges"/>
+            <Footer/>
         </div>
     </div>
 </template>
