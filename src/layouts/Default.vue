@@ -19,14 +19,6 @@ import ContentWrapper from '~/components/ContentWrapper.vue'
 import Footer from '~/components/Footer.vue'
 export default {
   components: { Header, SkipContent, Slider, ContentWrapper, Footer },
-  computed: {
-    titleTag () {
-      return this.$route.name === 'home' ? 'h1' : 'h6'
-    },
-    config () {
-      return config
-    }
-  },
   mounted() {
     this.$store.commit('SET_ARTICLES', this.$static.allArticle.edges)
   }
