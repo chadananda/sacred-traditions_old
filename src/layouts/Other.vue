@@ -40,7 +40,10 @@
     import Footer from '~/components/Footer.vue'
     export default {
         name: "Other",
-        components: { Header, SkipContent, Slider, ContentWrapper, Footer }
+        components: { Header, SkipContent, Slider, ContentWrapper, Footer },
+        mounted() {
+            this.$store.commit('SET_ARTICLES', this.$static.allArticle.edges)
+        }
     }
 </script>
 

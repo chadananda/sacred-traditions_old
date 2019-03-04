@@ -47,7 +47,7 @@
 
         <div class="instagram-widget">
           <ul>
-            <li v-for="(edge, index) in articles" :key='index'>
+            <li v-for="(edge, index) in getFooterArticle" :key='index'>
               <g-link :to="edge.node.path">
                 <ImageWrapper :src="edge.node.img" :alt="edge.node.title" :width="300" :height="300"></ImageWrapper>
               </g-link>
@@ -92,7 +92,12 @@
 
   export default {
     props: ['articles'],
-    components: { ImageWrapper }
+    components: { ImageWrapper },
+    computed: {
+      getFooterArticle() {
+        return this.$store.getters.getArticles.slice(0, 6)
+      }
+    }
   }
 </script>
 

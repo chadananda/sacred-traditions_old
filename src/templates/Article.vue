@@ -1,42 +1,43 @@
 <template>
-  <div id="content" class="site-content">
-    <Header/>
-    <div id="primary" class="content-area">
-      <main id="main" class="site-main" role="main">
-        <div class="container">
-          <div class>
-            <div class="col-md-8 col-md-offset-2">
-              <div class="site-entry">
+  <Layout>
+    <div id="content" class="site-content">
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+          <div class="container">
+            <div class>
+              <div class="col-md-8 col-md-offset-2">
+                <div class="site-entry">
 
-                <ImageWrapper id="ar_img" :src="$page.article.img" :alt="$page.article.title" :width="200" :height="200"></ImageWrapper>
-                <h2 id="article_title">{{ $page.article.title}}</h2>
-                <p id="article_author" v-if="$page.article.author && $page.article.author!='unknown'"> by {{ $page.article.author }} </p>
-                <hr class="small"/>
-                <div v-html="$page.article.content" />
+                  <ImageWrapper id="ar_img" :src="$page.article.img" :alt="$page.article.title" :width="200" :height="200"></ImageWrapper>
+                  <h2 id="article_title">{{ $page.article.title}}</h2>
+                  <p id="article_author" v-if="$page.article.author && $page.article.author!='unknown'"> by {{ $page.article.author }} </p>
+                  <hr class="small"/>
+                  <div v-html="$page.article.content" />
 
-                <!--<PrevNext :article="article" />-->
+                  <!--<PrevNext :article="article" />-->
 
-                <!-- <Authbio/> -->
+                  <!-- <Authbio/> -->
 
-                <!--<Posts/>-->
+                  <!--<Posts/>-->
 
-                <!-- <Comments/> -->
+                  <!-- <Comments/> -->
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
-    <Footer/>
-  </div>
+  </Layout>
 </template>
 
 <script>
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
   import ImageWrapper from '~/components/ImageWrapper.vue'
+  import Layout from '~/layouts/Other.vue'
   export default {
-    components: { Header, Footer, ImageWrapper }
+    components: { Header, Footer, ImageWrapper, Layout }
   }
 </script>
 

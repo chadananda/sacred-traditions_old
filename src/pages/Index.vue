@@ -54,6 +54,9 @@
             meta: [
                 { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
             ]
+        },
+        mounted() {
+            this.$store.commit('SET_ARTICLES', this.$page.allArticle.edges)
         }
     }
 </script>
