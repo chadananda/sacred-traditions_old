@@ -5,7 +5,7 @@ pubdate: 2018-11-18
 language: en
 likes: 100
 tags: sit amet, consectetur
-img: article_assets/Dalailama1_20121014_4639.jpg
+img: ./img/Dalailama1_20121014_4639.jpg
 category: heart
 snip: "I always tell people that my religion is kindness, because kindness is “in our bones.” Without kindness, none of us could survive. When we are born we are welcomed with kindness and compassion."
 ---

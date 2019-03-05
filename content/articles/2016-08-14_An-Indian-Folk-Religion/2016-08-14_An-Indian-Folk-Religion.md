@@ -5,7 +5,7 @@ pubdate: 2016-08-14
 language: en
 likes: 12
 tags: sit amet, consectetur
-img: article_assets/46122bc4dca93e61413c2e750ca0974b.jpg
+img: ./img/46122bc4dca93e61413c2e750ca0974b.jpg
 category: buddhism
 snip: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."
 ---

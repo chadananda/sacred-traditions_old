@@ -5,7 +5,7 @@ pubdate: 2016-08-02
 language: it
 likes: 31
 tags: sit amet, consectetur
-img: article_assets/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg
+img: ./img/adam-and-eve-with-the-infants-cain-and-abel-lorenzo-de-ferrari.jpg
 category: disputes
 snip: "Lode a Dio; che la pace sia sui suoi profeti eletti e su quelli che invocano la giustizia e la misericordia."
 ---

@@ -5,7 +5,7 @@ pubdate: 2019-02-11
 language: en
 likes: 90
 tags: race, vision
-img: article_assets/Martin-Luther-King.jpg
+img: ./img/Martin-Luther-King.jpg
 category: racial amity
 snip: "And as we walk, we must make the pledge that we shall always march ahead. We cannot turn back."
 link: https://kinginstitute.stanford.edu/king-papers/documents/i-have-dream-address-delivered-march-washington-jobs-and-freedom

@@ -5,7 +5,7 @@ pubdate: 2019-02-11
 language: it
 likes: 88
 tags: peace, love, non-violence
-img: article_assets/tolsoy-portrait.jpg
+img: ./img/tolsoy-portrait.jpg
 category: love
 snip: "E mentre camminiamo, dobbiamo impegnarci a fare sempre marcia avanti. Non possiamo tornare indietro."
 link: https://en.wikisource.org/wiki/Correspondence_between_Tolstoy_and_Gandhi
