@@ -39,7 +39,15 @@ const getters = {
             tags[tag] = Math.round(tags[tag]/total*100)
         })
         return tags
-    }
+    },
+
+    languageList: (state, getters) => {
+        return Object.assign({}, state.languages)
+    },
+
+    currentLang: (state, getters) => {
+        return state.language;
+    },
 };
 
 export default getters
