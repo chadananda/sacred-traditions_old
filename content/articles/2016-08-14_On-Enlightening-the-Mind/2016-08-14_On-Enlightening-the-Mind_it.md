@@ -5,7 +5,7 @@ pubdate: 2016-08-14
 language: it
 likes: 33
 tags: sit amet, consectetur
-img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
+img: ./assets/img/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
 category: enlightening
 snip: "I termini miglioramento intellettuale, o illuminazione della mente, coltivazione e civiltà [Aufklärung, Kultur, Bildung], sono ancora scarsamente naturalizzati in lingua tedesca."
 ---

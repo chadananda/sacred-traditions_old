@@ -9,7 +9,7 @@
                 <div class="post-container">
                     <div class="post-thumbnail">
                         <g-link :to="edge.node.path">
-                            <ImageWrapper :src="`${edge.node.img}`" :alt="``" :width="223" :height="223"></ImageWrapper>
+                            <ImageWrapper :src="edge.node.img" :alt="``" :width="223" :height="223"></ImageWrapper>
                         </g-link>
                     </div>
                     <h3 class="post-title">

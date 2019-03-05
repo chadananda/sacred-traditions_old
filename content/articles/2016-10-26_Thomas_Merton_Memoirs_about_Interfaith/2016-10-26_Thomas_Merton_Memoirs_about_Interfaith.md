@@ -5,7 +5,7 @@ pubdate: 2016-10-27
 language: en
 likes: 19
 tags: sit amet, consectetur
-img: article_assets/Dhirendra-Brahmachari.jpeg
+img: ./assets/img/Dhirendra-Brahmachari.jpeg
 category: Bramachari
 snip: "I become very fond of Bramachari, and he of me. We got along very well together, especially since he sensed that I was trying to feel my way into a settled religious conviction, and into some kind of a life that was centered, as his was, on God."
 link: https://www.invialumen.org/uploads/3/7/5/4/37541063/mertoninterreligousdialogue.pdf

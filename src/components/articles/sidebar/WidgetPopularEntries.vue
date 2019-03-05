@@ -6,7 +6,7 @@
     <ul>
       <li v-for="(edge, index) in popularArticles" :key="index">
         <g-link v-if="`${edge.node.path}`" :to="`${edge.node.path}`" class="popular-entry-thumbnail">
-          <ImageWrapper :src="`${edge.node.img}`" :alt="`${edge.node.title}`" :width="130" :height="130"></ImageWrapper>
+          <ImageWrapper :src="edge.node.img" :alt="`${edge.node.title}`" :width="130" :height="130"></ImageWrapper>
         </g-link>
         <span class="popular-entry-title">
           <g-link

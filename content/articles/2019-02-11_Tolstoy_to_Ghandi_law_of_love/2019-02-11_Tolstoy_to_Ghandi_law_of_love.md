@@ -5,7 +5,7 @@ pubdate: 2019-02-11
 language: en
 likes: 88
 tags: peace, love, non-violence
-img: article_assets/tolsoy-portrait.jpg
+img: ./assets/img/tolsoy-portrait.jpg
 category: love
 snip: "And as we walk, we must make the pledge that we shall always march ahead. We cannot turn back."
 link: https://en.wikisource.org/wiki/Correspondence_between_Tolstoy_and_Gandhi

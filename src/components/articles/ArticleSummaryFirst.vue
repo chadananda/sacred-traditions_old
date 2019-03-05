@@ -1,8 +1,7 @@
 <template>
   <article class="post first-post format-standard hentry">
     <div class="entry-featured-image">
-      <ImageWrapper :src="`${article.img}`" :alt="`${article.title}`" :width="1200" :height="500"></ImageWrapper>
-      <!--<img :src="`/img/${article.img}`" :alt="article.title">-->
+      <ImageWrapper :src="article.img" :alt="`${article.title}`" :width="1200" :height="500"></ImageWrapper>
     </div>
     <div class="entry-area">
       <div class="entry-header">

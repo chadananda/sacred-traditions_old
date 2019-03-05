@@ -5,7 +5,7 @@ pubdate: 2016-08-14
 language: en
 likes: 33
 tags: enlightenment, civilization
-img: article_assets/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
+img: ./assets/img/What-if-Artificial-Intelligence-Was-Enlightened-1038x583.jpg
 category: enlightenment
 snip: "THE terms intellectual improvement, or enlightening the mind, cultivation, and civilization [Aufklärung, Kultur, Bildung], are as yet scarcely naturalized in the German language."
 ---

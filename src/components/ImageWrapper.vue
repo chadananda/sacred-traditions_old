@@ -1,6 +1,6 @@
 <template>
     <img class="aspect-ratio"
-         :src="`/assets/img/${src}`"
+         :src="`${src.src}`"
          :alt="`${alt}`"
          :style="`width: ${width}px; height: ${height}px;`"
     >
