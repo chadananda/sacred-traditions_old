@@ -5,7 +5,7 @@ pubdate: 2018-11-18
 language: it
 likes: 100
 tags: sit amet, consectetur
-img: ./img/Dalailama1_20121014_4639.jpg
+img: ./assets/img/Dalailama1_20121014_4639.jpg
 category: heart
 snip: "Dico sempre alla gente che la mia religione è gentile, perché la gentilezza è \"nelle nostre ossa\"."
 ---

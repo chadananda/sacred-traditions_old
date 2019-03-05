@@ -5,7 +5,7 @@ pubdate: 2016-08-14
 language: it
 likes: 12
 tags: tagore, buddha
-img: ./img/46122bc4dca93e61413c2e750ca0974b.jpg
+img: ./assets/img/46122bc4dca93e61413c2e750ca0974b.jpg
 category: buddhism
 snip: "NEL TEMPO STORICO il Buddha viene prima di coloro che hanno dichiarato la salvezza a tutti gli uomini, senza distinzione, come per diritto dell'uomo stesso."
 ---

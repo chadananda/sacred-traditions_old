@@ -5,7 +5,7 @@ pubdate: 2016-10-27
 language: it
 likes: 19
 tags: sit amet, consectetur
-img: ./img/Dhirendra-Brahmachari.jpeg
+img: ./assets/img/Dhirendra-Brahmachari.jpeg
 category: Bramachari
 snip: "IDivento molto affezionato a Bramachari e lui a me. Andavamo molto d'accordo, specialmente perché sentiva che stavo cercando di entrare in una convinta convinzione religiosa, e in una specie di vita centrata, come la sua, su Dio."
 ---
