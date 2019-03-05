@@ -6,7 +6,7 @@ const mutations = {
     },
 
     setArticleLanguage: (state, lang) => {
-        state.articles = state.allArticles.filter(a => a.language===lang)
+        state.articles = state.allArticles.filter(a => a.node.language===lang)
     },
 
     setLang: (state, payload) => {

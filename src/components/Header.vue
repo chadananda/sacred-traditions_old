@@ -52,13 +52,13 @@
                                                 {{ link.name }}
                                             </g-link>
                                         </li>
-                                        <!--<li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{`Language: (${currentLang})`}}</a>-->
-                                            <!--<ul class="sub-menu">-->
-                                                <!--<li v-for="(language, code) in languages" class="menu-item" :key="code">-->
-                                                    <!--<a @click="assignLanguage(code)" :class="{ active: code===currentLang }"> {{ language }} </a>-->
-                                                <!--</li>-->
-                                            <!--</ul>-->
-                                        <!--</li>-->
+                                        <li class="menu-item menu-item-has-children" aria-haspopup="true"><a>{{`Language: (${currentLang})`}}</a>
+                                            <ul class="sub-menu">
+                                                <li v-for="(language, code) in languages" class="menu-item" :key="code">
+                                                    <a @click="assignLanguage(code)" :class="{ active: code===currentLang }"> {{ language }} </a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                                 <!-- .menu-container -->
@@ -92,6 +92,19 @@
                 ]
             }
         },
+        computed: {
+            languages() {
+                return this.$store.getters.languageList
+            },
+            currentLang() {
+                return this.$store.getters.currentLang
+            }
+        },
+        methods: {
+            assignLanguage (lang) {
+                this.$store.dispatch('assignLanguage', lang) // saves language and rebuilds articles list
+            }
+        }
     }
 </script>
 
