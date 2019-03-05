@@ -154,7 +154,7 @@
      </div>
   </section>
   <section class="footer">
-     Ocean 2.0 Interfaith Reader &mdash; <nuxt-link to="/" class="lightlink">Sacred-traditions.org</nuxt-link>
+     Ocean 2.0 Interfaith Reader &mdash; <g-link to="/" class="lightlink">Sacred-traditions.org</g-link>
   </section>
 </div>
 </template>

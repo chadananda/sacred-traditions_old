@@ -5,17 +5,17 @@
       <div id="slider-thumbnail" class="owl-carousel owl-theme slider-thumbnail">
         <div v-for="slide in slides" :key="slide.title" class="item">
           <img :src="slide.image" :alt="slide.alt">
-          <!--<div class="item-caption">-->
-            <!--<div class="caption-description">-->
-              <!--<a :href="`/articles/${slide.path}`" class="caption-cat-links">{{ slide.description }}</a>-->
-              <!--<span class="caption-title">-->
-                <!--<a :href="`/articles/${slide.path}`" class="caption-title-link">{{ slide.description}}</a>-->
-                <!--<a :href="`/articles/${slide.path}`" class="button caption-more-link">Read More</a>-->
-              <!--</span>-->
-              <!--&lt;!&ndash; .caption-title &ndash;&gt;-->
-            <!--</div>-->
-            <!--&lt;!&ndash; .caption-description &ndash;&gt;-->
-          <!--</div>-->
+          <div class="item-caption">
+            <div class="caption-description">
+              <a :href="`/articles/${slide.path}`" class="caption-cat-links">{{ slide.description }}</a>
+              <span class="caption-title">
+                <a :href="`/articles/${slide.path}`" class="caption-title-link">{{ slide.description}}</a>
+                <a :href="`/articles/${slide.path}`" class="button caption-more-link">Read More</a>
+              </span>
+              <!-- .caption-title -->
+            </div>
+            <!-- .caption-description -->
+          </div>
           <!-- .item-caption -->
         </div>
         <!-- .item -->
