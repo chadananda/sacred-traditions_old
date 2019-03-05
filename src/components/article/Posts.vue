@@ -19,7 +19,7 @@
                     </h3>
                     <span class="post-meta">
                         <g-link :to="edge.node.path">
-                            {{ edge.node.date }}
+                            {{ new Date(edge.node.pubdate).toLocaleDateString("en-US", {year:'numeric',month:'short',day:'numeric'}) }}
                         </g-link>
                     </span>
                 </div>
