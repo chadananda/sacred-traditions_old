@@ -7,7 +7,7 @@ import '~/assets/css/owl.theme.css'
 import '~/assets/css/skin.less'
 import '~/assets/css/style.less'
 import '~/assets/css/variables.less'
-import jquery from 'jquery'
+// import jquery from 'jquery'
 import Vuex from 'vuex'
 import getters from './store/getters'
 import mutations from './store/mutations'
@@ -21,7 +21,17 @@ export default function (Vue, { head, appOptions }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700'
   })
-  Vue.prototype.$jquery = jquery
+
+  head.script.push(
+      {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js'},
+      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js'},
+      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js'},
+      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js'},
+      {type: 'text/javascript', src: '/assets/js/navigation.js'},
+      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js'},
+      {type: 'text/javascript', src: '/assets/js/script.min.js'}
+  )
+  // Vue.prototype.$jquery = jquery
 
   // set Vuex store
   appOptions.store = new Vuex.Store({
