@@ -13,14 +13,10 @@ import getters from './store/getters'
 import mutations from './store/mutations'
 import actions from './store/actions'
 
-export default function (Vue, { head, appOptions }) {
+export default function (Vue, { appOptions }) {
   Vue.use(Bootstrap)
   Vue.use(Vuex)
 
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Mali:700|Nunito'
-  })
   Vue.prototype.$jquery = jquery
 
   // set Vuex store
