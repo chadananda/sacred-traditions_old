@@ -13,10 +13,14 @@ import getters from './store/getters'
 import mutations from './store/mutations'
 import actions from './store/actions'
 
-export default function (Vue, { appOptions }) {
+export default function (Vue, { head, appOptions }) {
   Vue.use(Bootstrap)
   Vue.use(Vuex)
 
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700'
+  })
   Vue.prototype.$jquery = jquery
 
   // set Vuex store
