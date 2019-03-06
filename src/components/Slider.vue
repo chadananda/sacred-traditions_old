@@ -7,10 +7,10 @@
           <img :src="slide.image" :alt="slide.alt">
           <div class="item-caption">
             <div class="caption-description">
-              <a :href="`/articles/${slide.path}`" class="caption-cat-links">{{ slide.description }}</a>
+              <a href="/#" class="caption-cat-links">{{ slide.description }}</a>
               <span class="caption-title">
-                <a :href="`/articles/${slide.path}`" class="caption-title-link">{{ slide.description}}</a>
-                <a :href="`/articles/${slide.path}`" class="button caption-more-link">Read More</a>
+                <a href="/#" class="caption-title-link">{{ slide.description}}</a>
+                <a href="/#" class="button caption-more-link">Read More</a>
               </span>
               <!-- .caption-title -->
             </div>

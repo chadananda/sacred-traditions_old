@@ -23,13 +23,13 @@ export default function (Vue, { head, appOptions }) {
   })
 
   head.script.push(
-      {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js'},
-      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js'},
-      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js'},
-      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js'},
-      {type: 'text/javascript', src: '/assets/js/navigation.js'},
-      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js'},
-      {type: 'text/javascript', src: '/assets/js/script.min.js'}
+      {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js', defer: true},
+      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', defer: true},
+      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', defer: true},
+      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', defer: true},
+      {type: 'text/javascript', src: '/assets/js/navigation.js', defer: true},
+      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', defer: true},
+      {type: 'text/javascript', src: '/assets/js/script.min.js', defer: true}
   )
   // Vue.prototype.$jquery = jquery
 
