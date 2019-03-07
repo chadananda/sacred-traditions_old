@@ -17,10 +17,21 @@ export default function (Vue, { head, appOptions }) {
   Vue.use(Bootstrap)
   Vue.use(Vuex)
 
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700'
-  })
+  head.meta.push(
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'theme-color', content: '#ffffff' },
+    { name: 'msapplication-TileColor', content: '#2d89ef' }
+  )
+
+  head.link.push(
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700' },
+    { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' },
+    { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: "#2d89ef" }
+  )
 
   head.script.push(
       {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js', defer: true},
