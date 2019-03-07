@@ -39,8 +39,7 @@ export default function (Vue, { head, appOptions }) {
       {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', defer: true},
       {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', defer: true},
       {type: 'text/javascript', src: '/assets/js/navigation.js', defer: true},
-      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', defer: true},
-      {type: 'text/javascript', src: '/assets/js/script.min.js', defer: true}
+      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', defer: true}
   )
   // Vue.prototype.$jquery = jquery
 
