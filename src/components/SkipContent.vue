@@ -6,10 +6,10 @@
 
 <script>
     export default {
-        metaInfo: {
-            script: [
-                { src: '/assets/js/script.min.js', type: 'text/javascript', defer: true }
-            ]
-        }
+      metaInfo: {
+        script: [
+          { src: '/assets/js/script.min.js', type: 'text/javascript', defer: true }
+        ]
+      }
     }
 </script>
