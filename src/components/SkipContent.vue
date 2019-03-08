@@ -10,6 +10,9 @@
         script: [
           { src: '/assets/js/script.min.js', type: 'text/javascript', defer: true }
         ]
+      },
+      mounted() {
+        window.jQuery = require('jquery')
       }
     }
 </script>
