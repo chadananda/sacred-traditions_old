@@ -34,12 +34,12 @@ export default function (Vue, { head, appOptions }) {
   )
 
   head.script.push(
-      {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js', defer: true},
-      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', defer: true},
-      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', defer: true},
-      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', defer: true},
-      {type: 'text/javascript', src: '/assets/js/navigation.js', defer: true},
-      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', defer: true}
+      {type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.3.1.min.js', body: true},
+      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true},
+      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true},
+      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true},
+      {type: 'text/javascript', src: '/assets/js/navigation.js', body: true},
+      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true}
   )
   // Vue.prototype.$jquery = jquery
 
