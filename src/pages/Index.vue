@@ -47,23 +47,23 @@
     import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     import Pagination from '~/components/Pagination.vue'
     export default {
-        components: { DefaultLayout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
-        metaInfo: {
-            title: "Sacred Traditions Interfaith Project",
-            meta: [
-                { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
-            ]
-        },
-        mounted() {
-            if (this.$store.getters.getAllArticles.length === 0) {
-                this.$store.commit('setAllArticles', this.$page.allArticle.edges)
-                this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
-            }
-        },
-        computed: {
-            articles() {
-                return this.$store.getters.getArticles.slice(0, 6)
-            }
+      components: { DefaultLayout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
+      metaInfo: {
+        title: "Sacred Traditions Interfaith Project",
+        meta: [
+          { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
+        ]
+      },
+      mounted() {
+        if (this.$store.getters.getAllArticles.length === 0) {
+          this.$store.commit('setAllArticles', this.$page.allArticle.edges)
+          this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
         }
+      },
+      computed: {
+        articles() {
+          return this.$store.getters.getArticles.slice(0, 6)
+        }
+      }
     }
 </script>

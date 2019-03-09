@@ -39,14 +39,14 @@
     import ContentWrapper from '~/components/ContentWrapper.vue'
     import Footer from '~/components/Footer.vue'
     export default {
-        name: "Other",
-        components: { Header, SkipContent, Slider, ContentWrapper, Footer },
-        mounted() {
-            if (this.$store.getters.getAllArticles.length === 0) {
-                this.$store.commit('setAllArticles', this.$static.allArticle.edges)
-                this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
-            }
+      name: "Other",
+      components: { Header, SkipContent, Slider, ContentWrapper, Footer },
+      mounted() {
+        if (this.$store.getters.getAllArticles.length === 0) {
+          this.$store.commit('setAllArticles', this.$static.allArticle.edges)
+          this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
         }
+      }
     }
 </script>
 
