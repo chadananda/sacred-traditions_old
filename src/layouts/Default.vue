@@ -17,14 +17,10 @@
   import Slider from '~/components/Slider.vue'
   import ContentWrapper from '~/components/ContentWrapper.vue'
   import Footer from '~/components/Footer.vue'
+  import articleMixin from '~/mixins/saveArticles.js'
   export default {
     components: { Header, SkipContent, Slider, ContentWrapper, Footer },
-    mounted() {
-      if (this.$store.getters.getAllArticles.length === 0) {
-        this.$store.commit('setAllArticles', this.$static.allArticle.edges)
-        this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
-      }
-    }
+    mixins: [articleMixin]
   }
 </script>
 
