@@ -46,9 +46,9 @@ export default function (Vue, { head, appOptions }) {
   // set Vuex store
   appOptions.store = new Vuex.Store({
     modules: {
-      a: articles,
-      b: ux,
-      c: links
+      articles: articles,
+      ux: ux,
+      links: links
     }
   })
 }
