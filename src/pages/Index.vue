@@ -19,7 +19,7 @@
     </DefaultLayout>
 </template>
 
-<page-query>
+<static-query>
     query Home ($page: Int) {
         allArticle (page: $page, sortBy: "pubdate", order: DESC) {
             edges {
@@ -38,7 +38,7 @@
             }
         }
     }
-</page-query>
+</static-query>
 
 <script>
     import DefaultLayout from '~/layouts/Default.vue'
@@ -46,6 +46,7 @@
     import ArticleSummary from '~/components/articles/ArticleSummary.vue'
     import ArticleSidebar from '~/components/articles/ArticleSidebar.vue'
     import Pagination from '~/components/Pagination.vue'
+    import articleMixin from '~/mixins/saveArticles.js'
     export default {
       components: { DefaultLayout, ArticleSummaryFirst, ArticleSummary, Pagination, ArticleSidebar },
       metaInfo: {
@@ -54,12 +55,7 @@
           { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
         ]
       },
-      mounted() {
-        if (this.$store.getters.getAllArticles.length === 0) {
-          this.$store.commit('setAllArticles', this.$page.allArticle.edges)
-          this.$store.dispatch('assignLanguage', localStorage.getItem("st_ux_lang") || 'en')
-        }
-      },
+      mixins: [articleMixin],
       computed: {
         articles() {
           return this.$store.getters.getArticles.slice(0, 6)
