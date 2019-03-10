@@ -23,9 +23,7 @@ module.exports = {
       options: {
         content: [
           './src/**/*.vue',
-          './src/**/*.js',
-          './src/**/*.jsx',
-          './src/**/*.md'
+          './src/**/*.js'
         ],
         extractor: TailwindExtractor,
         extensions: ['vue', 'js', 'jsx', 'md']
