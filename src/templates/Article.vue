@@ -1,6 +1,7 @@
 <template>
-  <OtherLayout>
+  <EmptyLayout>
     <div id="content" class="site-content">
+      <Header/>
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
           <div class="container">
@@ -27,19 +28,20 @@
           </div>
         </main>
       </div>
+      <Footer/>
     </div>
-  </OtherLayout>
+  </EmptyLayout>
 </template>
 
 <script>
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
   import ImageWrapper from '~/components/ImageWrapper.vue'
-  import OtherLayout from '~/layouts/Other.vue'
+  import EmptyLayout from '~/layouts/Empty.vue'
   import PrevNext from '~/components/article/PrevNext.vue'
   import Posts from '~/components/article/Posts.vue'
   export default {
-    components: { Header, Footer, ImageWrapper, OtherLayout, PrevNext, Posts },
+    components: { Header, Footer, ImageWrapper, EmptyLayout, PrevNext, Posts },
     metaInfo() {
       return {
         title: `${this.$page.article.title} - Sacred Traditions Interfaith Project`,
