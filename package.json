@@ -15,6 +15,7 @@
     "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
     "gridsome": "^0.5.0",
+    "gridsome-plugin-purgecss": "^1.0.10",
     "jest-worker": "^24.0.0",
     "jquery": "^3.3.1",
     "vuex": "^3.1.0"
