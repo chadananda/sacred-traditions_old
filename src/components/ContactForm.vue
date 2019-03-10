@@ -2,22 +2,22 @@
   <div>
     <p
       class="text-center"
-    >Fill out the form below with some info about you and question what you wanna ask for. Or wanna work with? Feel free to contact!</p>
-    <form class="form-horizontal">
+    >Please use the form below to contact us regarding our projects!</p>
+    <form action="https://formspree.io/chad@sacred-traditions.org" method="POST" class="form-horizontal">
       <div class="form-group">
         <div class="col-sm-6">
           <label>Name</label>
-          <input type="text" class="form-control form-bordered">
+          <input type="text" class="form-control form-bordered" name="name">
         </div>
         <div class="col-sm-6">
           <label>Email</label>
-          <input type="email" class="form-control form-bordered">
+          <input type="email" class="form-control form-bordered" name="email">
         </div>
       </div>
       <div class="form-group">
         <div class="col-sm-12">
           <label>Message</label>
-          <textarea class="form-control form-bordered" rows="8"></textarea>
+          <textarea class="form-control form-bordered" rows="8" name="message"></textarea>
         </div>
       </div>
       <div class="form-group">
