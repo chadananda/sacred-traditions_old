@@ -1,5 +1,5 @@
 <template>
-  <EmptyLayout>
+  <OtherLayout>
     <!-- content -->
     <!-- <ContentWrapper> -->
     <div class="row">
@@ -61,13 +61,13 @@
     <!-- .row -->
     <!-- #content -->
     <!-- </ContentWrapper> -->
-  </EmptyLayout>
+  </OtherLayout>
 </template>
 
 <script>
-  import EmptyLayout from '~/layouts/Empty.vue'
+  import OtherLayout from '~/layouts/Other.vue'
   export default {
-    components: { EmptyLayout },
+    components: { OtherLayout },
     head() {
       return {
         title: 'About Sacred-Traditions.org',
