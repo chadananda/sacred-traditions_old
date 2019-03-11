@@ -26,7 +26,7 @@ module.exports = {
           './src/**/*.js'
         ],
         extractor: TailwindExtractor,
-        extensions: ['vue', 'js', 'jsx', 'md']
+        extensions: ['vue', 'js']
       }
     }
   ],
