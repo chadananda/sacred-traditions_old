@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+    './dist/*.html',
     './dist/**/*.html',
     './dist/**/**/*.html',
     './dist/assets/js/*.js',
