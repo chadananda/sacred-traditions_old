@@ -7,7 +7,6 @@ import '~/assets/css/owl.theme.css'
 import '~/assets/css/skin.less'
 import '~/assets/css/style.less'
 import '~/assets/css/variables.less'
-// import jquery from 'jquery'
 import Vuex from 'vuex'
 import articles from './store/articles'
 import ux from './store/ux'
@@ -41,7 +40,6 @@ export default function (Vue, { head, appOptions }) {
       {type: 'text/javascript', src: '/assets/js/navigation.js', body: true},
       {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true}
   )
-  // Vue.prototype.$jquery = jquery
 
   // set Vuex store
   appOptions.store = new Vuex.Store({

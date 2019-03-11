@@ -5,9 +5,10 @@
   "author": "Chad Jones",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build": "gridsome build && npm run purgecss",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.3.0",
