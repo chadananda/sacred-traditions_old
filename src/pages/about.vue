@@ -11,7 +11,6 @@
             </div>
             <!-- .entry-header -->
             <div class="entry-content">
-              <!-- <img class="img-responsive aligncenter" src="~/assets/img/astrif-about-me.jpg"> -->
               <p class="text-center">
                 We are a group of friends of various religious traditions interested in sharing experiences
                 related to the most important part of our religion -- our book. Religion have many varied aspects but

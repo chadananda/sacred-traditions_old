@@ -1,9 +1,9 @@
 <template>
-    <img class="aspect-ratio"
-         :src="`${src.src}`"
-         :alt="`${alt}`"
-         :style="`width: ${width}px; height: ${height}px;`"
-    >
+    <g-image class="aspect-ratio"
+             :src="`${src.src}`"
+             :alt="`${alt}`"
+             :style="`width: ${width}px; height: ${height}px;`"
+    />
 </template>
 
 <script>

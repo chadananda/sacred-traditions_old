@@ -5,7 +5,7 @@
         </div>
         <div class="entry-author-bio">
             <div class="author-bio-avatar">
-                <img alt="author bio" src="~/assets/img/astrif-about.jpg" class="avatar">
+                <g-image alt="author bio" src="~/assets/img/astrif-about.jpg" class="avatar"/>
             </div>
             <!-- .author-bio-avatar -->
             <div class="author-bio-description">

@@ -4,7 +4,7 @@
     <div class="topbar-slider">
       <div id="slider-thumbnail" class="owl-carousel owl-theme slider-thumbnail">
         <div v-for="slide in slides" :key="slide.title" class="item">
-          <img :src="slide.image" :alt="slide.alt">
+          <g-image :src="slide.image" :alt="slide.alt"/>
           <div class="item-caption">
             <div class="caption-description">
               <a href="/#" class="caption-cat-links">{{ slide.description }}</a>

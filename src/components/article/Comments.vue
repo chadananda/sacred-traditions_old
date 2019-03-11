@@ -22,7 +22,7 @@
         <article class="comment-body">
           <footer class="comment-meta">
             <div class="comment-author vcard">
-              <img alt src="~/assets/img/astrif-comment-author-01.jpg" class="avatar">
+              <g-image alt src="~/assets/img/astrif-comment-author-01.jpg" class="avatar"/>
               <span class="fn">Jessica</span>
             </div>
             <!-- .comment-author -->
@@ -48,7 +48,7 @@
             <article class="comment-body">
               <footer class="comment-meta">
                 <div class="comment-author vcard">
-                  <img alt src="~/assets/img/astrif-comment-author-02.jpg" class="avatar">
+                  <g-image alt src="~/assets/img/astrif-comment-author-02.jpg" class="avatar"/>
                   <span class="fn">Jane Doe</span>
                 </div>
                 <!-- .comment-author -->
@@ -74,7 +74,7 @@
                 <article class="comment-body">
                   <footer class="comment-meta">
                     <div class="comment-author vcard">
-                      <img alt src="~/assets/img/astrif-comment-author-03.jpg" class="avatar">
+                      <g-image alt src="~/assets/img/astrif-comment-author-03.jpg" class="avatar"/>
                       <span class="fn">Diana Brown</span>
                     </div>
                     <!-- .comment-author -->
@@ -100,7 +100,7 @@
                     <article class="comment-body">
                       <footer class="comment-meta">
                         <div class="comment-author vcard">
-                          <img alt src="~/assets/img/astrif-comment-author-04.jpg" class="avatar">
+                          <g-image alt src="~/assets/img/astrif-comment-author-04.jpg" class="avatar"/>
                           <span class="fn">Briana Smith</span>
                         </div>
                         <!-- .comment-author -->

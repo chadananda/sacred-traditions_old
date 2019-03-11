@@ -5,7 +5,7 @@
     </h2>
     <div class="about-author-container">
       <div class="author-avatar">
-        <img :src="image" alt="astrif fifth">
+        <g-image :src="image" alt="astrif fifth"/>
       </div>
       <div class="author-info">
         <p>{{ description }}</p>
