@@ -1,18 +1,20 @@
+const langList = {
+  'en': 'English',
+  'it': 'Italiano',
+  'ar': 'العربية',
+  'fa': 'فارسی',
+  'es': 'Español',
+  'fr': 'français',
+  'cn': '中文',
+  'de': 'Deutsch',
+  'ru': 'русский',
+  'hi': 'हिन्दी'
+}
+
 const ux = {
   state: {
     language: 'en',
-    languages: {
-      'en': 'English',
-      'it': 'Italiano',
-      'ar': 'العربية',
-      'fa': 'فارسی',
-      'es': 'Español',
-      'fr': 'français',
-      'cn': '中文',
-      'de': 'Deutsch',
-      'ru': 'русский',
-      'hi': 'हिन्दी'
-    }
+    languages: {}
   },
   getters: {
     languageList: (state, getters) => {
@@ -27,6 +29,9 @@ const ux = {
     setLang: (state, payload) => {
       state.language = payload
       localStorage.setItem("st_ux_lang", payload)
+    },
+    setLanguages: (state, payload) => {
+      state.languages = payload
     }
   },
   actions: {
@@ -37,6 +42,15 @@ const ux = {
       if (!(lang in context.state.languages)) return
       context.commit('setLang', lang)  // update and store
       context.commit('setArticleLanguage', lang, {root:true}) // re-filter articles
+    },
+    setLanguageList: (context, articles) => {
+      let bufLanguages = {}
+      articles.forEach((article) => {
+        if (Object.keys(bufLanguages).indexOf(article.node.language) === -1) {
+          bufLanguages[article.node.language] = langList[article.node.language]
+        }
+      })
+      context.commit('setLanguages', bufLanguages)
     }
   }
 }
