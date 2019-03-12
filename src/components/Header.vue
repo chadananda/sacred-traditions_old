@@ -48,7 +48,7 @@
                                     <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                                         <li v-for="link in header_links" :key="link.name" class="menu-item">
                                             <g-link :to="link.url">
-                                                <g-image v-if="link.url === '/'" src="../../static/assets/img/favicon.svg" class="ico"/>
+                                                <g-image v-if="link.url === '/'" src="../../static/assets/img/favicon.svg" class="ico" alt="No image"/>
                                                 {{ link.name }}
                                             </g-link>
                                         </li>

@@ -5,7 +5,7 @@
     </h2>
     <div class="textwidget">
       <g-link :to="url">
-        <g-image :src="image" alt=""></g-image>
+        <g-image :src="image" alt="No image"></g-image>
       </g-link>
     </div>
   </section>

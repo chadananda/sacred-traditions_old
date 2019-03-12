@@ -4,7 +4,7 @@
          <section class="promo">
             <div class="container">
                <div class="logo">
-                  <g-image src="/ocean_assets/images/ocean_logo.svg" />
+                  <g-image src="/ocean_assets/images/ocean_logo.svg" alt="No image"/>
                   <div>Ocean 2.0 Interfaith Reader
                      <span>Immersive Library of the World’s Sacred Literature</span>
                   </div>
@@ -24,38 +24,38 @@
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_android_button.svg" /> App for
+                <g-image src="/ocean_assets/images/icon_android_button.svg" alt="No image"/> App for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_ios_button.svg" /> App for
+                <g-image src="/ocean_assets/images/icon_ios_button.svg" alt="No image"/> App for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_subtract_button.svg" /> Installer for
+                <g-image src="/ocean_assets/images/icon_subtract_button.svg" alt="No image"/> Installer for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_linux_button.svg" /> Installer for
+                <g-image src="/ocean_assets/images/icon_linux_button.svg" alt="No image"/> Installer for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_windows_button.svg" /> Installer for
+                <g-image src="/ocean_assets/images/icon_windows_button.svg" alt="No image"/> Installer for
                 <span> Windows</span>
               </a>
               <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="/ocean_assets/images/icon_linux.svg" alt=""/></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="/ocean_assets/images/icon_android.svg" alt=""/></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="/ocean_assets/images/icon_subtract.svg" alt=""/></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="/ocean_assets/images/icon_windows.svg" alt=""/></a>
-                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="/ocean_assets/images/icon_ios.svg" alt="" class="applelogo"/></a>
+                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="/ocean_assets/images/icon_linux.svg" alt="No image"/></a>
+                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="/ocean_assets/images/icon_android.svg" alt="No image"/></a>
+                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="/ocean_assets/images/icon_subtract.svg" alt="No image"/></a>
+                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="/ocean_assets/images/icon_windows.svg" alt="No image"/></a>
+                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="/ocean_assets/images/icon_ios.svg" alt="No image" class="applelogo"/></a>
               </div>
            </div>
         </div>
         <div class="img-promo">
-           <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" />
-           <g-image src="/ocean_assets/images/promo_portret.webp" width="462"  class="md-img" />
-           <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" />
+           <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/promo_portret.webp" width="462"  class="md-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" alt="No image"/>
         </div>
      </div>
          </section>
@@ -65,7 +65,7 @@
         <div class="about-content">
            <div class="icons-block">
               <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_open_book.svg" />
+                 <g-image src="/ocean_assets/images/icon_open_book.svg" alt="No image"/>
               </div>
               <h3>Read</h3>
               <span>The Ocean library contains a vast collection of the world’s great religious classics.</span>
@@ -73,7 +73,7 @@
            </div>
            <div class="icons-block">
               <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_headphones.svg" />
+                 <g-image src="/ocean_assets/images/icon_headphones.svg" alt="No image"/>
               </div>
               <h3>Listen</h3>
               <span>Each book is word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
@@ -81,7 +81,7 @@
            </div>
            <div class="icons-block">
               <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_search.svg" />
+                 <g-image src="/ocean_assets/images/icon_search.svg" alt="No image"/>
               </div>
               <h3>Search</h3>
               <span>Full text search across thousands of books, articles and website resources.</span>
@@ -98,8 +98,8 @@
               your navigation bar and synced across all your devices.</span>
         </div>
         <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/1.webp" width="462" class="big-img" />
-           <g-image src="/ocean_assets/images/1_sm.webp" width="462" class="sm-img" />
+           <g-image src="/ocean_assets/images/1.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/1_sm.webp" width="462" class="sm-img" alt="No image"/>
         </div>
      </div>
   </section>
@@ -111,8 +111,8 @@
               you can still search, but only in non copyright-encumbered library books.</span>
         </div>
         <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/2.webp" width="462" class="big-img" />
-           <g-image src="/ocean_assets/images/2_sm.webp" width="462" class="sm-img" />
+           <g-image src="/ocean_assets/images/2.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/2_sm.webp" width="462" class="sm-img" alt="No image"/>
         </div>
      </div>
   </section>
@@ -126,8 +126,8 @@
         </div>
         <div class="images-wrapper">
 
-           <g-image src="/ocean_assets/images/3.webp" width="462" class="big-img" />
-           <g-image src="/ocean_assets/images/3_sm.webp" width="462" class="sm-img" />
+           <g-image src="/ocean_assets/images/3.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/3_sm.webp" width="462" class="sm-img" alt="No image"/>
         </div>
      </div>
   </section>
@@ -139,8 +139,8 @@
            </span>
         </div>
         <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/4.webp" width="462" class="big-img" />
-           <g-image src="/ocean_assets/images/4_sm.webp" width="462" class="sm-img" />
+           <g-image src="/ocean_assets/images/4.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/4_sm.webp" width="462" class="sm-img" alt="No image"/>
         </div>
      </div>
   </section>
