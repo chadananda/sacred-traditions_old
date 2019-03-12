@@ -199,15 +199,15 @@
          return {
             title: "Ocean 2.0 Interfaith Reader", // not working
             meta: [
-               {"charset": "utf-8"},
-               {"name": "viewport", "content": "width=device-width, initial-scale=1"},
-               {"name": "keywords", "content": ""},
-               {"name": "description", "content": ""},
-               {"name": "viewport", "content": "width=device-width, initial-scale=1.0"},
-               {"name": "msapplication-TileColor", "content": "#00aba9"},
-               {"name": "theme-color", "content": "#ffffff"},
-               {"name": "language", "content": "en", 'hid':'language' }, // kosher?
-               {"name": 'title', "content": "Ocean 2.0 Interfaith Reader" },
+               { charset: "utf-8" },
+               { name: "viewport", content: "width=device-width, initial-scale=1" },
+               { name: "keywords", content: "" },
+               { name: "description", content: "Sacred Traditions Interfaith Project -- ocean page" },
+               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+               { name: "msapplication-TileColor", content: "#00aba9" },
+               { name: "theme-color", content: "#ffffff" },
+               { name: "language", content: "en", 'hid':'language' }, // kosher?
+               { name: 'title', content: "Ocean 2.0 Interfaith Reader" },
             ],
             link: [
                {"rel": "apple-touch-icon", "sizes": "180x180", "href": "/ocean_assets/favicon/apple-touch-icon.png"},

@@ -46,9 +46,8 @@
       return {
         title: `${this.$page.article.title} - Sacred Traditions Interfaith Project`,
         meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          { hid: "description", name: "description", content: this.$page.article.snip },
-          { hid: "keywords", name: "keywords", keywords: this.$page.article.tags }
+          { name: "description", content: this.$page.article.snip },
+          { name: "keywords", content: this.$page.article.tags }
         ],
 
       }

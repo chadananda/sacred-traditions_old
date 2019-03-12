@@ -52,7 +52,7 @@
       metaInfo: {
         title: "Sacred Traditions Interfaith Project",
         meta: [
-          { hid: "description", name: "description", content: "Sacred Traditions Interfaith Project" }
+          { name: "description", content: "Sacred Traditions Interfaith Project -- home page" }
         ]
       },
       mixins: [articleMixin],

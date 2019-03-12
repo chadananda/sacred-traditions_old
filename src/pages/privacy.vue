@@ -72,12 +72,7 @@
       return {
         title: 'About Sacred-Traditions.org',
         meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            hid: "description",
-            name: "description",
-            content: "Sacred Traditions Interfaith Project"
-          }
+          { name: "description", content: "Sacred Traditions Interfaith Project -- privacy page" }
         ]
       }
     }
