@@ -53,7 +53,9 @@
            </div>
         </div>
         <div class="img-promo">
-           <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/>
+           <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924" class="big-img" alt="No image"/>
+           <!-- <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924"  class="md-img" alt="No image"/> -->
+           <!-- <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/> -->
            <g-image src="/ocean_assets/images/promo_portrait.webp" width="462"  class="md-img" alt="No image"/>
            <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" alt="No image"/>
         </div>
