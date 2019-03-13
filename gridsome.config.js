@@ -16,7 +16,7 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000,
-        exclude: [ ],
+        exclude: [ ], // add url you want to exclude ex. '/about'
         config: {
           '/': {
             changefreq: 'weekly',
