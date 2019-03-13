@@ -4,7 +4,7 @@
          <section class="promo">
             <div class="container">
                <div class="logo">
-                  <g-image src="/ocean_assets/images/ocean_logo.svg" alt="No image"/>
+                  <img src="/ocean_assets/images/ocean-logo.svg" alt="No image" width="100" />
                   <div>Ocean 2.0 Interfaith Reader
                      <span>Immersive Library of the World’s Sacred Literature</span>
                   </div>
@@ -24,37 +24,37 @@
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_android_button.svg" alt="No image"/> App for
+                <g-image src="../../static/ocean_assets/images/icon_android_button.svg" alt="No image"/> App for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_ios_button.svg" alt="No image"/> App for
+                <g-image src="../../static/ocean_assets/images/icon_ios_button.svg" alt="No image"/> App for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_subtract_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_subtract_button.svg" alt="No image"/> Installer for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_linux_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_linux_button.svg" alt="No image"/> Installer for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <g-image src="/ocean_assets/images/icon_windows_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_windows_button.svg" alt="No image"/> Installer for
                 <span> Windows</span>
               </a>
               <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="/ocean_assets/images/icon_linux.svg" alt="No image"/></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="/ocean_assets/images/icon_android.svg" alt="No image"/></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="/ocean_assets/images/icon_subtract.svg" alt="No image"/></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="/ocean_assets/images/icon_windows.svg" alt="No image"/></a>
-                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="/ocean_assets/images/icon_ios.svg" alt="No image" class="applelogo"/></a>
+                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="../../static/ocean_assets/images/icon_linux.svg" alt="No image"/></a>
+                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="../../static/ocean_assets/images/icon_android.svg" alt="No image"/></a>
+                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="../../static/ocean_assets/images/icon_subtract.svg" alt="No image"/></a>
+                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="../../static/ocean_assets/images/icon_windows.svg" alt="No image"/></a>
+                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="../../static/ocean_assets/images/icon_ios.svg" alt="No image" class="applelogo"/></a>
               </div>
            </div>
         </div>
         <div class="img-promo">
            <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/promo_portret.webp" width="462"  class="md-img" alt="No image"/>
+           <g-image src="/ocean_assets/images/promo_portrait.webp" width="462"  class="md-img" alt="No image"/>
            <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" alt="No image"/>
         </div>
      </div>
@@ -153,6 +153,10 @@
 
 <script>
    import RemoveChromeLayout from '~/layouts/remove_all_chrome.vue'
+
+   // import SVG through a webpack optimization step using SVGO
+  //  import OceanIcon from '~/assets/ocean/images/ocean_logo.svg'
+
    export default {
       components: { RemoveChromeLayout },
       data: function () {
@@ -430,6 +434,7 @@
  }
  .logo img {
    margin-right: 10px;
+   margin-top:-20px;
  }
  .logo span {
    color: #9bb7e4;
