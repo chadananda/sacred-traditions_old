@@ -4,7 +4,7 @@
          <section class="promo">
             <div class="container">
                <div class="logo">
-                  <img src="/ocean_assets/images/ocean-logo.svg" alt="No image" width="100" />
+                  <img src="/ocean_assets/images/ocean-logo2.svg" alt="No image" width="100" class="logo_icon" />
                   <div>Ocean 2.0 Interfaith Reader
                      <span>Immersive Library of the World’s Sacred Literature</span>
                   </div>
@@ -24,31 +24,31 @@
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_android_button.svg" alt="No image"/> App for
+                <g-image src="../../static/ocean_assets/images/icon_android_button.svg" alt="No image" width="30" /> App for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_ios_button.svg" alt="No image"/> App for
+                <g-image src="../../static/ocean_assets/images/icon_ios_button.svg" alt="No image" width="30" /> App for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_subtract_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_subtract_button.svg" alt="No image" width="30" /> Installer for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_linux_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_linux_button2.svg" alt="No image" width="30" /> Installer for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_windows_button.svg" alt="No image"/> Installer for
+                <g-image src="../../static/ocean_assets/images/icon_windows_button.svg" alt="No image" width="30" /> Installer for
                 <span> Windows</span>
               </a>
               <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="../../static/ocean_assets/images/icon_linux.svg" alt="No image"/></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="../../static/ocean_assets/images/icon_android.svg" alt="No image"/></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="../../static/ocean_assets/images/icon_subtract.svg" alt="No image"/></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="../../static/ocean_assets/images/icon_windows.svg" alt="No image"/></a>
-                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="../../static/ocean_assets/images/icon_ios.svg" alt="No image" class="applelogo"/></a>
+                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="../../static/ocean_assets/images/icon_linux2.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="../../static/ocean_assets/images/icon_android.svg" width="30" alt="No image"/></a>
+                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="../../static/ocean_assets/images/icon_subtract.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="../../static/ocean_assets/images/icon_windows.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="../../static/ocean_assets/images/icon_ios.svg" width="30"  alt="No image" class="applelogo"/></a>
               </div>
            </div>
         </div>
@@ -76,7 +76,7 @@
                  <g-image src="/ocean_assets/images/icon_headphones.svg" alt="No image"/>
               </div>
               <h3>Listen</h3>
-              <span>Each book is word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
+              <span>Many books are word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
 
            </div>
            <div class="icons-block">
@@ -435,6 +435,7 @@
  .logo img {
    margin-right: 10px;
    margin-top:-20px;
+   filter: drop-shadow(0px 0px 5px rgba(256, 256, 256, .5))
  }
  .logo span {
    color: #9bb7e4;
@@ -515,6 +516,7 @@
  }
  .wrapper-text .text-header {
    display: block;
+   font-size: 95%;
  }
  .text-content {
    margin-top: 30px;
