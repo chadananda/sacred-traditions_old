@@ -50,6 +50,12 @@ const ux = {
           bufLanguages[article.node.language] = langList[article.node.language]
         }
       })
+
+      // if saved language doesn't exist in current languages list, set language 'en' as default
+      if (localStorage.getItem("st_ux_lang") &&
+          Object.keys(bufLanguages).indexOf(localStorage.getItem("st_ux_lang")) === -1) {
+        context.commit('setLang', 'en')
+      }
       context.commit('setLanguages', bufLanguages)
     }
   }
