@@ -22,25 +22,13 @@ module.exports = {
             changefreq: 'weekly',
             priority: 0.1
           },
-          '/articles/*': {
+          '/*': {
             changefreq: 'weekly',
             priority: 0.2
           },
-          '/about': {
+          '/articles/*': {
             changefreq: 'weekly',
             priority: 0.3
-          },
-          '/contact': {
-            changefreq: 'weekly',
-            priority: 0.4
-          },
-          '/ocean': {
-            changefreq: 'weekly',
-            priority: 0.5
-          },
-          '/privacy': {
-            changefreq: 'weekly',
-            priority: 0.6
           }
         }
       }
