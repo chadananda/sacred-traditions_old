@@ -11,6 +11,7 @@
     "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css"
   },
   "dependencies": {
+    "@gridsome/plugin-sitemap": "^0.1.1",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.0",
     "bootstrap": "^3.4.0",
