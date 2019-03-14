@@ -55,7 +55,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env.production
 
 # logs
 npm-debug.log
@@ -76,6 +76,8 @@ src/.temp
 .cache
 
 # Package lock
-package-lock.json
+package-lock.json 
+
+
 
 

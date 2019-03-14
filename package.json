@@ -1,15 +1,16 @@
 {
   "name": "sacred-traditions.org",
   "description": "Sacred Traditions Interfaith Website",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": "Chad Jones",
   "private": true,
   "scripts": {
     "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css",
     "build": "gridsome build && npm run purgecss",
+    "build_search": "NODE_ENV=production npm run build && npm run purgecss",
     "develop": "gridsome develop",
-    "dev": "gridsome develop",
-    "deploy": "gridsome build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "dev": "NODE_ENV=dev gridsome develop",
+    "deploy": "NODE_ENV=production gridsome build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -20,12 +21,14 @@
     "bootstrap": "^3.4.0",
     "bootstrap-vue": "^2.0.0-beta",
     "gridsome": "^0.5.0",
+    "gridsome-plugin-algolia": "^1.1.4",
     "jest-worker": "^24.3.1",
     "jquery": "^3.3.1",
     "purgecss": "^1.1.0",
     "vuex": "^3.1.0"
   },
   "devDependencies": {
+    "dotenv": "^7.0.0",
     "core-js": "^2.6.5",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
