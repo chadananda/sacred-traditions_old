@@ -26,8 +26,6 @@
 <script>
 import carousel from 'vue-owl-carousel'
 
-// import $ from 'jquery'
-
 export default {
   data() {
     return {
@@ -61,7 +59,7 @@ export default {
 
 
 
-<style>
+<style scoped>
   #carousel {
     max-height: 450px !important;
     width: 100%;
@@ -73,6 +71,7 @@ export default {
     overflow: hidden;
     cursor: pointer !important;
     text-align: center;
+    background: black !important;
   }
 
   .slide-caption {
@@ -83,12 +82,15 @@ export default {
     transform: translateX(-50%);
     color: white;
   }
+  .carousel-slide:hover img {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+  }
   .carousel-slide:hover .slide-caption {display: inherit;}
 
   a.slide-caption-link {
     color: white;
     font-size: 110%; line-height: 1.6em;
-    background-color: rgb(0,0,0,.5);
     padding: 3px; padding-left:5px; padding-right: 5px;
     font-weight: bold;
   }

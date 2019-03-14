@@ -35,14 +35,14 @@
 <script>
     import Header from '~/components/Header.vue'
     // import SkipContent from '~/components/SkipContent.vue'
-    import Slider from '~/components/OwlCarousel.vue'
+    // import Slider from '~/components/OwlCarousel.vue'
     import ContentWrapper from '~/components/ContentWrapper.vue'
     import Footer from '~/components/Footer.vue'
     import articleMixin from '~/mixins/saveArticles.js'
 
     export default {
       name: "Other",
-      components: { Header, Slider, ContentWrapper, Footer },
+      components: { Header, ContentWrapper, Footer },
       mixins: [articleMixin]
     }
 </script>

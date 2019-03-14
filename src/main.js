@@ -25,21 +25,21 @@ export default function (Vue, { head, appOptions }) {
 
   head.link.push(
     // these resources did not exist
-    // { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-    // { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.png' },
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700', defer: true },
-    // { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-touch-icon.png' },
-    // { rel: 'manifest', href: '/site.webmanifest' },
-    // { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: "#2d89ef" }
+    { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' },
+    { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: "#2d89ef" }
   )
 
   head.script.push(
-      // {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: false},
-      // {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
-      // {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
-      // {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
-      // {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
-      // {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
+    // {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: false},
+    // {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
+    // {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
+    // {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
+    // {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
+    // {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
   )
 
   // set Vuex store
