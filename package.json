@@ -7,9 +7,8 @@
   "scripts": {
     "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css",
     "build": "gridsome build && npm run purgecss",
-    "build_search": "NODE_ENV=production npm run build && npm run purgecss",
-    "develop": "gridsome develop",
-    "dev": "NODE_ENV=dev gridsome develop",
+    "build_serve": "npm run build && http-server dist",
+    "develop": "gridsome develop", "dev": "npm run develop",
     "deploy": "NODE_ENV=production gridsome build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "explore": "gridsome explore"
   },
@@ -28,8 +27,9 @@
     "vuex": "^3.1.0"
   },
   "devDependencies": {
-    "dotenv": "^7.0.0",
     "core-js": "^2.6.5",
+    "dotenv": "^7.0.0",
+    "http-server": "^0.11.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "push-dir": "^0.4.1",
