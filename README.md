@@ -12,7 +12,7 @@ This website is intended to operate as a PWA on all devices and platforms. If yo
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:1844
+# serve with hot reload at localhost:3000
 $ npm run develop
 
 # build for production and push to "ghpages" branch on Github (hosted at https://sacred-traditions.org)
