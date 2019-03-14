@@ -32,6 +32,12 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-136207398-1'
+      }
     }
   ],
   port: 3000,

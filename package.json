@@ -13,6 +13,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/plugin-sitemap": "^0.1.1",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.0",
@@ -30,7 +31,6 @@
     "less-loader": "^4.1.0",
     "push-dir": "^0.4.1",
     "vue-svg-loader": "^0.12.0",
-    "push-dir": "^0.4.1",
     "webpack": "^4.29.5"
   }
 }
