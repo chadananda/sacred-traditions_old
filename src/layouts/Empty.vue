@@ -1,6 +1,6 @@
 <template>
     <div id="content">
-        <SkipContent/>
+        <!-- <SkipContent/> -->
         <slot/>
     </div>
 </template>
@@ -27,11 +27,11 @@
 </static-query>
 
 <script>
-  import SkipContent from '~/components/SkipContent.vue'
+//   import SkipContent from '~/components/SkipContent.vue'
   import articleMixin from '~/mixins/saveArticles.js'
   export default {
     name: "Empty",
-    components: { SkipContent },
+    components: {  },
     mixins: [articleMixin]
   };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div id="page" class="site">
-    <SkipContent/>
+    <!-- <SkipContent/> -->
     <Slider/>
     <Header/>
     <ContentWrapper>
@@ -11,15 +11,17 @@
 </template>
 
 <script>
-  import config from '~/.temp/config.js'
+  // import config from '~/.temp/config.js'
   import Header from '~/components/Header.vue'
-  import SkipContent from '~/components/SkipContent.vue'
-  import Slider from '~/components/Slider.vue'
+  // import SkipContent from '~/components/SkipContent.vue'
+  // import Slider from '~/components/Slider.vue'
+  import Slider from '~/components/OwlCarousel.vue'
+
   import ContentWrapper from '~/components/ContentWrapper.vue'
   import Footer from '~/components/Footer.vue'
   import articleMixin from '~/mixins/saveArticles.js'
   export default {
-    components: { Header, SkipContent, Slider, ContentWrapper, Footer },
+    components: { Header, Slider, ContentWrapper, Footer },
     mixins: [articleMixin]
   }
 </script>

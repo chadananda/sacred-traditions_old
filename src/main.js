@@ -2,8 +2,8 @@ import Bootstrap from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '~/assets/css/font-awesome.css'
-import '~/assets/css/owl.carousel.css'
-import '~/assets/css/owl.theme.css'
+// import '~/assets/css/owl.carousel.css'
+// import '~/assets/css/owl.theme.css'
 import '~/assets/css/skin.less'
 import '~/assets/css/style.less'
 import '~/assets/css/variables.less'
@@ -34,12 +34,12 @@ export default function (Vue, { head, appOptions }) {
   )
 
   head.script.push(
-      {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: false},
-      {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
-      {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
-      {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
-      {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
-      {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
+      // {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: false},
+      // {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
+      // {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
+      // {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
+      // {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
+      // {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
   )
 
   // set Vuex store

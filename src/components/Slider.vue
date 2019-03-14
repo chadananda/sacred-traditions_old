@@ -4,7 +4,7 @@
     <div class="topbar-slider">
       <div id="slider-thumbnail" class="owl-carousel owl-theme slider-thumbnail">
         <div v-for="(ar, ind) in popularArticles" :key="ar.title" class="item">
-         <g-image :src="images[ind]" :alt="ar.img.src" width="320" height="450" fit="inside" />
+         <img :src="images[ind]" :alt="ar.img.src" width="320" height="450" />
          <!-- <img :src="images[ind]" :alt="ar.img.src" /> -->
           <div class="item-caption">
             <div class="caption-description">
@@ -28,7 +28,9 @@
 </template>
 
 <script>
-import ImageWrapper from '~/components/ImageWrapper';
+import ImageWrapper from '~/components/ImageWrapper'
+import $ from 'jquery'
+
 export default {
   data() {
     return {
@@ -56,6 +58,46 @@ export default {
       words.map(w => { if (short.join(' ').length < chars) short.push(w) })
       return short.join(' ') + (short.length<words.length? '...' : '')
     }
+  },
+  mounted(){
+    // here is where we should trigger visibility
+    // this.$el.
+   // var b = $("#site-navigation"), c = $(b).outerHeight();
+   // $(".site-navigation-sticky-wrapper").css("height", c);
+   // var d, e = $("body").hasClass("home");
+   // d = e ? $(".topbar-slider").outerHeight() + $(".site-branding").outerHeight() : $(".site-branding").outerHeight(),
+
+    // $(window).scroll(function() {
+    //   $(window).scrollTop() > d ? $(b).addClass("sticky-bar") : $(b).removeClass("sticky-bar")
+    // }),
+    // $(window).scrollTop() > d && $(b).addClass("sticky-bar")
+
+
+    // var f = $(".slider-thumbnail")[0]
+    // console.log('hello world', f)
+
+
+    // var f = $(".slider-thumbnail")
+   // f.imagesLoaded(function() {
+      // f.owlCarousel({
+      //   autoPlay: 3e3,
+      //   slideSpeed: 600,
+      //   stopOnHover: !0,
+      //   items: 4,
+      //   itemsDesktop: [1199, 4],
+      //   itemsDesktopSmall: [979, 3],
+      //   itemsTablet: [600, 2],
+      //   itemsMobile: [479, 1],
+      //   navigation: !0,
+      //   navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+      // })
+  //  });
+    // var g = $(".container-masonry");
+    // g.imagesLoaded(function() {
+    //     g.masonry()
+    // })
+
+
   }
 }
 </script>
