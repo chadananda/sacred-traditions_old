@@ -34,7 +34,7 @@ export default function (Vue, { head, appOptions }) {
   )
 
   head.script.push(
-      {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: true, defer: true},
+      // {type: 'text/javascript', src: '/assets/js/jquery-3.3.1.min.js', body: true, defer: true},
       {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
       {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
       {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
