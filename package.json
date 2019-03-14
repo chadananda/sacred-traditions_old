@@ -5,10 +5,12 @@
   "author": "Chad Jones",
   "private": true,
   "scripts": {
+    "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css",
     "build": "gridsome build && npm run purgecss",
     "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css"
+    "dev": "gridsome develop",
+    "deploy": "gridsome build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "explore": "gridsome explore"
   },
   "dependencies": {
     "@gridsome/plugin-sitemap": "^0.1.1",
@@ -28,6 +30,7 @@
     "less-loader": "^4.1.0",
     "push-dir": "^0.4.1",
     "vue-svg-loader": "^0.12.0",
+    "push-dir": "^0.4.1",
     "webpack": "^4.29.5"
   }
 }
