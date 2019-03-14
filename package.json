@@ -7,7 +7,7 @@
   "scripts": {
     "purgecss": "node_modules/purgecss/bin/purgecss --config ./purgecss.config.js --out ./dist/assets/css",
     "build": "gridsome build && npm run purgecss",
-    "build_serve": "npm run build && http-server dist",
+    "static": "npm run build && http-server dist",
     "develop": "gridsome develop", "dev": "npm run develop",
     "deploy": "NODE_ENV=production gridsome build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "explore": "gridsome explore"
