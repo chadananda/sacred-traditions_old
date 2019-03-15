@@ -1,30 +1,28 @@
 <template>
   <div>
 
-<carousel id="carousel"
-  :autoplay="true"
-  :nav="false"
-  :dots="false"
-  :loop="true"
-  :rewind="false"
-  :items="5"
->
-    <div v-for="(ar, ind) in popularArticles" :key="ind" class="carousel-slide" width="320" >
-      <g-link :to="ar.path"><img :src="images[ind]" :alt="ar.img.src" /></g-link>
-
-      <div class="slide-caption">
-        <g-link :to="ar.path" class="slide-caption-link">{{ ar.title }}</g-link>
-        <br><br>
-        <g-link :to="ar.path" class="button slide-caption-link">Read More</g-link>
+    <carousel id="carousel" v-if="isReady"
+      :autoplay="true"
+      :nav="false"
+      :dots="false"
+      :loop="true"
+      :rewind="false"
+      :items="5"
+    >
+      <div v-for="(ar, ind) in popularArticles" :key="ind" class="carousel-slide" width="320" >
+        <g-link :to="ar.path">
+          <img clss="slide-image" :src="images[ind]" :alt="ar.title" />
+          <div class="slide-caption">{{ ar.title }}</div>
+        </g-link>
       </div>
-    </div>
-</carousel>
+    </carousel>
 
   </div>
 </template>
 
 <script>
-import carousel from 'vue-owl-carousel'
+//import carousel from 'vue-owl-carousel'
+const carousel = () => window && window !== undefined ? import("vue-owl-carousel") : null;
 
 export default {
   data() {
@@ -36,7 +34,8 @@ export default {
         '/assets/img/astrif-featured-slider-04.png',
         '/assets/img/astrif-featured-slider-05.png',
         '/assets/img/astrif-featured-slider-06.png'
-      ]
+      ],
+      isReady: false
     }
   },
   components: { carousel },
@@ -53,10 +52,12 @@ export default {
       words.map(w => { if (short.join(' ').length < chars) short.push(w) })
       return short.join(' ') + (short.length<words.length? '...' : '')
     }
-  }
+  },
+  mounted() {
+    if (process.browser) this.isReady = true
+  },
 }
 </script>
-
 
 
 <style scoped>
@@ -73,26 +74,20 @@ export default {
     text-align: center;
     background: black !important;
   }
-
   .slide-caption {
     display: none;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
     color: white;
+    font-size: 110%; line-height: 1.6em;
+    padding: 3px; padding-left:5px; padding-right: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
   }
+
   .carousel-slide:hover img {
     opacity: 0.5;
     transition: opacity .25s ease-in-out;
   }
   .carousel-slide:hover .slide-caption {display: inherit;}
-
-  a.slide-caption-link {
-    color: white;
-    font-size: 110%; line-height: 1.6em;
-    padding: 3px; padding-left:5px; padding-right: 5px;
-    font-weight: bold;
-  }
 
 </style>

@@ -24,31 +24,31 @@
            </div>
            <div class="download-links">
               <a v-if="OS.android" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_android_button.svg" alt="No image" width="30" /> App for
+                <img src="/ocean_assets/images/icon_android_button.svg" alt="No image" width="30" /> App for
                 <span> Android</span>
               </a>
               <a v-if="OS.ios" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_ios_button.svg" alt="No image" width="30" /> App for
+                <img src="/ocean_assets/images/icon_ios_button.svg" alt="No image" width="30" /> App for
                 <span> iOS</span>
               </a>
               <a v-if="OS.mac" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_subtract_button.svg" alt="No image" width="30" /> Installer for
+                <img src="/ocean_assets/images/icon_subtract_button.svg" alt="No image" width="30" /> Installer for
                 <span> Mac</span>
               </a>
               <a v-if="OS.linux" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_linux_button2.svg" alt="No image" width="30" /> Installer for
+                <img src="/ocean_assets/images/icon_linux_button2.svg" alt="No image" width="30" /> Installer for
                 <span> Linux</span>
               </a>
               <a v-if="OS.windows" class="download-button" :href="link">
-                <g-image src="../../static/ocean_assets/images/icon_windows_button.svg" alt="No image" width="30" /> Installer for
+                <img src="/ocean_assets/images/icon_windows_button.svg" alt="No image" width="30" /> Installer for
                 <span> Windows</span>
               </a>
               <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><g-image src="../../static/ocean_assets/images/icon_linux2.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><g-image src="../../static/ocean_assets/images/icon_android.svg" width="30" alt="No image"/></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><g-image src="../../static/ocean_assets/images/icon_subtract.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><g-image src="../../static/ocean_assets/images/icon_windows.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.ios" :href="artifacts.ios"><g-image src="../../static/ocean_assets/images/icon_ios.svg" width="30"  alt="No image" class="applelogo"/></a>
+                 <a v-if="!OS.linux" :href="artifacts.linux"><img src="/ocean_assets/images/icon_linux2.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.android" :href="artifacts.android"><img src="/ocean_assets/images/icon_android.svg" width="30" alt="No image"/></a>
+                 <a v-if="!OS.mac" :href="artifacts.mac"><img src="/ocean_assets/images/icon_subtract.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.windows" :href="artifacts.windows"><img src="/ocean_assets/images/icon_windows.svg" width="30"  alt="No image"/></a>
+                 <a v-if="!OS.ios" :href="artifacts.ios"><img src="/ocean_assets/images/icon_ios.svg" width="30"  alt="No image" class="applelogo"/></a>
               </div>
            </div>
         </div>

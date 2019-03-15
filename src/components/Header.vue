@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="main-nav-container">
         <!-- site branding -->
         <div class="site-branding">
             <div class="container">
@@ -33,8 +33,10 @@
             </div>
             <!-- .container -->
         </div>
+
+
         <!-- .site-branding -->
-        <div class="site-navigation-sticky-wrapper">
+        <div class="site-navigation-sticky-wrappers sticky">
             <header id="masthead" class="site-header" role="banner">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
                     <div class="container">
@@ -125,5 +127,17 @@
         cursor: default;
         color: black;
         font-weight: bold;
+    }
+
+
+    div.sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky !important;
+        top: 0  !important;
+        z-index: 1000;
+    }
+    div.main-nav-container {
+        /* required to allow child to be sticky */
+        display: inline !important;
     }
 </style>
