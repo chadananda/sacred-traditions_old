@@ -38,7 +38,7 @@ export default function (Vue, { head, appOptions }) {
     // {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
-    // {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
+       {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
   )
 
