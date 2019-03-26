@@ -1,4 +1,4 @@
-import Bootstrap from 'bootstrap-vue'
+import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '~/assets/css/font-awesome.css'
@@ -13,7 +13,7 @@ import ux from './store/ux'
 import links from './store/links'
 
 export default function (Vue, { head, appOptions }) {
-  Vue.use(Bootstrap)
+  Vue.use(BootstrapVue)
   Vue.use(Vuex)
 
   head.meta.push(
