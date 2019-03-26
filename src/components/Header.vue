@@ -2,20 +2,18 @@
     <div class="main-nav-container">
         <!-- site branding -->
         <div class="site-branding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <IconsWrapper :icons="$store.getters.getSocialLinks"/>
-                    </div>
-                    <!-- .col-md-3 -->
-                    <div class="col-md-6">
-                        <g-link to="/" rel="home">
+            <b-container>
+              <b-row>
+                <b-col cols="12" sm="3" class="text-center">
+                    <IconsWrapper :icons="$store.getters.getSocialLinks"/>
+                </b-col>
+                <b-col cols="12" sm="6" class="text-center">
+                    <g-link to="/" rel="home">
                             <g-image src="../../static/assets/img/logo2.svg" alt="home" class="title-image"/>
                         </g-link>
-                    </div>
-                    <!-- .col-md-6 -->
-                    <div class="col-md-3">
-                        <form class="search-form">
+                </b-col>
+                <b-col cols="12" sm="3" class="text-right">
+                    <form class="search-form">
                             <div class="form-group">
                                 <label for="search" class="sr-only">Search</label>
                                 <input type="text" class="form-control search-field" placeholder="Search...">
@@ -25,13 +23,47 @@
                                 <i class="fa fa-search"></i>
                             </button>
                         </form>
-                        <!-- .search-form -->
-                    </div>
-                    <!-- .col-md-3 -->
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
+                        <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+      <b-form-group
+        id="exampleInputGroup1"
+        label="Email address:"
+        label-for="exampleInput1"
+        description="We'll never share your email with anyone else."
+      >
+        <b-form-input
+          id="exampleInput1"
+          type="email"
+          v-model="form.email"
+          required
+          placeholder="Enter email" />
+      </b-form-group>
+
+      <b-form-group id="exampleInputGroup2" label="Your Name:" label-for="exampleInput2">
+        <b-form-input
+          id="exampleInput2"
+          type="text"
+          v-model="form.name"
+          required
+          placeholder="Enter name" />
+      </b-form-group>
+
+      <b-form-group id="exampleInputGroup3" label="Food:" label-for="exampleInput3">
+        <b-form-select id="exampleInput3" :options="foods" required v-model="form.food" />
+      </b-form-group>
+
+      <b-form-group id="exampleGroup4">
+        <b-form-checkbox-group v-model="form.checked" id="exampleChecks">
+          <b-form-checkbox value="me">Check me out</b-form-checkbox>
+          <b-form-checkbox value="that">Check that out</b-form-checkbox>
+        </b-form-checkbox-group>
+      </b-form-group>
+
+      <b-button type="submit" variant="primary">Submit</b-button>
+      <b-button type="reset" variant="danger">Reset</b-button>
+    </b-form>
+                </b-col>
+              </b-row>
+            </b-container>
         </div>
 
 
