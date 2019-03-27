@@ -1,8 +1,8 @@
 <template>
     <DefaultLayout>
-        <div class="row">
+        <b-row>
             <!-- articles -->
-            <div class="col-md-8">
+            <b-col cols="12" md="8">
                 <div class="site-entry">
                     <div class="recentArticles">
                         <template v-for="(edge, index) in articles">
@@ -12,10 +12,10 @@
                     </div>
                     <Pagination name="Posts Navigation" prevText="Older Posts" nextText="Newer Posts"/>
                 </div>
-            </div>
+            </b-col>
             <!-- .col-md-8 -->
             <ArticleSidebar/>
-        </div>
+        </b-row>
     </DefaultLayout>
 </template>
 
