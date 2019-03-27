@@ -34,9 +34,9 @@
         <div class="site-navigation-sticky-wrappers sticky">
             <header id="masthead" class="site-header" role="banner">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
+                    <b-container>
+                        <b-row>
+                            <b-col cols="12" md="12">
                                 <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
                                     <i class="fa fa-bars"></i>
                                     <span class="sr-only">Primary Menu</span>
@@ -59,11 +59,11 @@
                                     </ul>
                                 </div>
                                 <!-- .menu-container -->
-                            </div>
+                            </b-col>
                             <!-- .col-md-12 -->
-                        </div>
+                        </b-row>
                         <!-- .row -->
-                    </div>
+                    </b-container>
                     <!-- .container -->
                 </nav>
                 <!-- #site-navigation -->
