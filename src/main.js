@@ -1,4 +1,5 @@
-import Bootstrap from 'bootstrap-vue'
+import BootstrapVue from 'bootstrap-vue'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '~/assets/css/font-awesome.css'
@@ -13,7 +14,7 @@ import ux from './store/ux'
 import links from './store/links'
 
 export default function (Vue, { head, appOptions }) {
-  Vue.use(Bootstrap)
+  Vue.use(BootstrapVue)
   Vue.use(Vuex)
 
   head.meta.push(
@@ -38,7 +39,7 @@ export default function (Vue, { head, appOptions }) {
     // {type: 'text/javascript', src: '/assets/plugins/imagesloaded.pkgd.min.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/plugins/owl.carousel.min.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/plugins/masonry.pkgd.min.js', body: true, defer: true},
-    // {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
+//  {type: 'text/javascript', src: '/assets/js/navigation.js', body: true, defer: true},
     // {type: 'text/javascript', src: '/assets/js/skip-link-focus-fix.js', body: true, defer: true}
   )
 

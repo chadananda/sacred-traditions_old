@@ -2,20 +2,18 @@
     <div class="main-nav-container">
         <!-- site branding -->
         <div class="site-branding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <IconsWrapper :icons="$store.getters.getSocialLinks"/>
-                    </div>
-                    <!-- .col-md-3 -->
-                    <div class="col-md-6">
-                        <g-link to="/" rel="home">
+            <b-container>
+              <b-row>
+                <b-col cols="12" sm="3" class="text-center">
+                    <IconsWrapper :icons="$store.getters.getSocialLinks"/>
+                </b-col>
+                <b-col cols="12" sm="6" class="text-center">
+                    <g-link to="/" rel="home">
                             <g-image src="../../static/assets/img/logo2.svg" alt="home" class="title-image"/>
                         </g-link>
-                    </div>
-                    <!-- .col-md-6 -->
-                    <div class="col-md-3">
-                        <form class="search-form">
+                </b-col>
+                <b-col cols="12" sm="3" class="text-right">
+                    <form class="search-form">
                             <div class="form-group">
                                 <label for="search" class="sr-only">Search</label>
                                 <input type="text" class="form-control search-field" placeholder="Search...">
@@ -25,13 +23,10 @@
                                 <i class="fa fa-search"></i>
                             </button>
                         </form>
-                        <!-- .search-form -->
-                    </div>
-                    <!-- .col-md-3 -->
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
+                        
+                </b-col>
+              </b-row>
+            </b-container>
         </div>
 
 
@@ -39,9 +34,9 @@
         <div class="site-navigation-sticky-wrappers sticky">
             <header id="masthead" class="site-header" role="banner">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
+                    <b-container>
+                        <b-row>
+                            <b-col cols="12" md="12">
                                 <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
                                     <i class="fa fa-bars"></i>
                                     <span class="sr-only">Primary Menu</span>
@@ -64,11 +59,11 @@
                                     </ul>
                                 </div>
                                 <!-- .menu-container -->
-                            </div>
+                            </b-col>
                             <!-- .col-md-12 -->
-                        </div>
+                        </b-row>
                         <!-- .row -->
-                    </div>
+                    </b-container>
                     <!-- .container -->
                 </nav>
                 <!-- #site-navigation -->

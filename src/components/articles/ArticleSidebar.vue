@@ -1,7 +1,6 @@
 <template>
-  <div class="sideBar">
     <!-- sidebar -->
-    <div class="col-md-4">
+    <b-col cols="12" md="4">
       <div class="site-sidebar">
 
         <!-- search component -->
@@ -25,9 +24,8 @@
         <Tags/>
       </div>
       <!-- .site-sidebar -->
-    </div>
+    </b-col>
     <!-- .col-md-4 -->
-  </div>
 </template>
 
 <script>

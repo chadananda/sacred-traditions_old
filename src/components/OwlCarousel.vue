@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <carousel id="carousel" v-if="isReady"
       :autoplay="true"
       :nav="false"
@@ -77,11 +76,13 @@ export default {
   .slide-caption {
     display: none;
     color: white;
-    font-size: 110%; line-height: 1.6em;
+    font-family: Oswald,sans-serif;
+    font-size: 18px; line-height: 24px;
     padding: 3px; padding-left:5px; padding-right: 5px;
     font-weight: bold;
     position: absolute;
     top: 50%; left: 50%; transform: translate(-50%, -50%);
+    text-transform: uppercase;
   }
 
   .carousel-slide:hover img {
@@ -89,5 +90,21 @@ export default {
     transition: opacity .25s ease-in-out;
   }
   .carousel-slide:hover .slide-caption {display: inherit;}
+  @media only screen and (max-width: 580px){
+    .slide-caption {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 480px){
+    .slide-caption {
+      line-height: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 360px){
+    .slide-caption {
+      font-size: 12px;
+    }
+  }
 
 </style>
