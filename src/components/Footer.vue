@@ -4,10 +4,9 @@
     <footer id="colophon" class="site-footer" role="contentinfo">
       <!-- footer subscribe -->
       <div class="footer-subscribe">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-
+        <b-container>
+          <b-row>
+            <b-col cols="12" md="6" sm="8" offset-md="3" offset-sm="2">
 
               <!-- <div v-if="!$store.state.user">
                 <button class="btn btn-default" @click="googleSignUp">Google Sign In</button>
@@ -26,11 +25,11 @@
 
 
               <!-- .form-inline -->
-            </div>
+            </b-col>
             <!-- .col-## -->
-          </div>
+          </b-row>
           <!-- .row -->
-        </div>
+        </b-container>
         <!-- .container -->
       </div>
       <!-- .footer-subscribe -->
@@ -57,8 +56,7 @@
             <a
               href="http://instagram.com/sacredtraditions"
               target="_blank"
-              class="btn btn-default"
-            >@sacredtraditions</a>
+              class="btn btn-default">@sacredtraditions</a>
           </p> -->
         </div>
       </div>
@@ -68,16 +66,16 @@
     <!-- #site-footer -->
     <!-- copyright -->
     <section id="copyright" class="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">Copyright &copy; 2019. All Right Reserved.
+      <b-container>
+        <b-row>
+          <b-col cols="12">Copyright &copy; 2019. All Right Reserved.
 
             &mdash; <g-link to="/">https://sacred-traditions.org</g-link>
-          </div>
+          </b-col>
           <!-- .col-sm-6 -->
-        </div>
+        </b-row>
         <!-- .row -->
-      </div>
+      </b-container>
       <!-- .container -->
     </section>
     <!-- #copyright -->
