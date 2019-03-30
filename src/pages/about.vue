@@ -1,9 +1,9 @@
 <template>
   <OtherLayout>
     <!-- content -->
-    <div class="row">
+    <b-row>
       <!-- article -->
-      <div class="col-md-8 col-md-offset-2">
+      <b-col cols="12" md="8" offset-md="2">
         <div class="site-entry">
           <article class="post format-standard hentry">
             <div class="entry-header">
@@ -35,9 +35,9 @@
 
 
 
-      </div>
+      </b-col>
       <!-- .col-md-9 -->
-    </div>
+    </b-row>
     <!-- .row -->
     <!-- #content -->
   </OtherLayout>
