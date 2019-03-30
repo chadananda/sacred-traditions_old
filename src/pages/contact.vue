@@ -1,8 +1,8 @@
 <template>
   <OtherLayout>
     <!-- content -->
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+    <b-row>
+      <b-col cols="12" md="8" offset-md="2">
         <div class="site-entry">
           <article class="post format-standard hentry">
             <div class="entry-header">
@@ -24,14 +24,18 @@
           </article>
         <!-- .post -->
         </div>
-      </div>
+      </b-col>
       <!-- .col-md-9 -->
-    </div>
+    </b-row>
     <!-- .row -->
     <!-- #content -->
   </OtherLayout>
 </template>
-
+<style>
+  .social-icon{
+  margin-top: 30px;
+  }
+</style>
 <script>
   import OtherLayout from '~/layouts/Other.vue'
   import ContactForm from '~/components/ContactForm.vue'
