@@ -2,154 +2,191 @@
    <RemoveChromeLayout>
       <div>
          <section class="promo">
-            <div class="container">
-               <div class="logo">
-                  <img src="/ocean_assets/images/ocean-logo2.svg" alt="No image" width="100" class="logo_icon" />
+            <b-container>
+              <b-row>
+                <b-col cols="12" class="logo">
+                <img src="/ocean_assets/images/ocean-logo2.svg" alt="No image" width="100" class="logo_icon" />
                   <div>Ocean 2.0 Interfaith Reader
                      <span>Immersive Library of the World’s Sacred Literature</span>
                   </div>
-               </div>
-            </div>
-            <div class="promo-content container">
-               <div class="wrapper-text">
+                </b-col>
+              </b-row>
+            </b-container>
+            <b-container class="promo-content">
+              <b-row>
+                <b-col cols="12" sm="6" class="wrapper-text">
                   <h2>
                      <span class="text-header">Read</span>
 
                      <span class="text-header">Listen</span>
-              <span class="text-header">Search</span>
-              <span class="text-header">Share</span>
-           </h2>
-           <div class="text-content">Ocean is a custom ebook reader designed for exploration and study of the
-              sacred literature of the world’s religious traditions. It provides a simple cross-platform reading experience with an immersive audio-integrated reading experience and usful study and research tools.
-           </div>
-           <div class="download-links">
-              <a v-if="OS.android" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_android_button.svg" alt="No image" width="30" /> App for
-                <span> Android</span>
-              </a>
-              <a v-if="OS.ios" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_ios_button.svg" alt="No image" width="30" /> App for
-                <span> iOS</span>
-              </a>
-              <a v-if="OS.mac" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_subtract_button.svg" alt="No image" width="30" /> Installer for
-                <span> Mac</span>
-              </a>
-              <a v-if="OS.linux" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_linux_button2.svg" alt="No image" width="30" /> Installer for
-                <span> Linux</span>
-              </a>
-              <a v-if="OS.windows" class="download-button" :href="link">
-                <img src="/ocean_assets/images/icon_windows_button.svg" alt="No image" width="30" /> Installer for
-                <span> Windows</span>
-              </a>
-              <div class="links-images">
-                 <a v-if="!OS.linux" :href="artifacts.linux"><img src="/ocean_assets/images/icon_linux2.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.android" :href="artifacts.android"><img src="/ocean_assets/images/icon_android.svg" width="30" alt="No image"/></a>
-                 <a v-if="!OS.mac" :href="artifacts.mac"><img src="/ocean_assets/images/icon_subtract.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.windows" :href="artifacts.windows"><img src="/ocean_assets/images/icon_windows.svg" width="30"  alt="No image"/></a>
-                 <a v-if="!OS.ios" :href="artifacts.ios"><img src="/ocean_assets/images/icon_ios.svg" width="30"  alt="No image" class="applelogo"/></a>
-              </div>
-           </div>
-        </div>
-        <div class="img-promo">
-           <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924" class="big-img" alt="No image"/>
-           <!-- <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924"  class="md-img" alt="No image"/> -->
-           <!-- <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/> -->
-           <g-image src="/ocean_assets/images/promo_portrait.webp" width="462"  class="md-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" alt="No image"/>
-        </div>
-     </div>
+                      <span class="text-header">Search</span>
+                      <span class="text-header">Share</span>
+                  </h2>
+                  <div class="text-content">Ocean is a custom ebook reader designed for exploration and study of the
+                      sacred literature of the world’s religious traditions. It provides a simple cross-platform reading experience with an immersive audio-integrated reading experience and usful study and research tools.
+                  </div>
+                  <div class="download-links">
+                    <a v-if="OS.android" class="download-button" :href="link">
+                        <img src="/ocean_assets/images/icon_android_button.svg" alt="No image" width="30" /> App for
+                        <span> Android</span>
+                    </a>
+                    <a v-if="OS.ios" class="download-button" :href="link">
+                        <img src="/ocean_assets/images/icon_ios_button.svg" alt="No image" width="30" /> App for
+                        <span> iOS</span>
+                    </a>
+                    <a v-if="OS.mac" class="download-button" :href="link">
+                        <img src="/ocean_assets/images/icon_subtract_button.svg" alt="No image" width="30" /> Installer for
+                        <span> Mac</span>
+                    </a>
+                    <a v-if="OS.linux" class="download-button" :href="link">
+                        <img src="/ocean_assets/images/icon_linux_button2.svg" alt="No image" width="30" /> Installer for
+                        <span> Linux</span>
+                    </a>
+                    <a v-if="OS.windows" class="download-button" :href="link">
+                        <img src="/ocean_assets/images/icon_windows_button.svg" alt="No image" width="30" /> Installer for
+                        <span> Windows</span>
+                    </a>
+                    <div class="links-images">
+                         <a v-if="!OS.linux" :href="artifacts.linux"><img src="/ocean_assets/images/icon_linux2.svg" width="30"  alt="No image"/></a>
+                         <a v-if="!OS.android" :href="artifacts.android"><img src="/ocean_assets/images/icon_android.svg" width="30" alt="No image"/></a>
+                         <a v-if="!OS.mac" :href="artifacts.mac"><img src="/ocean_assets/images/icon_subtract.svg" width="30"  alt="No image"/></a>
+                         <a v-if="!OS.windows" :href="artifacts.windows"><img src="/ocean_assets/images/icon_windows.svg" width="30"  alt="No image"/></a>
+                         <a v-if="!OS.ios" :href="artifacts.ios"><img src="/ocean_assets/images/icon_ios.svg" width="30"  alt="No image" class="applelogo"/></a>
+                    </div>
+                  </div>
+                </b-col>
+                <b-col cols="12" sm="6">
+                  <div class="img-promo">
+                    <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924" class="big-img" alt="No image"/>
+                    <!-- <g-image src="../../static/ocean_assets/images/iMac-ocean.png" width="924"  class="md-img" alt="No image"/> -->
+                    <!-- <g-image src="/ocean_assets/images/promo.webp" width="462" class="big-img" alt="No image"/> -->
+                    <g-image src="/ocean_assets/images/promo_portrait.webp" width="462"  class="md-img" alt="No image"/>
+                    <g-image src="/ocean_assets/images/promo_sm.webp" width="360" class="sm-img" alt="No image"/>
+                  </div>
+                </b-col>
+              </b-row>
+              <!-- row -->
+            </b-container>
+            <!-- container close -->
          </section>
          <section class="about">
-     <div class="container">
-        <h1>What is Ocean Reader</h1>
-        <div class="about-content">
-           <div class="icons-block">
-              <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_open_book.svg" alt="No image"/>
+           <b-container>
+              <h1>What is Ocean Reader</h1>
+              <div class="about-content">
+                <b-row>
+                    <b-col cols="12" sm="4">
+                      <div class="icons-block">
+                        <div class="icons icon-read">
+                           <g-image src="/ocean_assets/images/icon_open_book.svg" alt="No image"/>
+                        </div>
+                        <h3>Read</h3>
+                        <span>The Ocean library contains a vast collection of the world’s great religious classics.</span>
+
+                      </div>
+                    </b-col>
+                    <b-col cols="12" sm="4"> 
+                     <div class="icons-block">
+                        <div class="icons icon-read">
+                           <g-image src="/ocean_assets/images/icon_headphones.svg" alt="No image"/>
+                        </div>
+                        <h3>Listen</h3>
+                        <span>Many books are word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
+
+                     </div>
+                    </b-col>
+                    <b-col cols="12" sm="4">
+                     <div class="icons-block">
+                        <div class="icons icon-read">
+                           <g-image src="/ocean_assets/images/icon_search.svg" alt="No image"/>
+                        </div>
+                        <h3>Search</h3>
+                        <span>Full text search across thousands of books, articles and website resources.</span>
+
+                     </div>
+                  </b-col>
+                </b-row>
               </div>
-              <h3>Read</h3>
-              <span>The Ocean library contains a vast collection of the world’s great religious classics.</span>
-
-           </div>
-           <div class="icons-block">
-              <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_headphones.svg" alt="No image"/>
-              </div>
-              <h3>Listen</h3>
-              <span>Many books are word-aligned with an audio reading to provide an enjoyable “read-along” experience.</span>
-
-           </div>
-           <div class="icons-block">
-              <div class="icons icon-read">
-                 <g-image src="/ocean_assets/images/icon_search.svg" alt="No image"/>
-              </div>
-              <h3>Search</h3>
-              <span>Full text search across thousands of books, articles and website resources.</span>
-
-           </div>
-        </div>
-     </div>
-  </section>
+           </b-container>
+         </section>
          <section class="content">
-     <div class="container container-flex">
-        <div class="wrapper-text">
-           <h2>Read &amp; Listen</h2>
-           <span>Almost every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
-              your navigation bar and synced across all your devices.</span>
-        </div>
-        <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/1.webp" width="462" class="big-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/1_sm.webp" width="462" class="sm-img" alt="No image"/>
-        </div>
-     </div>
-  </section>
+           <b-container>
+                <b-col cols="12" sm="6" class="float-right">
+                  <div class="wrapper-text wrapper-text-box">
+                     <h2>Read &amp; Listen</h2>
+                     <span>Almost every book has integrated audio so you can read, listen or both. Reading progress and position are mapped to
+                        your navigation bar and synced across all your devices.</span>
+                  </div>
+                </b-col>
+                <b-col cols="12" sm="6" class="float-right">
+                  <div class="images-wrapper">
+                     <g-image src="/ocean_assets/images/1.webp" width="462" class="big-img" alt="No image"/>
+                     <g-image src="/ocean_assets/images/1_sm.webp" width="462" class="sm-img" alt="No image"/>
+                  </div>
+                </b-col>
+           </b-container>
+        </section>
+        <section class="content">
+           <b-container>
+              <b-row>
+                <b-col cols="12" sm="6">
+                  <div class="wrapper-text wrapper-text-box content-for-tpadding">
+                     <h2>Powerful Full-text Search</h2>
+                     <span>When online, Ocean can return search results from thousands of books, papers, articles and websites. When offline,
+                        you can still search, but only in non copyright-encumbered library books.</span>
+                  </div>
+                </b-col>
+                <b-col cols="12" sm="6">
+                <div class="images-wrapper">
+                   <g-image src="/ocean_assets/images/2.webp" width="462" class="big-img" alt="No image"/>
+                   <g-image src="/ocean_assets/images/2_sm.webp" width="462" class="sm-img" alt="No image"/>
+                </div>
+                </b-col>
+              </b-row>
+           </b-container>
+         </section>
+         <!-- w -->
          <section class="content">
-     <div class="container container-flex">
-        <div class="wrapper-text">
-           <h2>Powerful Full-text Search</h2>
-           <span>When online, Ocean can return search results from thousands of books, papers, articles and websites. When offline,
-              you can still search, but only in non copyright-encumbered library books.</span>
-        </div>
-        <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/2.webp" width="462" class="big-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/2_sm.webp" width="462" class="sm-img" alt="No image"/>
-        </div>
-     </div>
-  </section>
-         <section class="content">
-     <div class="container container-flex">
-        <div class="wrapper-text">
-           <h2>Organize Tags and Notes</h2>
-           <span>Add your own notes, filter and organize notes for presentations or study. (Soon you will be able to export
-              and share your notes with others.)
-           </span>
-        </div>
-        <div class="images-wrapper">
+           <b-container>
+              <b-col cols="12" sm="6" class="float-right">
+                <div class="wrapper-text wrapper-text-box">
+                   <h2>Organize Tags and Notes</h2>
+                   <span>Add your own notes, filter and organize notes for presentations or study. (Soon you will be able to export
+                      and share your notes with others.)
+                   </span>
+                </div>
+              </b-col>
+              <b-col cols="12" sm="6" class="float-left">
+                <div class="images-wrapper">
 
-           <g-image src="/ocean_assets/images/3.webp" width="462" class="big-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/3_sm.webp" width="462" class="sm-img" alt="No image"/>
-        </div>
-     </div>
-  </section>
+                   <g-image src="/ocean_assets/images/3.webp" width="462" class="big-img" alt="No image"/>
+                   <g-image src="/ocean_assets/images/3_sm.webp" width="462" class="sm-img" alt="No image"/>
+                </div>
+            </b-col>
+           </b-container>
+        </section>
          <section class="content">
-     <div class="container container-flex">
-        <div class="wrapper-text">
-           <h2>Build and Share Compilations</h2>
-           <span>Extract quotes (with audio) into subject compilations for later study. Read, listen or share your compilations with anyone.
-           </span>
-        </div>
-        <div class="images-wrapper">
-           <g-image src="/ocean_assets/images/4.webp" width="462" class="big-img" alt="No image"/>
-           <g-image src="/ocean_assets/images/4_sm.webp" width="462" class="sm-img" alt="No image"/>
-        </div>
-     </div>
-  </section>
-         <section class="footer">
-     Ocean 2.0 Interfaith Reader &mdash; <g-link to="/" class="lightlink">Sacred-traditions.org</g-link>
-  </section>
-</div>
+           <b-container>
+              <b-row>
+                <b-col cols="12" sm="6">
+                  <div class="wrapper-text wrapper-text-box content-for-tpadding">
+                     <h2>Build and Share Compilations</h2>
+                     <span>Extract quotes (with audio) into subject compilations for later study. Read, listen or share your compilations with anyone.
+                     </span>
+                  </div>
+                </b-col>
+                <b-col cols="12" sm="6">
+                  <div class="images-wrapper">
+                     <g-image src="/ocean_assets/images/4.webp" width="462" class="big-img" alt="No image"/>
+                     <g-image src="/ocean_assets/images/4_sm.webp" width="462" class="sm-img" alt="No image"/>
+                  </div>
+                </b-col>
+              </b-row>
+           </b-container>
+        </section>
+         <section class="footer text-center">
+           Ocean 2.0 Interfaith Reader &mdash; <g-link to="/" class="lightlink">Sacred-traditions.org</g-link>
+        </section>
+      </div>
    </RemoveChromeLayout>
 </template>
 
@@ -234,8 +271,6 @@
 
 <style scoped>
 * {
-   padding: 0;
-   margin: 0;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    -ms-box-sizing: border-box;
@@ -279,7 +314,7 @@
    color: #ffffff;
  }
  section:nth-child(2n-1) .images-wrapper {
-   right: 68%;
+   right: 120px;
    background: -webkit-linear-gradient(to right, #3966aa, #1d4583);
    background: linear-gradient(to right, #3966aa, #1d4583);
  }
@@ -306,7 +341,7 @@
    color: #909da4;
  }
  section:nth-child(2n) .images-wrapper {
-   left: 68%;
+   left: 45%;
    background: -webkit-linear-gradient(to left, #ecf7fd, #ffffff);
    background: linear-gradient(to left, #ecf7fd, #ffffff);
  }
@@ -340,16 +375,37 @@
    color: #1d4583;
  }
  section:nth-child(3) .images-wrapper {
-   right: 62%;
+   right: 120px;
  }
  @media (min-width: 575.98px) and (max-width: 1024px) {
    section:nth-child(3) .images-wrapper {
      right: 50%;
    }
  }
+ @media only screen and (max-width: 992px){
+    section:nth-child(3) .images-wrapper, section:nth-child(2n-1) .images-wrapper{
+    right: 0;
+    }
+    section:nth-child(2n) .images-wrapper{
+    left: 0;
+    }
+
+ }
+ @media only screen and (max-width: 576px){
+    section:nth-child(3) .images-wrapper, section:nth-child(2n) .images-wrapper, section:nth-child(2n-1) .images-wrapper{
+    left: -50px !important;
+    position: inherit;
+    }
+ }
+
+  @media only screen and (max-width: 360px){
+    .wrapper-text-box h2{
+    font-size: 40px;
+    }
+ }
  section .images-wrapper {
-   top: 50%;
-   margin-top: -265px;
+   top: -40px;
+   margin-top: 0;
    height: 530px;
    position: absolute;
    padding-top: 25px;
@@ -410,7 +466,6 @@
    display: -moz-flex;
    display: -ms-flexbox;
    display: -ms-flex;
-   display: flex;
    -webkit-justify-content: flex-start;
    -moz-justify-content: flex-start;
    -ms-justify-content: flex-start;
@@ -421,7 +476,14 @@
    align-items: center;
    margin-bottom: 60px;
    font-weight: 600;
-   padding: 0 15px;
+ }
+
+ @media only screen and (max-width: 992px){
+    .promo .container{
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+    } 
  }
  @media (max-width: 575.98px) {
    .logo {
@@ -435,9 +497,15 @@
    }
  }
  .logo img {
+   float: left;
    margin-right: 10px;
    margin-top:-20px;
    filter: drop-shadow(0px 0px 5px rgba(256, 256, 256, .5))
+ }
+
+ .logo div{
+   float: left;
+   padding-top: 15px;
  }
  .logo span {
    color: #9bb7e4;
@@ -452,21 +520,19 @@
    left: 0;
    bottom: 0;
  }
- .promo-content {
-   display: -webkit-flex;
-   display: -moz-flex;
-   display: -ms-flexbox;
-   display: -ms-flex;
-   display: flex;
- }
- @media (max-width: 575.98px) {
-   .promo-content {
-     -webkit-flex-direction: column;
-     -moz-flex-direction: column;
-     -ms-flex-direction: column;
-     flex-direction: column;
+
+  @media only screen and (max-width:530px){
+    .logo img.logo_icon{
+      margin-top: -8px;
+    }
+    .logo div{
+     padding-top: 0;
+   }
+   .logo{
+    display: flex;
    }
  }
+
  @media (min-width: 575.98px) and (max-width: 1024px) {
    .promo-content h2 {
      font-size: 90px;
@@ -474,12 +540,18 @@
  }
  .img-promo {
    position: absolute;
-   left: 60%;
-   bottom: 0;
+   left: 20%;
+   bottom: -75px;
  }
  @media (min-width: 575.98px) and (max-width: 1024px) {
    .img-promo {
      left: 55%;
+   }
+ }
+
+ @media only screen and (max-width: 992px){
+  .img-promo {
+     left: 15%;
    }
  }
  @media (min-width: 575.98px) and (max-width: 768px) {
@@ -487,13 +559,15 @@
      left: 65%;
    }
  }
- @media (max-width: 575.98px) {
+ @media only screen and (max-width: 768px){
+  .img-promo {
+     left: 30%;
+   }
+ }
+ @media (max-width: 576px) {
    .img-promo {
-     position: static;
-     -webkit-align-self: flex-end;
-     -moz-align-self: flex-end;
-     -ms-align-self: flex-end;
-     align-self: flex-end;
+    position: inherit;
+    left: 37%;
    }
  }
  .container {
@@ -501,16 +575,26 @@
    margin: 0 auto;
  }
  .wrapper-text {
-   max-width: 50%;
-   padding: 0 15px;
    font-size: 20px;
-   line-height: 32px;
+   line-height: 25px;
+
  }
- @media (max-width: 575.98px) {
-   .wrapper-text {
-     max-width: inherit;
-   }
+  .wrapper-text-box{
+     padding-top: 120px;
+  }
+  .content-for-tpadding{
+    padding-top: 0;
+  }
+
+ .wrapper-text-box h2{
+    margin-bottom: 50px;
+    font-family: Oswald,sans-serif;
  }
+
+  .wrapper-text-box span{
+  line-height: 35px;
+  }
+
  @media (min-width: 575.98px) and (max-width: 1024px) {
    .wrapper-text {
      padding: 0 30px;
@@ -519,6 +603,8 @@
  .wrapper-text .text-header {
    display: block;
    font-size: 95%;
+   line-height: 130%;
+   font-family: Oswald,sans-serif;
  }
  .text-content {
    margin-top: 30px;
@@ -614,6 +700,7 @@
    font-size: 52px;
    text-transform: none;
    text-align: center;
+   font-family: Oswald,sans-serif;
  }
  @media (min-width: 575.98px) and (max-width: 768px) {
    .about h1 {
@@ -626,17 +713,13 @@
    }
  }
  .about-content {
-   display: -webkit-flex;
-   display: -moz-flex;
-   display: -ms-flexbox;
-   display: -ms-flex;
-   display: flex;
-   -webkit-justify-content: space-around;
-   -moz-justify-content: space-around;
-   -ms-justify-content: space-around;
-   justify-content: space-around;
    margin-top: 80px;
  }
+
+.content{
+  padding-top: 120px;
+}
+
  .about-content h3 {
    color: #1d4583;
    font-size: 25px;
@@ -679,13 +762,11 @@
    text-align: center;
    padding: 0 20px;
  }
- @media (max-width: 575.98px) {
-   .icons-block {
-     margin-bottom: 60px;
-   }
-   .icons-block:last-child {
-     margin-bottom: 0px;
-   }
+
+ @media only screen and (max-width: 576px){
+    .icons-block{
+      margin-bottom: 60px;
+    }
  }
  .icons-block h2 {
    font-size: 25px;
@@ -697,7 +778,6 @@
    padding: 0;
    line-height: 67px;
    font-size: 14px;
-   text-align: center;
  }
  @media (max-width: 575.98px) {
    .big-img {
@@ -727,10 +807,6 @@
  }
    img.applelogo {
       width: 35px;
-   }
-
-   .container {
-      padding: 0;
    }
 
    .download-button {
