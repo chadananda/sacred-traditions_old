@@ -1,1 +1,2 @@
-Check for installing vuepress
+For starting Vuepress please play this 
+npm run docs:dev
