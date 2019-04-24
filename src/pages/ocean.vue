@@ -168,7 +168,7 @@
             artifacts: {
                windows:  'https://ocean-download.dev2.us/win32_setup.exe',
                mac:      'https://ocean-download.dev2.us/mac_setup.pkg',
-               linux:    'https://ocean-download.dev2.us/linux_setup.deb',
+               linux:    'https://ocean-download.dev2.us/linux_setup.AppImage',
                android:  'https://play.google.com/store/apps/details?id=org.ocean.reader',
                ios:      'https://itunes.apple.com/us/app/ocean-reader/id1287394047?mt=8&app=itunes&ign-mpt=uo%3D4'
             }
