@@ -1,11 +1,14 @@
 {
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.0-rc.18",
+    "bootstrap-vue": "^2.0.0-rc.19",
     "vue": "^2.6.10"
   }
 }
