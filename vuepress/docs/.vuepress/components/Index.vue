@@ -1,9 +1,13 @@
 <template>
 	<div>
 		<section class="content-area">
+		<Navbar/>
+		<b-container>
+		</b-container>
 			<b-container class="bv-example-row">
+				<h3>This is Home page</h3>
 			  <b-row>
-			    <b-col cols="12" md="3" sm="2">
+			    <b-col md="4" lg="3" sm="6">
 			    	<div class="content-box">
 				    	<h3>This is Title</h3>
 				    	<hr>
@@ -12,7 +16,7 @@
 				    	</p>
 			    	</div>
 			    </b-col>
-			    <b-col cols="12" md="3" sm="2">
+			    <b-col md="4" lg="3" sm="6">
 			    	<div class="content-box">
 				    	<h3>This is Title</h3>
 				    	<hr>
@@ -21,7 +25,7 @@
 				    	</p>
 			    	</div>
 			    </b-col>
-			    <b-col cols="12" md="3" sm="2">
+			    <b-col md="4" lg="3" sm="6">
 			    	<div class="content-box">
 				    	<h3>This is Title</h3>
 				    	<hr>
@@ -30,7 +34,7 @@
 				    	</p>
 			    	</div>
 			    </b-col>
-			    <b-col cols="12" md="3" sm="2">
+			    <b-col md="12" lg="3" sm="6">
 			    	<div class="content-box">
 				    	<h3>This is Title</h3>
 				    	<hr>
@@ -44,3 +48,8 @@
 		</section>
 	</div>
 </template>
+
+
+<script>
+
+</script>
